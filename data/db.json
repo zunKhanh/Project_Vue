@@ -1,0 +1,218 @@
+{
+  "sanpham": [
+    {
+      "id": 1,
+      "name": "Giày tây nam ôm chân  ",
+      "productDescription": " Chất liệu da bò cao cấp mềm mại ôm trọn từng bước chân, mang đến sự êm ái và thoải mái bất ngờ",
+      "price": 549,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày tây",
+      "image": "/images/gtn.jpg",
+      "thumbnail": [
+        "/images/t1.jpg",
+        "/images/t2.jpg",
+        "/images/t3.jpg",
+        "/images/t4.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Giày tây nam Loafer phối phụ kiện",
+      "price": 899,
+      "productDescription": " Chất liệu da bò cao cấp mềm mại ôm trọn từng bước chân, mang đến sự êm ái và thoải mái bất ngờ",
+      "category": "Giày tây",
+      "image": "/images/tn.jpg",
+      "thumbnail": [
+        "/images/tn1.jpg",
+        "/images/tn2.jpg",
+        "/images/tn3.jpg",
+        "/images/tn4.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "GIÀY THỂ THAO ZUCIANI THE URBANIST N.08",
+      "price": 899,
+      "productDescription": "Giày thể thao Zuciani The Urbanist N.08 có họa tiết đa sắc màu độc đáo mang hơi thở của cuộc sống thành thị nhộp nhịp. ",
+      "category": "Giày thể thao",
+      "image": "/images/ttn1.jpg",
+      "thumbnail": [
+        "/images/ttn1_1.jpg",
+        "/images/ttn1_2.jpg",
+        "/images/ttn1_3.jpg",
+        "/images/ttn1_4.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "GIÀY THỂ THAO ZUCIANI THE URBANIST N.10        ",
+      "price": 899,
+      "productDescription": "Giày thể thao Zuciani The Urbanist N.08 có họa tiết đa sắc màu độc đáo mang hơi thở của cuộc sống thành thị nhộp nhịp. ",
+      "category": "Giày thể thao",
+      "image": "/images/ttn2.jpg",
+      "thumbnail": [
+        "/images/ttn2_1.jpg",
+        "/images/ttn2_2.jpg",
+        "/images/ttn2_3.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "GIÀY SANDAL RỌ ĐÔNG HẢI QUAI ĐAN 3 BẢN MŨI TRÒN",
+      "price": 899,
+      "productDescription": "thoải mái",
+      "category": "Giày sandal nam",
+      "image": "/images/sn1.jpg",
+      "thumbnail": [
+        "/images/sn1_1.jpg",
+        "/images/sn1_2.jpg",
+        "/images/sn1_3.jpg",
+        "/images/sn1_4.jpg"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "SANDALS NAM DA PHỐI VẢI DỆT",
+      "price": 899,
+      "productDescription": "ược thiết kế với chất liệu quai vải dệt phối da trơn thời trang và chắc chắn, đế cao su nguyên khối siêu nhẹ mang lại cảm giác thoải mái cho người sử dụng.",
+      "category": "Giày sandal nam",
+      "image": "/images/sn2.jpg",
+      "thumbnail": [
+        "/images/sn2_1.jpg",
+        "/images/sn2_2.jpg",
+        "/images/sn2_3.jpg"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "GIÀY BOOT CHUKKA",
+      "price": 899,
+      "productDescription": "Giày boots (bốt) Chukka Đông Hải thiết kế nam tính, cổ điển. Đế cao su chắc chắn cao 3 cm.",
+      "category": "Giày boot nam",
+      "image": "/images/boot1.jpg",
+      "thumbnail": [
+        "/images/boot1_1.jpg",
+        "/images/boot1_2.jpg",
+        "/images/boot1_3.jpg"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "GIÀY CHELSEA BOOT",
+      "price": 899,
+      "productDescription": "Giày boot nam Đông Hải G0136 với kiểu dáng Chelsea Boot mang đến sự hiện đại, năng động cho phái mạnh",
+      "category": "Giày boot nam",
+      "image": "/images/boot2.jpg",
+      "thumbnail": [
+        "/images/boot2_1.jpg",
+        "/images/boot2_2.jpg"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "GIÀY CAO GÓT ĐÔNG HẢI DA MỀM GÓT VUÔNG",
+      "price": 899,
+      "productDescription": "Giày sở hữu gót cao 5cm tôn dáng nhưng không tạo cảm giác quá dốc khi sử dụng. ",
+      "category": "Giày cao gót nữ",
+      "image": "/images/cg1.jpg",
+      "thumbnail": [
+        "/images/cg1_1.jpg",
+        "/images/cg1_2.jpg",
+        "/images/cg1_3.jpg",
+        "/images/cg1_4.jpg"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "GIÀY CAO GÓT ĐÔNG HẢI DA BÓNG GÓT NHỌN",
+      "price": 899,
+      "productDescription": ". Mũi nhọn tôn lên đôi chân thanh mảnh, thon gọn và đặc biệt, chất liệu da bóng tạo hiệu ứng lung linh & sang trọng.  ",
+      "category": "Giày cao gót nữ",
+      "image": "/images/cg2.jpg",
+      "thumbnail": [
+        "/images/cg2_1.jpg",
+        "/images/cg2_2.jpg",
+        "/images/cg2_3.jpg",
+        "/images/cg2_4.jpg"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "GIÀY BÚP BÊ ĐÔNG HẢI DẬP LOGO ĐÍNH ĐÁ",
+      "price": 899,
+      "productDescription": "Giày búp bê Đông Hải mũi nhọn với với họa tiết nơ đính logo phối đá là sự kết hợp hoàn hảo giữa thanh lịch và sang trọng",
+      "category": "Giày búp bê nữ",
+      "image": "/images/bb1.jpg",
+      "thumbnail": [
+        "/images/bb1_1.jpg",
+        "/images/bb1_2.jpg",
+        "/images/bb1_3.jpg",
+        "/images/bb1_4.jpg"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "GIÀY BÚP BÊ ZUCIANI DA MỀM HỌA TIẾT NƠ",
+      "price": 899,
+      "productDescription": "Giày búp bê Zuciani có chất liệu da cao cấp mang đến sự trải nghiệm tuyệt vời trong từng bước chân luôn mềm êm, thoải mái.",
+      "category": "Giày búp bê nữ",
+      "image": "/images/bb2.jpg",
+      "thumbnail": [
+        "/images/bb2_1.jpg",
+        "/images/bb2_2.jpg",
+        "/images/bb2_3.jpg"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "GIÀY THỂ THAO ZUCIANI THE COMFORT N.11",
+      "price": 899,
+      "productDescription": "Giày Thể Thao Zuciani không chỉ hợp thời trang mà còn đảm bảo sự thoải mái và sự tự tin trong mỗi bước đi.",
+      "category": "Giày thể thao nữ",
+      "image": "/images/tt1.jpg",
+      "thumbnail": [
+        "/images/tt1_1.jpg",
+        "/images/tt1_2.jpg",
+        "/images/tt1_3.jpg"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "GIÀY THỂ THAO ZUCIANI ĐẾ BÁNH MÌ",
+      "price": 899,
+      "productDescription": "Mẫu giày đáp ứng đủ tính thời trang hiện đại nhưng vẫn năng động và cá tính",
+      "category": "Giày thể thao nữ",
+      "image": "/images/tt2.jpg",
+      "thumbnail": [
+        "/images/tt2_1.jpg",
+        "/images/tt2_2.jpg",
+        "/images/tt2_3.jpg"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "GIÀY SANDAL ZUCIA KHÓA CÀI QUAI BẢNG TO",
+      "price": 899,
+      "productDescription": " kiểu dáng thời thượng khi có phần quai kết hợp giữa song song và đan chéo ",
+      "category": "Giày sandal nữ",
+      "image": "/images/san1.jpg",
+      "thumbnail": [
+        "/images/san1_1.jpg",
+        "/images/san1_2.jpg"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "GIÀY SANDAL ZUCIA ĐẾ BẰNG QUAI NHUNG",
+      "price": 899,
+      "productDescription": " kiểu dáng thời thượng khi có phần quai kết hợp giữa song song và đan chéo ",
+      "category": "Giày sandal nữ",
+      "image": "/images/san2.jpg",
+      "thumbnail": [
+        "/images/san2_1.jpg",
+        "/images/san2_2.jpg",
+        "/images/san2_3.jpg"
+      ]
+    }
+  ]
+}
