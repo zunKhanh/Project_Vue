@@ -1,217 +1,1562 @@
 {
   "sanpham": [
     {
-      "id": 1,
-      "name": "Giày tây nam ôm chân  ",
-      "productDescription": " Chất liệu da bò cao cấp mềm mại ôm trọn từng bước chân, mang đến sự êm ái và thoải mái bất ngờ",
-      "price": 549,
+      "id": "1",
+      "name": "GIÀY TÂY NAM ĐÔNG HẢI LOAFER PHỐI PHỤ KIỆN",
+      "productDescription": "Giày Tây Nam Đông Hải Penny Loafer Phối Phụ Kiện là sự kết hợp giữa dáng giày cổ điển loafer cùng nét hiện đại với họa tiết kim loại đính thân giày độc đáo, phần quai ngang dập may chắc chắn trong từng đường kim mũi chỉ đầy tinh tế, đế cao 3cm tăng thêm phần lịch lãm cho các quý ông.",
+      "price": 610000,
       "dateAvailable": "2024-03-01",
       "category": "Giày tây",
-      "image": "/images/gtn.jpg",
+      "image": "/images/gtn1_den.jpg",
       "thumbnail": [
-        "/images/t1.jpg",
-        "/images/t2.jpg",
-        "/images/t3.jpg",
-        "/images/t4.jpg"
+        "/images/gtn1_den1.jpg",
+        "/images/gtn1_den2.jpg",
+        "/images/gtn1_den3.jpg",
+        "/images/gtn1_den4.jpg"
       ]
     },
     {
-      "id": 2,
-      "name": "Giày tây nam Loafer phối phụ kiện",
-      "price": 899,
-      "productDescription": " Chất liệu da bò cao cấp mềm mại ôm trọn từng bước chân, mang đến sự êm ái và thoải mái bất ngờ",
+      "id": "2",
+      "name": "GIÀY TÂY NAM ĐÔNG HẢI LOAFER PHỐI PHỤ KIỆN",
+      "productDescription": "Giày Tây Nam Đông Hải Penny Loafer Phối Phụ Kiện là sự kết hợp giữa dáng giày cổ điển loafer cùng nét hiện đại với họa tiết kim loại đính thân giày độc đáo, phần quai ngang dập may chắc chắn trong từng đường kim mũi chỉ đầy tinh tế, đế cao 3cm tăng thêm phần lịch lãm cho các quý ông.",
+      "price": 610000,
+      "dateAvailable": "2024-03-01",
       "category": "Giày tây",
-      "image": "/images/tn.jpg",
+      "image": "/images/gtn1_vang.jpg",
       "thumbnail": [
-        "/images/tn1.jpg",
-        "/images/tn2.jpg",
-        "/images/tn3.jpg",
-        "/images/tn4.jpg"
+        "/images/gtn1_vang1.jpg",
+        "/images/gtn1_vang2.jpg",
+        "/images/gtn1_vang3.jpg",
+        "/images/gtn1_vang4.jpg"
       ]
     },
     {
-      "id": 3,
-      "name": "GIÀY THỂ THAO ZUCIANI THE URBANIST N.08",
-      "price": 899,
-      "productDescription": "Giày thể thao Zuciani The Urbanist N.08 có họa tiết đa sắc màu độc đáo mang hơi thở của cuộc sống thành thị nhộp nhịp. ",
-      "category": "Giày thể thao",
-      "image": "/images/ttn1.jpg",
+      "id": "3",
+      "name": "GIÀY TÂY DERBY ĐÔNG HẢI VIỀN CHỈ TINH XẢO",
+      "productDescription": "Giày tây nam Đông Hải với kiểu dáng Derby truyền thống điểm nhấn ở phần mũi giày được viền chỉ tạo cảm giác thon gọn cho đôi chân, giúp phom giày trông cứng cáp hơn. Thiết kế Dery với phần dây dễ dàng điều chỉnh phù hợp với kích thước bàn chân giúp các anh thoải mái khi di chuyển.      ",
+      "price": 530000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày tây",
+      "image": "/images/gtn2_nau.jpg",
       "thumbnail": [
-        "/images/ttn1_1.jpg",
-        "/images/ttn1_2.jpg",
-        "/images/ttn1_3.jpg",
-        "/images/ttn1_4.jpg"
+        "/images/gtn2_nau1.jpg",
+        "/images/gtn2_nau2.jpg",
+        "/images/gtn2_nau3.jpg",
+        "/images/gtn2_nau4.jpg"
       ]
     },
     {
-      "id": 4,
-      "name": "GIÀY THỂ THAO ZUCIANI THE URBANIST N.10        ",
-      "price": 899,
-      "productDescription": "Giày thể thao Zuciani The Urbanist N.08 có họa tiết đa sắc màu độc đáo mang hơi thở của cuộc sống thành thị nhộp nhịp. ",
-      "category": "Giày thể thao",
-      "image": "/images/ttn2.jpg",
+      "id": "4",
+      "name": "GIÀY TÂY DERBY ĐÔNG HẢI VIỀN CHỈ TINH XẢO",
+      "productDescription": "Giày tây nam Đông Hải với kiểu dáng Derby truyền thống điểm nhấn ở phần mũi giày được viền chỉ tạo cảm giác thon gọn cho đôi chân, giúp phom giày trông cứng cáp hơn. Thiết kế Dery với phần dây dễ dàng điều chỉnh phù hợp với kích thước bàn chân giúp các anh thoải mái khi di chuyển.      ",
+      "price": 530000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày tây",
+      "image": "/images/gtn2_den.jpg",
       "thumbnail": [
-        "/images/ttn2_1.jpg",
-        "/images/ttn2_2.jpg",
-        "/images/ttn2_3.jpg"
+        "/images/gtn2_den1.jpg",
+        "/images/gtn2_den2.jpg",
+        "/images/gtn2_den3.jpg",
+        "/images/gtn2_den4.jpg"
       ]
     },
     {
-      "id": 5,
-      "name": "GIÀY SANDAL RỌ ĐÔNG HẢI QUAI ĐAN 3 BẢN MŨI TRÒN",
-      "price": 899,
-      "productDescription": "thoải mái",
-      "category": "Giày sandal nam",
-      "image": "/images/sn1.jpg",
+      "id": "5",
+      "name": "GIÀY TÂY NAM ZUCIANI DÁNG BUCKS NĂNG ĐỘNG",
+      "productDescription": "Giày Tây Nam Zuciani Dáng Bucks Năng Động luôn là chọn lựa được yêu thích bởi tính đa dạng trong thiết kế, dù mang trong mình nét thanh lịch chỉn chu nhưng vẫn rất hợp gu khi mix cùng những trang phục năng động. Thiết kế dây buộc cùng các đường viền chỉ nổi tô điểm thêm chất riêng gần gũi cho bộ suit khô khan của những quý ông lịch thiệp.",
+      "price": 430000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày tây",
+      "image": "/images/gtn3_den.jpg",
       "thumbnail": [
-        "/images/sn1_1.jpg",
-        "/images/sn1_2.jpg",
-        "/images/sn1_3.jpg",
-        "/images/sn1_4.jpg"
+        "/images/gtn3_den1.jpg",
+        "/images/gtn3_den2.jpg",
+        "/images/gtn3_den3.jpg",
+        "/images/gtn3_den4.jpg"
       ]
     },
     {
-      "id": 6,
+      "id": "6",
+      "name": "GIÀY TÂY NAM ZUCIANI DÁNG BUCKS NĂNG ĐỘNG",
+      "productDescription": "Giày Tây Nam Zuciani Dáng Bucks Năng Động luôn là chọn lựa được yêu thích bởi tính đa dạng trong thiết kế, dù mang trong mình nét thanh lịch chỉn chu nhưng vẫn rất hợp gu khi mix cùng những trang phục năng động. Thiết kế dây buộc cùng các đường viền chỉ nổi tô điểm thêm chất riêng gần gũi cho bộ suit khô khan của những quý ông lịch thiệp.",
+      "price": 430000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày tây",
+      "image": "/images/gtn3_nau.jpg",
+      "thumbnail": [
+        "/images/gtn3_nau1.jpg",
+        "/images/gtn3_nau2.jpg",
+        "/images/gtn3_nau3.jpg",
+        "/images/gtn3_nau4.jpg"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "GIÀY TÂY NAM ZUCIANI DERBY THẮT DÂY THỜI TRANG",
+      "productDescription": "Giày Tây Nam Zuciani Derby Thắt Dây Thời Trang là mẫu giày nên có của mọi quý ông, thiết kế trơn phối chỉ cùng mũi nhọn lịch lãm đầy tinh tế nâng tầm phong cách trang phục",
+      "price": 360000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày tây",
+      "image": "/images/gtn4_nau.jpg",
+      "thumbnail": [
+        "/images/gtn4_nau1.jpg",
+        "/images/gtn4_nau2.jpg",
+        "/images/gtn4_nau3.jpg",
+        "/images/gtn4_nau4.jpg"
+      ]
+    },
+    {
+      "id": "8",
+      "name": "GIÀY TÂY NAM ZUCIANI DERBY THẮT DÂY THỜI TRANG",
+      "productDescription": "Giày Tây Nam Zuciani Derby Thắt Dây Thời Trang là mẫu giày nên có của mọi quý ông, thiết kế trơn phối chỉ cùng mũi nhọn lịch lãm đầy tinh tế nâng tầm phong cách trang phục",
+      "price": 360000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày tây",
+      "image": "/images/gtn4_den.jpg",
+      "thumbnail": [
+        "/images/gtn4_den1.jpg",
+        "/images/gtn4_den2.jpg",
+        "/images/gtn4_den3.jpg",
+        "/images/gtn4_den4.jpg"
+      ]
+    },
+    {
+      "id": "9",
+      "name": "GIÀY TÂY MCKAY ĐẾ PHỐI DA",
+      "productDescription": "Giày Tây McKay Đế Phối Da là sự kết hợp hoàn hảo giữa phong cách truyền thống với kiểu dáng Penny Loafer cùng chất liệu da bê cao cấp nhập khẩu từ Tây Ban Nha được đánh màu patina độc đáo mang lại sự khác biệt và độc nhất mà mỗi quý ông sẽ sở hữu. Đế giày sử dụng phương pháp khâu McKay tinh tế mang lại sự thoải mái và độ sắc sảo trong từng đường nét, kết hợp cùng mặt đế dainite chống trượt. Phom giày cứng cáp với điểm nhấn mũi giày được may đôi đường chỉ nổi thể hiện sự tỉ mỉ. Đôi giày chính là biểu tượng lịch lãm cho phong cách thời trang từ công sở đến các sự kiện quan trọng.",
+      "price": 440000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày tây",
+      "image": "/images/gtn5_den.jpg",
+      "thumbnail": [
+        "/images/gtn5_den1.jpg",
+        "/images/gtn5_den2.jpg",
+        "/images/gtn5_den3.jpg",
+        "/images/gtn5_den4.jpg"
+      ]
+    },
+    {
+      "id": "10",
+      "name": "GIÀY TÂY MCKAY ĐẾ PHỐI DA",
+      "productDescription": "Giày Tây McKay Đế Phối Da là sự kết hợp hoàn hảo giữa phong cách truyền thống với kiểu dáng Penny Loafer cùng chất liệu da bê cao cấp nhập khẩu từ Tây Ban Nha được đánh màu patina độc đáo mang lại sự khác biệt và độc nhất mà mỗi quý ông sẽ sở hữu. Đế giày sử dụng phương pháp khâu McKay tinh tế mang lại sự thoải mái và độ sắc sảo trong từng đường nét, kết hợp cùng mặt đế dainite chống trượt. Phom giày cứng cáp với điểm nhấn mũi giày được may đôi đường chỉ nổi thể hiện sự tỉ mỉ. Đôi giày chính là biểu tượng lịch lãm cho phong cách thời trang từ công sở đến các sự kiện quan trọng.",
+      "price": 610000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày tây",
+      "image": "/images/gtn5_bo.jpg",
+      "thumbnail": [
+        "/images/gtn5_bo1.jpg",
+        "/images/gtn5_bo2.jpg",
+        "/images/gtn5_bo3.jpg",
+        "/images/gtn5_bo4.jpg"
+      ]
+    },
+    {
+      "id": "11",
+      "name": "GIÀY TÂY NAM ZUCIANI MŨI NHỌN ĐẾ VUÔNG",
+      "productDescription": "Giày Tây Nam Zuciani Mũi Nhọn Đế Vuông với chất da mềm êm thoải mái, thiết kế sang trọng tăng thêm phần tự tin trong mọi cuộc gặp gỡ, đế cao su có các rãnh chống trơn trượt an toàn khi di chuyển.",
+      "price": 330000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày tây",
+      "image": "/images/gtn6_den.jpg",
+      "thumbnail": [
+        "/images/gtn6_den1.jpg",
+        "/images/gtn6_den2.jpg",
+        "/images/gtn6_den3.jpg",
+        "/images/gtn6_den4.jpg"
+      ]
+    },
+    {
+      "id": "12",
+      "name": "GIÀY TÂY NAM ZUCIANI MŨI NHỌN ĐẾ VUÔNG",
+      "productDescription": "Giày Tây Nam Zuciani Mũi Nhọn Đế Vuông với chất da mềm êm thoải mái, thiết kế sang trọng tăng thêm phần tự tin trong mọi cuộc gặp gỡ, đế cao su có các rãnh chống trơn trượt an toàn khi di chuyển.",
+      "price": 785000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày tây",
+      "image": "/images/gtn6_nau.jpg",
+      "thumbnail": [
+        "/images/gtn6_nau1.jpg",
+        "/images/gtn6_nau2.jpg",
+        "/images/gtn6_nau3.jpg",
+        "/images/gtn6_nau4.jpg"
+      ]
+    },
+    {
+      "id": "13",
+      "name": "GIÀY LƯỜI NAM ZUCIANI VIỀN CHỈ ĐẾ PHỐI MÀU",
+      "productDescription": "Giày Lười Nam Zuciani Viền Chỉ Đế Phối Màu bắt mắt trên chất liệu da cao cấp mềm mại, với kiểu dáng lười truyền thống, sản phẩm là biểu tượng của đẳng cấp và phong cách. Đường may tỉ mỉ đồng điệu tạo nên vẻ thời trang lịch lãm.",
+      "price": 643000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày lười",
+      "image": "/images/gln1_nau.jpg",
+      "thumbnail": [
+        "/images/gln1_nau1.jpg",
+        "/images/gln1_nau2.jpg",
+        "/images/gln1_nau3.jpg",
+        "/images/gln1_nau4.jpg"
+      ]
+    },
+    {
+      "id": "14",
+      "name": "GIÀY LƯỜI NAM ZUCIANI VIỀN CHỈ ĐẾ PHỐI MÀU",
+      "productDescription": "Giày Lười Nam Zuciani Viền Chỉ Đế Phối Màu bắt mắt trên chất liệu da cao cấp mềm mại, với kiểu dáng lười truyền thống, sản phẩm là biểu tượng của đẳng cấp và phong cách. Đường may tỉ mỉ đồng điệu tạo nên vẻ thời trang lịch lãm.",
+      "price": 330000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày lười",
+      "image": "/images/gln1_vang.jpg",
+      "thumbnail": [
+        "/images/gln1_vang.jpg",
+        "/images/gln1_vang.jpg",
+        "/images/gln1_vang.jpg",
+        "/images/gln1_vang.jpg"
+      ]
+    },
+    {
+      "id": "15",
+      "name": "GIÀY LƯỜI NAM ĐÔNG HẢI VÂN DA MŨI CÁCH ĐIỆU",
+      "productDescription": "Giày Lười Nam Vân Da Mũi Cách Điệu mang trong mình nét cổ điển đương đại nhưng vẫn có điểm nhấn riêng, đường viền may tỉ mỉ tinh xảo nổi bật sự thanh lịch cùng đế bằng nâng đỡ theo mỗi bước chân.",
+      "price": 610000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày lười",
+      "image": "/images/gln2_nau.jpg",
+      "thumbnail": [
+        "/images/gln2_nau1.jpg",
+        "/images/gln2_nau2.jpg",
+        "/images/gln2_nau3.jpg",
+        "/images/gln2_nau4.jpg"
+      ]
+    },
+    {
+      "id": "16",
+      "name": "GIÀY LƯỜI NAM ĐÔNG HẢI VÂN DA MŨI CÁCH ĐIỆU",
+      "productDescription": "Giày Lười Nam Vân Da Mũi Cách Điệu mang trong mình nét cổ điển đương đại nhưng vẫn có điểm nhấn riêng, đường viền may tỉ mỉ tinh xảo nổi bật sự thanh lịch cùng đế bằng nâng đỡ theo mỗi bước chân.",
+      "price": 220000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày lười",
+      "image": "/images/gln2_den.jpg",
+      "thumbnail": [
+        "/images/gln2_den1.jpg",
+        "/images/gln2_den2.jpg",
+        "/images/gln2_den3.jpg",
+        "/images/gln2_den4.jpg"
+      ]
+    },
+    {
+      "id": "17",
+      "name": "GIÀY LƯỜI NAM ĐÔNG HẢI VIỀN CHỈ DA DẬP VÂN HIỆN ĐẠI",
+      "productDescription": "Giày lười nam Đông Hải viền chỉ da dập vân hiện đại với bề mặt mềm mại và sang trọng, kiểu dáng đơn giản nhưng tinh tế. Mũi giày tròn không có dây buộc, tiện lợi và dễ dàng khi mang.",
+      "price": 450000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày lười",
+      "image": "/images/gln3_nau.jpg",
+      "thumbnail": [
+        "/images/gln3_nau1.jpg",
+        "/images/gln3_nau2.jpg",
+        "/images/gln3_nau3.jpg",
+        "/images/gln3_nau4.jpg"
+      ]
+    },
+    {
+      "id": "18",
+      "name": "GIÀY LƯỜI NAM ĐÔNG HẢI VIỀN CHỈ DA DẬP VÂN HIỆN ĐẠI",
+      "productDescription": "Giày lười nam Đông Hải viền chỉ da dập vân hiện đại với bề mặt mềm mại và sang trọng, kiểu dáng đơn giản nhưng tinh tế. Mũi giày tròn không có dây buộc, tiện lợi và dễ dàng khi mang.",
+      "price": 700000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày lười",
+      "image": "/images/gln3_den.jpg",
+      "thumbnail": [
+        "/images/gln3_den1.jpg",
+        "/images/gln3_den2.jpg",
+        "/images/gln3_den3.jpg",
+        "/images/gln3_den4.jpg"
+      ]
+    },
+    {
+      "id": "19",
+      "name": "GIÀY LƯỜI NAM ĐÔNG HẢI ĐẾ VIỀN MÀU HIỆN ĐẠI",
+      "productDescription": "Giày lười nam Đông Hải được chế tác từ chất liệu da cao cấp là sự kết hợp hoàn hảo giữa phong cách và tinh tế. Đế cao su nhẹ và linh hoạt, mang lại sự thoải mái và êm ái cho bàn chân. Viền chỉ mũi giày tăng thêm sự trang nhã cùng đế viền màu thời trang giúp các anh tự tin sải bước.",
+      "price": 690000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày lười",
+      "image": "/images/gln4_nau.jpg",
+      "thumbnail": [
+        "/images/gln4_nau1.jpg",
+        "/images/gln4_nau2.jpg",
+        "/images/gln4_nau3.jpg",
+        "/images/gln4_nau4.jpg"
+      ]
+    },
+    {
+      "id": "20",
+      "name": "GIÀY LƯỜI NAM ĐÔNG HẢI ĐẾ VIỀN MÀU HIỆN ĐẠI",
+      "productDescription": "Giày lười nam Đông Hải được chế tác từ chất liệu da cao cấp là sự kết hợp hoàn hảo giữa phong cách và tinh tế. Đế cao su nhẹ và linh hoạt, mang lại sự thoải mái và êm ái cho bàn chân. Viền chỉ mũi giày tăng thêm sự trang nhã cùng đế viền màu thời trang giúp các anh tự tin sải bước.",
+      "price": 230000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày lười",
+      "image": "/images/gln4_den.jpg",
+      "thumbnail": [
+        "/images/gln4_den1.jpg",
+        "/images/gln4_den2.jpg",
+        "/images/gln4_den3.jpg",
+        "/images/gln4_den4.jpg"
+      ]
+    },
+    {
+      "id": "21",
+      "name": "GIÀY LƯỜI NAM ĐÔNG HẢI HỌA TIẾT KHÓA LỆCH",
+      "productDescription": "Giày lười nam Đông Hải với họa tiết khóa lệch là sự kết hợp hoàn hảo giữa phong cách trẻ trung và sự tiện lợi. Thiết kế lười truyền thống kết hợp với họa tiết khóa lệch tạo điểm nhấn độc đáo, phá cách cho đôi giày.",
+      "price": 150000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày lười",
+      "image": "/images/gln5_den.jpg",
+      "thumbnail": [
+        "/images/gln5_den1.jpg",
+        "/images/gln5_den2.jpg",
+        "/images/gln5_den3.jpg",
+        "/images/gln5_den4.jpg"
+      ]
+    },
+    {
+      "id": "22",
+      "name": "GIÀY LƯỜI NAM ĐÔNG HẢI HỌA TIẾT KHÓA LỆCH",
+      "productDescription": "Giày lười nam Đông Hải với họa tiết khóa lệch là sự kết hợp hoàn hảo giữa phong cách trẻ trung và sự tiện lợi. Thiết kế lười truyền thống kết hợp với họa tiết khóa lệch tạo điểm nhấn độc đáo, phá cách cho đôi giày.",
+      "price": 680000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày lười",
+      "image": "/images/gln5_nau.jpg",
+      "thumbnail": [
+        "/images/gln5_nau1.jpg",
+        "/images/gln5_nau2.jpg",
+        "/images/gln5_nau3.jpg",
+        "/images/gln5_nau4.jpg"
+      ]
+    },
+    {
+      "id": "23",
+      "name": "GIÀY LƯỜI HOẠ TIẾT ĐÔI CHỮ T",
+      "productDescription": "Giày Lười Hoạ Tiết Đôi Chữ T Đông Hải được làm từ chất liệu da thật mềm mại và bền, thiết kế thời trang với hoạ tiết đôi chữ T kim loại sáng bóng trên thân giày. Lớp lót da mang đến cảm giác thoải mái cho cả ngày dài cùng phần đế chứa các rãnh chống trượt.",
+      "price": 610000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày lười",
+      "image": "/images/gln6_nau.jpg",
+      "thumbnail": [
+        "/images/gln6_nau1.jpg",
+        "/images/gln6_nau2.jpg",
+        "/images/gln6_nau3.jpg",
+        "/images/gln6_nau4.jpg"
+      ]
+    },
+    {
+      "id": "24",
+      "name": "GIÀY LƯỜI HOẠ TIẾT ĐÔI CHỮ T",
+      "productDescription": "Giày Lười Hoạ Tiết Đôi Chữ T Đông Hải được làm từ chất liệu da thật mềm mại và bền, thiết kế thời trang với hoạ tiết đôi chữ T kim loại sáng bóng trên thân giày. Lớp lót da mang đến cảm giác thoải mái cho cả ngày dài cùng phần đế chứa các rãnh chống trượt.",
+      "price": 850000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày lười",
+      "image": "/images/gln6_den.jpg",
+      "thumbnail": [
+        "/images/gln6_den1.jpg",
+        "/images/gln6_den2.jpg",
+        "/images/gln6_den3.jpg",
+        "/images/gln6_den4.jpg"
+      ]
+    },
+    {
+      "id": "25",
       "name": "SANDALS NAM DA PHỐI VẢI DỆT",
-      "price": 899,
-      "productDescription": "ược thiết kế với chất liệu quai vải dệt phối da trơn thời trang và chắc chắn, đế cao su nguyên khối siêu nhẹ mang lại cảm giác thoải mái cho người sử dụng.",
+      "productDescription": "Sandals Nam Đông Hải được thiết kế với chất liệu quai vải dệt phối da trơn thời trang và chắc chắn, đế cao su nguyên khối siêu nhẹ mang lại cảm giác thoải mái cho người sử dụng.",
+      "price": 560000,
+      "dateAvailable": "2024-03-01",
       "category": "Giày sandal nam",
-      "image": "/images/sn2.jpg",
+      "image": "/images/san1_xam.jpg",
       "thumbnail": [
-        "/images/sn2_1.jpg",
-        "/images/sn2_2.jpg",
-        "/images/sn2_3.jpg"
+        "/images/san1_xam.jpg",
+        "/images/san1_xam.jpg",
+        "/images/san1_xam.jpg",
+        "/images/san1_xam.jpg"
       ]
     },
     {
-      "id": 7,
-      "name": "GIÀY BOOT CHUKKA",
-      "price": 899,
-      "productDescription": "Giày boots (bốt) Chukka Đông Hải thiết kế nam tính, cổ điển. Đế cao su chắc chắn cao 3 cm.",
-      "category": "Giày boot nam",
-      "image": "/images/boot1.jpg",
+      "id": "26",
+      "name": "SANDALS NAM DA PHỐI VẢI DỆT",
+      "productDescription": "Sandals Nam Đông Hải được thiết kế với chất liệu quai vải dệt phối da trơn thời trang và chắc chắn, đế cao su nguyên khối siêu nhẹ mang lại cảm giác thoải mái cho người sử dụng.",
+      "price": 730000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày sandal nam",
+      "image": "/images/san1_den.jpg",
       "thumbnail": [
-        "/images/boot1_1.jpg",
-        "/images/boot1_2.jpg",
-        "/images/boot1_3.jpg"
+        "/images/san1_den1.jpg",
+        "/images/san1_den2.jpg",
+        "/images/san1_den3.jpg",
+        "/images/san1_den4.jpg"
       ]
     },
     {
-      "id": 8,
-      "name": "GIÀY CHELSEA BOOT",
-      "price": 899,
-      "productDescription": "Giày boot nam Đông Hải G0136 với kiểu dáng Chelsea Boot mang đến sự hiện đại, năng động cho phái mạnh",
-      "category": "Giày boot nam",
-      "image": "/images/boot2.jpg",
+      "id": "27",
+      "name": "SANDAL DA NAM QUAI HOẠ TIẾT DẬP LỖ",
+      "productDescription": "Sandal Da Nam Quai Hoạ Tiết Dập Lỗ Đông Hải với kiểu dáng đơn giản cùng chất liệu da dày mềm bền chắc chân, thiết kế hoạ tiết quai ngang dập lỗ nhỏ, nhấn nhá đường chỉ nhuyễn tạo hoạ tiết ấn tượng ở phần quai cổ chân.",
+      "price": 610000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày sandal nam",
+      "image": "/images/san2_nau.jpg",
       "thumbnail": [
-        "/images/boot2_1.jpg",
-        "/images/boot2_2.jpg"
+        "/images/san2_nau1.jpg",
+        "/images/san2_nau2.jpg",
+        "/images/san2_nau3.jpg",
+        "/images/san2_nau4.jpg"
       ]
     },
     {
-      "id": 9,
-      "name": "GIÀY CAO GÓT ĐÔNG HẢI DA MỀM GÓT VUÔNG",
-      "price": 899,
-      "productDescription": "Giày sở hữu gót cao 5cm tôn dáng nhưng không tạo cảm giác quá dốc khi sử dụng. ",
-      "category": "Giày cao gót nữ",
-      "image": "/images/cg1.jpg",
+      "id": "28",
+      "name": "SANDAL DA NAM QUAI HOẠ TIẾT DẬP LỖ",
+      "productDescription": "Sandal Da Nam Quai Hoạ Tiết Dập Lỗ Đông Hải với kiểu dáng đơn giản cùng chất liệu da dày mềm bền chắc chân, thiết kế hoạ tiết quai ngang dập lỗ nhỏ, nhấn nhá đường chỉ nhuyễn tạo hoạ tiết ấn tượng ở phần quai cổ chân.",
+      "price": 290000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày sandal nam",
+      "image": "/images/san2_den.jpg",
       "thumbnail": [
-        "/images/cg1_1.jpg",
-        "/images/cg1_2.jpg",
-        "/images/cg1_3.jpg",
-        "/images/cg1_4.jpg"
+        "/images/san2_den1.jpg",
+        "/images/san2_den2.jpg",
+        "/images/san2_den3.jpg",
+        "/images/san2_den4.jpg"
       ]
     },
     {
-      "id": 10,
-      "name": "GIÀY CAO GÓT ĐÔNG HẢI DA BÓNG GÓT NHỌN",
-      "price": 899,
-      "productDescription": ". Mũi nhọn tôn lên đôi chân thanh mảnh, thon gọn và đặc biệt, chất liệu da bóng tạo hiệu ứng lung linh & sang trọng.  ",
-      "category": "Giày cao gót nữ",
-      "image": "/images/cg2.jpg",
+      "id": "29",
+      "name": "SANDALS NAM QUAI HOẠ TIẾT LỖ NHỎ",
+      "productDescription": "Sandals Nam S3216 sử dụng chất liệu da bò, đế cao su chắc chắn và phần quai được cách điệu các hoạ tiết lỗ nhỏ tạo điểm nhấn nổi bật giúp cho đôi chân luôn thoải mái trong cả ngày dài.",
+      "price": 567000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày sandal nam",
+      "image": "/images/san3_nau.jpg",
       "thumbnail": [
-        "/images/cg2_1.jpg",
-        "/images/cg2_2.jpg",
-        "/images/cg2_3.jpg",
-        "/images/cg2_4.jpg"
+        "/images/san3_nau1.jpg",
+        "/images/san3_nau2.jpg",
+        "/images/san3_nau3.jpg",
+        "/images/san3_nau4.jpg"
       ]
     },
     {
-      "id": 11,
-      "name": "GIÀY BÚP BÊ ĐÔNG HẢI DẬP LOGO ĐÍNH ĐÁ",
-      "price": 899,
-      "productDescription": "Giày búp bê Đông Hải mũi nhọn với với họa tiết nơ đính logo phối đá là sự kết hợp hoàn hảo giữa thanh lịch và sang trọng",
-      "category": "Giày búp bê nữ",
-      "image": "/images/bb1.jpg",
+      "id": "30",
+      "name": "SANDALS NAM QUAI HOẠ TIẾT LỖ NHỎ",
+      "productDescription": "Sandals Nam S3216 sử dụng chất liệu da bò, đế cao su chắc chắn và phần quai được cách điệu các hoạ tiết lỗ nhỏ tạo điểm nhấn nổi bật giúp cho đôi chân luôn thoải mái trong cả ngày dài.",
+      "price": 893000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày sandal nam",
+      "image": "/images/san3_den.jpg",
       "thumbnail": [
-        "/images/bb1_1.jpg",
-        "/images/bb1_2.jpg",
-        "/images/bb1_3.jpg",
-        "/images/bb1_4.jpg"
+        "/images/san3_den1.jpg",
+        "/images/san3_den2.jpg",
+        "/images/san3_den3.jpg",
+        "/images/san3_den4.jpg"
       ]
     },
     {
-      "id": 12,
-      "name": "GIÀY BÚP BÊ ZUCIANI DA MỀM HỌA TIẾT NƠ",
-      "price": 899,
-      "productDescription": "Giày búp bê Zuciani có chất liệu da cao cấp mang đến sự trải nghiệm tuyệt vời trong từng bước chân luôn mềm êm, thoải mái.",
-      "category": "Giày búp bê nữ",
-      "image": "/images/bb2.jpg",
+      "id": "31",
+      "name": "SANDALS NAM QUAI HẬU ĐIỀU CHỈNH TRƯỚC-SAU ĐỘC ĐÁO",
+      "productDescription": "Sandals Nam S3217 được thiết kế bằng chất liệu da bò, phần quai có lỗ hoạ tiết nhỏ, điểm nhấn quai hậu có thể điều chỉnh trước-sau mang lại sự khác biệt so với các phiên bản trước. Sản phẩm đơn giản nhưng tạo nên sự sành điệu, trẻ trung cho người mang, thích hợp cho các hoạt động du lịch dã ngoại,...",
+      "price": 650000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày sandal nam",
+      "image": "/images/san4_xanh.jpg",
       "thumbnail": [
-        "/images/bb2_1.jpg",
-        "/images/bb2_2.jpg",
-        "/images/bb2_3.jpg"
+        "/images/san4_xanh1.jpg",
+        "/images/san4_xanh2.jpg",
+        "/images/san4_xanh3.jpg",
+        "/images/san4_xanh4.jpg"
       ]
     },
     {
-      "id": 13,
-      "name": "GIÀY THỂ THAO ZUCIANI THE COMFORT N.11",
-      "price": 899,
-      "productDescription": "Giày Thể Thao Zuciani không chỉ hợp thời trang mà còn đảm bảo sự thoải mái và sự tự tin trong mỗi bước đi.",
-      "category": "Giày thể thao nữ",
-      "image": "/images/tt1.jpg",
+      "id": "32",
+      "name": "SANDALS NAM QUAI HẬU ĐIỀU CHỈNH TRƯỚC-SAU ĐỘC ĐÁO",
+      "productDescription": "Sandals Nam S3217 được thiết kế bằng chất liệu da bò, phần quai có lỗ hoạ tiết nhỏ, điểm nhấn quai hậu có thể điều chỉnh trước-sau mang lại sự khác biệt so với các phiên bản trước. Sản phẩm đơn giản nhưng tạo nên sự sành điệu, trẻ trung cho người mang, thích hợp cho các hoạt động du lịch dã ngoại,...",
+      "price": 470000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày sandal nam",
+      "image": "/images/san4_xam.jpg",
       "thumbnail": [
-        "/images/tt1_1.jpg",
-        "/images/tt1_2.jpg",
-        "/images/tt1_3.jpg"
+        "/images/san4_xam1.jpg",
+        "/images/san4_xam2.jpg",
+        "/images/san4_xam3.jpg",
+        "/images/san4_xam4.jpg"
       ]
     },
     {
-      "id": 14,
-      "name": "GIÀY THỂ THAO ZUCIANI ĐẾ BÁNH MÌ",
-      "price": 899,
-      "productDescription": "Mẫu giày đáp ứng đủ tính thời trang hiện đại nhưng vẫn năng động và cá tính",
-      "category": "Giày thể thao nữ",
-      "image": "/images/tt2.jpg",
+      "id": "33",
+      "name": "SANDAL NAM QUAI CHỮ T",
+      "productDescription": "Giày sandal nam Đông Hải S3212 mang phong cách chiến binh cùng thiết kế quai dạng chữ T trẻ trung lạ mắt, kết hợp phụ kiện đinh tán mạ ánh kim cá tính. Chất liệu da thật mềm mại với một số vị trí có chi tiết dập vân lạ mắt. Đế cao su đúc nguyên khối phẳng siêu nhẹ mang đến cảm giác thoải mái khi mang cả ngày.",
+      "price": 670000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày sandal nam",
+      "image": "/images/san5_nau.jpg",
       "thumbnail": [
-        "/images/tt2_1.jpg",
-        "/images/tt2_2.jpg",
-        "/images/tt2_3.jpg"
+        "/images/san5_nau1.jpg",
+        "/images/san5_nau2.jpg",
+        "/images/san5_nau3.jpg",
+        "/images/san5_nau4.jpg"
       ]
     },
     {
-      "id": 15,
+      "id": "34",
+      "name": "SANDAL NAM QUAI CHỮ T",
+      "productDescription": "Giày sandal nam Đông Hải S3212 mang phong cách chiến binh cùng thiết kế quai dạng chữ T trẻ trung lạ mắt, kết hợp phụ kiện đinh tán mạ ánh kim cá tính. Chất liệu da thật mềm mại với một số vị trí có chi tiết dập vân lạ mắt. Đế cao su đúc nguyên khối phẳng siêu nhẹ mang đến cảm giác thoải mái khi mang cả ngày.",
+      "price": 590000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày sandal nam",
+      "image": "/images/san5_den.jpg",
+      "thumbnail": [
+        "/images/san5_den1.jpg",
+        "/images/san5_den2.jpg",
+        "/images/san5_den3.jpg",
+        "/images/san5_den4.jpg"
+      ]
+    },
+    {
+      "id": "35",
+      "name": "SANDAL DA NAM QUAI BẢN NGANG",
+      "productDescription": "Sandal da nam Đông Hải với thiết kế quai bản ngang to cùng đường chỉ nhuyễn được may tỉ mỉ mang đến vẻ trẻ trung và thời trang, đường cut-out hai bên tạo nên sự thông thoáng cho đôi chân. Miếng lót bằng da êm ái khi di chuyển. Sản phẩm phù hợp với nhiều độ tuổi và hoạt động như đi làm, du lịch.",
+      "price": 630000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày sandal nam",
+      "image": "/images/san6_nau.jpg",
+      "thumbnail": [
+        "/images/san6_nau1.jpg",
+        "/images/san6_nau2.jpg",
+        "/images/san6_nau3.jpg",
+        "/images/san6_nau4.jpg"
+      ]
+    },
+    {
+      "id": "36",
+      "name": "SANDAL DA NAM QUAI BẢN NGANG",
+      "productDescription": "Sandal da nam Đông Hải với thiết kế quai bản ngang to cùng đường chỉ nhuyễn được may tỉ mỉ mang đến vẻ trẻ trung và thời trang, đường cut-out hai bên tạo nên sự thông thoáng cho đôi chân. Miếng lót bằng da êm ái khi di chuyển. Sản phẩm phù hợp với nhiều độ tuổi và hoạt động như đi làm, du lịch.",
+      "price": 567000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày sandal nam",
+      "image": "/images/san6_den.jpg",
+      "thumbnail": [
+        "/images/san6_den1.jpg",
+        "/images/san6_den2.jpg",
+        "/images/san6_den3.jpg",
+        "/images/san6_den4.jpg"
+      ]
+    },
+    {
+      "id": "37",
+      "name": "GIÀY THỂ THAO ZUCIANI NAM VẢI DỆT PHỐI DA",
+      "productDescription": "Giày Thể Thao Sneaker Zuciani Vải Dệt Phối Da là sự lựa chọn lý tưởng cho những ngày năng động, chất liệu vải dệt giữ cho bàn chân luôn mát mẻ thoải mái, kết cấu lưới siêu nhẹ thoải mái trong từng bước đi      ",
+      "price": 560000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày thể thao nam",
+      "image": "/images/ttn1_den.jpg",
+      "thumbnail": [
+        "/images/ttn1_den1.jpg",
+        "/images/ttn1_den2.jpg",
+        "/images/ttn1_den3.jpg",
+        "/images/ttn1_den4.jpg"
+      ]
+    },
+    {
+      "id": "38",
+      "name": "GIÀY THỂ THAO ZUCIANI NAM VẢI DỆT PHỐI DA",
+      "productDescription": "Giày Thể Thao Sneaker Zuciani Vải Dệt Phối Da là sự lựa chọn lý tưởng cho những ngày năng động, chất liệu vải dệt giữ cho bàn chân luôn mát mẻ thoải mái, kết cấu lưới siêu nhẹ thoải mái trong từng bước đi      ",
+      "price": 610000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày thể thao nam",
+      "image": "/images/ttn1_xanh.jpg",
+      "thumbnail": [
+        "/images/ttn1_xanh1.jpg",
+        "/images/ttn1_xanh2.jpg",
+        "/images/ttn1_xanh3.jpg",
+        "/images/ttn1_xanh4.jpg"
+      ]
+    },
+    {
+      "id": "39",
+      "name": "GIÀY THỂ THAO ĐÔNG HẢI CLASSIC DA TRƠN",
+      "productDescription": "Giày Thể Thao Sneaker Đông Hải Classic Da Trơn với thiết kế cổ điển, mang đậm phong cách lịch lãm và năng động. Được làm từ chất liệu da cao cấp, với phần thân giày được thiết kế ôm sát chân, giúp tạo cảm giác thoải mái và dễ chịu cho người sử dụng. Phần đế giày được làm từ cao su mềm, mang lại độ bám tốt và khả năng chống trơn trượt cao.",
+      "price": 430000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày thể thao nam",
+      "image": "/images/ttn2_trang.jpg",
+      "thumbnail": [
+        "/images/ttn1_trang1.jpg",
+        "/images/ttn2_trang2.jpg",
+        "/images/ttn2_trang3.jpg",
+        "/images/ttn2_trang4.jpg"
+      ]
+    },
+    {
+      "id": "40",
+      "name": "GIÀY THỂ THAO ĐÔNG HẢI CLASSIC DA TRƠN",
+      "productDescription": "Giày Thể Thao Sneaker Đông Hải Classic Da Trơn với thiết kế cổ điển, mang đậm phong cách lịch lãm và năng động. Được làm từ chất liệu da cao cấp, với phần thân giày được thiết kế ôm sát chân, giúp tạo cảm giác thoải mái và dễ chịu cho người sử dụng. Phần đế giày được làm từ cao su mềm, mang lại độ bám tốt và khả năng chống trơn trượt cao.",
+      "price": 360000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày thể thao nam",
+      "image": "/images/ttn2_den.jpg",
+      "thumbnail": [
+        "/images/ttn2_den1.jpg",
+        "/images/ttn2_den2.jpg",
+        "/images/ttn2_den3.jpg",
+        "/images/ttn2_den4.jpg"
+      ]
+    },
+    {
+      "id": "41",
+      "name": "GIÀY THỂ THAO ZUCIANI THE URBANIST N.10",
+      "productDescription": "Giày thể thao Zuciani The Urbanist N.10 từ vải dệt thoáng khí kết hợp đế EVA êm ái, đàn hồi cao là lựa chọn tuyệt vời cho những người yêu thích thể thao và vận động. Đôi giày này sẽ mang lại sự thoải mái và hỗ trợ tối đa khi tập luyện, đồng thời giúp người mang có những bước đi êm ái và tự tin.      ",
+      "price": 300000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày thể thao nam",
+      "image": "/images/ttn3_xam.jpg",
+      "thumbnail": [
+        "/images/ttn3_xam1.jpg",
+        "/images/ttn3_xam2.jpg",
+        "/images/ttn3_xam3.jpg",
+        "/images/ttn3_xam4.jpg"
+      ]
+    },
+    {
+      "id": "42",
+      "name": "GIÀY THỂ THAO ZUCIANI THE URBANIST N.10",
+      "productDescription": "Giày thể thao Zuciani The Urbanist N.10 từ vải dệt thoáng khí kết hợp đế EVA êm ái, đàn hồi cao là lựa chọn tuyệt vời cho những người yêu thích thể thao và vận động. Đôi giày này sẽ mang lại sự thoải mái và hỗ trợ tối đa khi tập luyện, đồng thời giúp người mang có những bước đi êm ái và tự tin.      ",
+      "price": 510000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày thể thao nam",
+      "image": "/images/ttn3_den.jpg",
+      "thumbnail": [
+        "/images/ttn3_den1.jpg",
+        "/images/ttn3_den2.jpg",
+        "/images/ttn3_den3.jpg",
+        "/images/ttn3_den4.jpg"
+      ]
+    },
+    {
+      "id": "43",
+      "name": "GIÀY THỂ THAO ZUCIANI VẢI DỆT THỜI TRANG",
+      "productDescription": "Giày Thể Thao Zuciani phong cách giản đơn luôn là sự lựa chọn hợp gu cho nhiều loại trang phục, chất liệu vải dệt nổi bật với ưu điểm nhẹ chân, thoáng mát. Đế TPU mang đến trải nghiệm thêm phần hoàn hảo từ độ bền cơ học tuyệt với và chống mòn vượt trội",
+      "price": 675000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày thể thao nam",
+      "image": "/images/ttn4_xam.jpg",
+      "thumbnail": [
+        "/images/ttn4_xam1.jpg",
+        "/images/ttn3_xam2.jpg",
+        "/images/ttn4_xam3.jpg",
+        "/images/ttn4_xam4.jpg"
+      ]
+    },
+    {
+      "id": "44",
+      "name": "GIÀY THỂ THAO ZUCIANI VẢI DỆT THỜI TRANG",
+      "productDescription": "Giày Thể Thao Zuciani phong cách giản đơn luôn là sự lựa chọn hợp gu cho nhiều loại trang phục, chất liệu vải dệt nổi bật với ưu điểm nhẹ chân, thoáng mát. Đế TPU mang đến trải nghiệm thêm phần hoàn hảo từ độ bền cơ học tuyệt với và chống mòn vượt trội",
+      "price": 210000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày thể thao nam",
+      "image": "/images/ttn4_den.jpg",
+      "thumbnail": [
+        "/images/ttn4_den1.jpg",
+        "/images/ttn4_den2.jpg",
+        "/images/ttn4_den3.jpg",
+        "/images/ttn4_den4.jpg"
+      ]
+    },
+    {
+      "id": "45",
+      "name": "GIÀY THỂ THAO ZUCIANI VẢI DỆT CỔ THẤP",
+      "productDescription": "Giày Thể Thao Zuciani đảm bảo sự thoải mái, tăng cường độ bền và tính ổn định với chất liệu vải dệt siêu êm, thiết kế hiện đại tông màu trung tính dễ kết hợp, hoàn hảo cho nhưng buổi tập luyện thể thao, dạo phố hằng ngày và kể cả công sở",
+      "price": 340000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày thể thao nam",
+      "image": "/images/ttn5_den.jpg",
+      "thumbnail": [
+        "/images/ttn5_den1.jpg",
+        "/images/ttn5_den2.jpg",
+        "/images/ttn5_den3.jpg",
+        "/images/ttn5_den4.jpg"
+      ]
+    },
+    {
+      "id": "46",
+      "name": "GIÀY THỂ THAO ZUCIANI VẢI DỆT CỔ THẤP",
+      "productDescription": "Giày Thể Thao Zuciani đảm bảo sự thoải mái, tăng cường độ bền và tính ổn định với chất liệu vải dệt siêu êm, thiết kế hiện đại tông màu trung tính dễ kết hợp, hoàn hảo cho nhưng buổi tập luyện thể thao, dạo phố hằng ngày và kể cả công sở",
+      "price": 610000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày thể thao nam",
+      "image": "/images/ttn5_xanh.jpg",
+      "thumbnail": [
+        "/images/ttn5_xanh1.jpg",
+        "/images/ttn5_xanh2.jpg",
+        "/images/ttn5_xanh3.jpg",
+        "/images/ttn5_xanh4.jpg"
+      ]
+    },
+    {
+      "id": "47",
+      "name": "GIÀY TÂY NAM ZUCIANI MŨI NHỌN ĐẾ VUÔNG",
+      "productDescription": "Giày Thể Thao Zuciani không chỉ đem đến phong cách năng động, mà còn đảm bảo sự thoải mái và độ bền. Chất liệu vải dệt ôm chân, nhẹ và đàn hồi tốt, phù hợp cho mọi hoạt động.",
+      "price": 670000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày thể thao nam",
+      "image": "/images/ttn6_den.jpg",
+      "thumbnail": [
+        "/images/ttn6_den1.jpg",
+        "/images/ttn6_den2.jpg",
+        "/images/ttn6_den3.jpg",
+        "/images/ttn6_den4.jpg"
+      ]
+    },
+    {
+      "id": "48",
+      "name": "GIÀY TÂY NAM ZUCIANI MŨI NHỌN ĐẾ VUÔNG",
+      "productDescription": "Giày Thể Thao Zuciani không chỉ đem đến phong cách năng động, mà còn đảm bảo sự thoải mái và độ bền. Chất liệu vải dệt ôm chân, nhẹ và đàn hồi tốt, phù hợp cho mọi hoạt động.",
+      "price": 680000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày thể thao nam",
+      "image": "/images/ttn6_xam.jpg",
+      "thumbnail": [
+        "/images/ttn6_xam1.jpg",
+        "/images/ttn6_xam2.jpg",
+        "/images/ttn6_xam3.jpg",
+        "/images/ttn6_xam4.jpg"
+      ]
+    },
+    {
+      "id": "49",
+      "name": "GIÀY BÚP BÊ ĐÔNG HẢI DẬP LỖ KHÓA LOGO MẠ VÀNG",
+      "productDescription": "Giày búp bê Đông Hải mũi nhọn họa tiết dập lỗ lạ mắt còn giúp thoáng khí khi mang. Thiết kế hướng đến sự kết hợp hoàn hảo giữa thanh lịch và sự thoải mái. Phần khóa xích logo mạ vàng là điểm nhấn cho mẫu giày thêm phần độc đáo. Đây chắc chắn là mẫu giày giúp phái đẹp tự tin sải bước cả ngày dài.",
+      "price": 780000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày búp bê",
+      "image": "/images/bupbe1_den.jpg",
+      "thumbnail": [
+        "/images/bupbe1_den1.jpg",
+        "/images/bupbe1_den2.jpg",
+        "/images/bupbe1_den3.jpg",
+        "/images/bupbe1_den4.jpg"
+      ]
+    },
+    {
+      "id": "50",
+      "name": "GIÀY BÚP BÊ ĐÔNG HẢI DẬP LỖ KHÓA LOGO MẠ VÀNG",
+      "productDescription": "Giày búp bê Đông Hải mũi nhọn họa tiết dập lỗ lạ mắt còn giúp thoáng khí khi mang. Thiết kế hướng đến sự kết hợp hoàn hảo giữa thanh lịch và sự thoải mái. Phần khóa xích logo mạ vàng là điểm nhấn cho mẫu giày thêm phần độc đáo. Đây chắc chắn là mẫu giày giúp phái đẹp tự tin sải bước cả ngày dài.",
+      "price": 450000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày búp bê",
+      "image": "/images/bupbe1_trang.jpg",
+      "thumbnail": [
+        "/images/bupbe1_trang1.jpg",
+        "/images/bupbe1_trang2.jpg",
+        "/images/bupbe1_trang3.jpg",
+        "/images/bupbe1_trang4.jpg"
+      ]
+    },
+    {
+      "id": "51",
+      "name": "GIÀY BÚP BÊ ZUCIA DA PHỐI HỌA TIẾT ĐÍNH NƠ",
+      "productDescription": "Giày búp bê nữ Zucia phối da 2 màu với họa tiết đính nơ là sự kết hợp hoàn hảo giữa thanh lịch và sự thoải mái. Chất liệu da cao cấp không chỉ sự sang trọng còn êm ái cho đôi chân giúp phái đẹp sải bước cả ngày dài mà không lo mệt mỏi.",
+      "price": 345000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày búp bê",
+      "image": "/images/bupbe2_cafe.jpg",
+      "thumbnail": [
+        "/images/bupbe2_cafe1.jpg",
+        "/images/bupbe2_cafe2.jpg",
+        "/images/bupbe2_cafe3.jpg",
+        "/images/bupbe2_cafe4.jpg"
+      ]
+    },
+    {
+      "id": "52",
+      "name": "GIÀY BÚP BÊ ZUCIA DA PHỐI HỌA TIẾT ĐÍNH NƠ",
+      "productDescription": "Giày búp bê nữ Zucia phối da 2 màu với họa tiết đính nơ là sự kết hợp hoàn hảo giữa thanh lịch và sự thoải mái. Chất liệu da cao cấp không chỉ sự sang trọng còn êm ái cho đôi chân giúp phái đẹp sải bước cả ngày dài mà không lo mệt mỏi.",
+      "price": 279000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày búp bê",
+      "image": "/images/bupbe2_den.jpg",
+      "thumbnail": [
+        "/images/bupbe2_den1.jpg",
+        "/images/bupbe2_den2.jpg",
+        "/images/bupbe2_den3.jpg",
+        "/images/bupbe2_den4.jpg"
+      ]
+    },
+    {
+      "id": "53",
+      "name": "GIÀY BÚP BÊ ZUCIA DA PHỐI HỌA TIẾT ĐÍNH NƠ",
+      "productDescription": "Giày búp bê nữ Zucia phối da 2 màu với họa tiết đính nơ là sự kết hợp hoàn hảo giữa thanh lịch và sự thoải mái. Chất liệu da cao cấp không chỉ sự sang trọng còn êm ái cho đôi chân giúp phái đẹp sải bước cả ngày dài mà không lo mệt mỏi.",
+      "price": 895000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày búp bê",
+      "image": "/images/bupbe2_nau.jpg",
+      "thumbnail": [
+        "/images/bupbe2_nau1.jpg",
+        "/images/bupbe2_nau2.jpg",
+        "/images/bupbe2_nau3.jpg",
+        "/images/bupbe2_nau4.jpg"
+      ]
+    },
+    {
+      "id": "54",
+      "name": "GIÀY BÚP BÊ ZUCIANI XẾP GẤP CÁCH ĐIỆU",
+      "productDescription": "Giày búp bê Zuciani sở hữu phần mũi nhọn mang lại cảm giác thon gọn và kéo dài đôi chân. Chất liệu da cao cấp không chỉ nâng niu, bảo vệ mỗi bước chân còn tạo cảm giác êm ái. Phần đế cao su hạn chế trơn trượt, gót cao 3cm không quá dốc còn tạo nên sự hài hòa cho vóc dáng giúp cho các quý cô tự tin sải bước từ nơi công sở, du lịch hay đi dạo phố.",
+      "price": 785000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày búp bê",
+      "image": "/images/bupbe3_den.jpg",
+      "thumbnail": [
+        "/images/bupbe3_den1.jpg",
+        "/images/bupbe3_den2.jpg",
+        "/images/bupbe3_den3.jpg",
+        "/images/bupbe3_den4.jpg"
+      ]
+    },
+    {
+      "id": "55",
+      "name": "GIÀY BÚP BÊ ZUCIANI XẾP GẤP CÁCH ĐIỆU",
+      "productDescription": "Giày búp bê Zuciani sở hữu phần mũi nhọn mang lại cảm giác thon gọn và kéo dài đôi chân. Chất liệu da cao cấp không chỉ nâng niu, bảo vệ mỗi bước chân còn tạo cảm giác êm ái. Phần đế cao su hạn chế trơn trượt, gót cao 3cm không quá dốc còn tạo nên sự hài hòa cho vóc dáng giúp cho các quý cô tự tin sải bước từ nơi công sở, du lịch hay đi dạo phố.",
+      "price": 850000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày búp bê",
+      "image": "/images/bupbe3_hong.jpg",
+      "thumbnail": [
+        "/images/bupbe3_hong1.jpg",
+        "/images/bupbe3_hong2.jpg",
+        "/images/bupbe3_hong3.jpg",
+        "/images/bupbe3_hong4.jpg"
+      ]
+    },
+    {
+      "id": "56",
+      "name": "GIÀY BÚP BÊ VENUS ZUCIANI GẮN NƠ ĐÍNH ĐÁ DẬP VÂN",
+      "productDescription": "Giày búp bê Zuciani sở hữu vẻ đẹp vượt thời gian với hai gam màu đen-kem kết hợp cùng mũi gắn nơ đính đá tạo điểm nhấn nổi bật. Gót vuông 3cm vững chãi cùng hoạ tiết dập vân da cao cấp tinh tế mang đến cho các quý cô phong cách vô cùng hiện đại.       ",
+      "price": 670000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày búp bê",
+      "image": "/images/bupbe4_den.jpg",
+      "thumbnail": [
+        "/images/bupbe4_den1.jpg",
+        "/images/bupbe4_den2.jpg",
+        "/images/bupbe4_den3.jpg",
+        "/images/bupbe4_den4.jpg"
+      ]
+    },
+    {
+      "id": "57",
+      "name": "GIÀY BÚP BÊ VENUS ZUCIANI GẮN NƠ ĐÍNH ĐÁ DẬP VÂN",
+      "productDescription": "Giày búp bê Zuciani sở hữu vẻ đẹp vượt thời gian với hai gam màu đen-kem kết hợp cùng mũi gắn nơ đính đá tạo điểm nhấn nổi bật. Gót vuông 3cm vững chãi cùng hoạ tiết dập vân da cao cấp tinh tế mang đến cho các quý cô phong cách vô cùng hiện đại.       ",
+      "price": 280000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày búp bê",
+      "image": "/images/bupbe4_kem.jpg",
+      "thumbnail": [
+        "/images/bupbe4_kem1.jpg",
+        "/images/bupbe4_kem2.jpg",
+        "/images/bupbe4_kem3.jpg",
+        "/images/bupbe4_kem4.jpg"
+      ]
+    },
+    {
+      "id": "58",
+      "name": "GIÀY BÚP BÊ ĐÔNG HẢI ĐẾ VIỀN MÀU THỜI TRANG",
+      "productDescription": "Giày búp bê Đông Hải là lựa chọn hoàn hảo cho những quý cô yêu thích sự thoải mái và nữ tính. Đôi giày có thiết kế đơn giản, chất liệu da êm mềm giúp nâng niu đôi chân dễ chịu cả ngày dài. Kiểu dáng tô điểm khi kết hợp phần đế viền màu nổi bật tạo điểm nhấn độc đáo và phá cách thu hút mọi ánh nhìn.       ",
+      "price": 450000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày búp bê",
+      "image": "/images/bupbe5_kem.jpg",
+      "thumbnail": [
+        "/images/bupbe5_kem1.jpg",
+        "/images/bupbe5_kem2.jpg",
+        "/images/bupbe5_kem3.jpg",
+        "/images/bupbe5_kem4.jpg"
+      ]
+    },
+    {
+      "id": "59",
+      "name": "GIÀY BÚP BÊ ĐÔNG HẢI ĐẾ VIỀN MÀU THỜI TRANG",
+      "productDescription": "Giày búp bê Đông Hải là lựa chọn hoàn hảo cho những quý cô yêu thích sự thoải mái và nữ tính. Đôi giày có thiết kế đơn giản, chất liệu da êm mềm giúp nâng niu đôi chân dễ chịu cả ngày dài. Kiểu dáng tô điểm khi kết hợp phần đế viền màu nổi bật tạo điểm nhấn độc đáo và phá cách thu hút mọi ánh nhìn.       ",
+      "price": 640000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày búp bê",
+      "image": "/images/bupbe5_den.jpg",
+      "thumbnail": [
+        "/images/bupbe5_den1.jpg",
+        "/images/bupbe5_den2.jpg",
+        "/images/bupbe5_den3.jpg",
+        "/images/bupbe5_den4.jpg"
+      ]
+    },
+    {
+      "id": "60",
+      "name": "GIÀY BÚP BÊ ĐÔNG HẢI ĐẾ VIỀN MÀU THỜI TRANG",
+      "productDescription": "Giày búp bê Đông Hải là lựa chọn hoàn hảo cho những quý cô yêu thích sự thoải mái và nữ tính. Đôi giày có thiết kế đơn giản, chất liệu da êm mềm giúp nâng niu đôi chân dễ chịu cả ngày dài. Kiểu dáng tô điểm khi kết hợp phần đế viền màu nổi bật tạo điểm nhấn độc đáo và phá cách thu hút mọi ánh nhìn.       ",
+      "price": 610000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày búp bê",
+      "image": "/images/bupbe5_bo.jpg",
+      "thumbnail": [
+        "/images/bupbe5_bo1.jpg",
+        "/images/bupbe5_bo2.jpg",
+        "/images/bupbe5_bo3.jpg",
+        "/images/bupbe5_bo4.jpg"
+      ]
+    },
+    {
+      "id": "61",
+      "name": "GIÀY BÚP BÊ ĐÔNG HẢI MŨI VUÔNG DA BÓNG ĐÍNH NƠ",
+      "productDescription": "Giày búp bê Đông Hải mũi vuông da bóng đính nơ kết hợp giữa phom dáng thanh lịch và chi tiết đính nơ dễ thương, tạo nên sự nữ tính và lịch sự độc đáo. Chất liệu da bóng cao cấp và mũi vuông tinh tế làm nổi bật vẻ đẹp của đôi giày, phù hợp cho nhiều dịp từ đi làm đến dạo phố",
+      "price": 430000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày búp bê",
+      "image": "/images/bupbe6_cafe.jpg",
+      "thumbnail": [
+        "/images/bupbe6_cafe1.jpg",
+        "/images/bupbe6_cafe2.jpg",
+        "/images/bupbe6_cafe3.jpg",
+        "/images/bupbe6_cafe4.jpg"
+      ]
+    },
+    {
+      "id": "62",
+      "name": "GIÀY BÚP BÊ ĐÔNG HẢI MŨI VUÔNG DA BÓNG ĐÍNH NƠ",
+      "productDescription": "Giày búp bê Đông Hải mũi vuông da bóng đính nơ kết hợp giữa phom dáng thanh lịch và chi tiết đính nơ dễ thương, tạo nên sự nữ tính và lịch sự độc đáo. Chất liệu da bóng cao cấp và mũi vuông tinh tế làm nổi bật vẻ đẹp của đôi giày, phù hợp cho nhiều dịp từ đi làm đến dạo phố",
+      "price": 610000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày búp bê",
+      "image": "/images/bupbe6_den.jpg",
+      "thumbnail": [
+        "/images/bupbe6_den1.jpg",
+        "/images/bupbe6_den2.jpg",
+        "/images/bupbe6_den3.jpg",
+        "/images/bupbe6_den4.jpg"
+      ]
+    },
+    {
+      "id": "63",
+      "name": "GIÀY SANDAL CAO GÓT ZUCIA QUAI T-STRAP KHÓA CÀI",
+      "productDescription": "Giày sandal cao gót Zucia có kiểu dáng quai T-strap cùng gót trụ cao 10cm hiện đại, tôn dáng. Quai khoá dễ điều chỉnh theo kích thước chân mang lại sự thoải mái cho các quý cô.      ",
+      "price": 810000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày sandal nữ",
+      "image": "/images/sannu1_den.jpg",
+      "thumbnail": [
+        "/images/sannu1_den1.jpg",
+        "/images/sannu1_den2.jpg",
+        "/images/sannu1_den3.jpg",
+        "/images/sannu1_den4.jpg"
+      ]
+    },
+    {
+      "id": "64",
+      "name": "GIÀY SANDAL CAO GÓT ZUCIA QUAI T-STRAP KHÓA CÀI",
+      "productDescription": "Giày sandal cao gót Zucia có kiểu dáng quai T-strap cùng gót trụ cao 10cm hiện đại, tôn dáng. Quai khoá dễ điều chỉnh theo kích thước chân mang lại sự thoải mái cho các quý cô.      ",
+      "price": 610000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày sandal nữ",
+      "image": "/images/sannu1_kem.jpg",
+      "thumbnail": [
+        "/images/sannu1_kem1.jpg",
+        "/images/sannu1_kem2.jpg",
+        "/images/sannu1_kem3.jpg",
+        "/images/sannu1_kem4.jpg"
+      ]
+    },
+    {
+      "id": "65",
+      "name": "GIÀY SANDAL CAO GÓT ĐÔNG HẢI ANKLE-STRAP QUAI MẢNH PHỐI ĐÁ",
+      "productDescription": "Giày sandal cao gót Đông Hải với thiết kế sang trọng nhưng không kém phần thanh lịch với kiểu dáng quai mảnh phối đá lấp lánh trông vô cùng kiêu sa. Đặc biệt, quai Ankle-Strap càng tôn lên được đôi chân thon gọn, phù hợp diện trong các buổi tiệc, hội họp bạn bè hay các dịp quan trọng      ",
+      "price": 550000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày sandal nữ",
+      "image": "/images/sannu2_den.jpg",
+      "thumbnail": [
+        "/images/sannu2_den1.jpg",
+        "/images/sannu2_den2.jpg",
+        "/images/sannu2_den3.jpg",
+        "/images/sannu2_den4.jpg"
+      ]
+    },
+    {
+      "id": "66",
+      "name": "GIÀY SANDAL CAO GÓT ĐÔNG HẢI ANKLE-STRAP QUAI MẢNH PHỐI ĐÁ",
+      "productDescription": "Giày sandal cao gót Đông Hải với thiết kế sang trọng nhưng không kém phần thanh lịch với kiểu dáng quai mảnh phối đá lấp lánh trông vô cùng kiêu sa. Đặc biệt, quai Ankle-Strap càng tôn lên được đôi chân thon gọn, phù hợp diện trong các buổi tiệc, hội họp bạn bè hay các dịp quan trọng      ",
+      "price": 580000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày sandal nữ",
+      "image": "/images/sannu2_trang.jpg",
+      "thumbnail": [
+        "/images/sannu2_trang1.jpg",
+        "/images/sannu2_trang2.jpg",
+        "/images/sannu2_trang3.jpg",
+        "/images/sannu2_trang4.jpg"
+      ]
+    },
+    {
+      "id": "67",
       "name": "GIÀY SANDAL ZUCIA KHÓA CÀI QUAI BẢNG TO",
-      "price": 899,
-      "productDescription": " kiểu dáng thời thượng khi có phần quai kết hợp giữa song song và đan chéo ",
+      "productDescription": "Giày sandal Zucia kiểu dáng thời thượng khi có phần quai kết hợp giữa song song và đan chéo tạo nên mẫu thiết kế vừa che chắn cho bàn chân vừa tạo sự thon gọn. Giày có 3 màu đen, hồng, trắng để quý cô dễ dàng lựa chọn phối nhiều trang phục khác nhau từ đời thường đến đi làm.      ",
+      "price": 340000,
+      "dateAvailable": "2024-03-01",
       "category": "Giày sandal nữ",
-      "image": "/images/san1.jpg",
+      "image": "/images/sannu3_den.jpg",
       "thumbnail": [
-        "/images/san1_1.jpg",
-        "/images/san1_2.jpg"
+        "/images/sannu3_den1.jpg",
+        "/images/sannu3_den2.jpg",
+        "/images/sannu3_den3.jpg",
+        "/images/sannu3_den4.jpg"
       ]
     },
     {
-      "id": 16,
-      "name": "GIÀY SANDAL ZUCIA ĐẾ BẰNG QUAI NHUNG",
-      "price": 899,
-      "productDescription": " kiểu dáng thời thượng khi có phần quai kết hợp giữa song song và đan chéo ",
+      "id": "68",
+      "name": "GIÀY SANDAL ZUCIA KHÓA CÀI QUAI BẢNG TO",
+      "productDescription": "Giày sandal Zucia kiểu dáng thời thượng khi có phần quai kết hợp giữa song song và đan chéo tạo nên mẫu thiết kế vừa che chắn cho bàn chân vừa tạo sự thon gọn. Giày có 3 màu đen, hồng, trắng để quý cô dễ dàng lựa chọn phối nhiều trang phục khác nhau từ đời thường đến đi làm.      ",
+      "price": 450000,
+      "dateAvailable": "2024-03-01",
       "category": "Giày sandal nữ",
-      "image": "/images/san2.jpg",
+      "image": "/images/sannu3_hong.jpg",
       "thumbnail": [
-        "/images/san2_1.jpg",
-        "/images/san2_2.jpg",
-        "/images/san2_3.jpg"
+        "/images/sannu3_hong1.jpg",
+        "/images/sannu3_hong2.jpg",
+        "/images/sannu3_hong3.jpg",
+        "/images/sannu3_hong4.jpg"
+      ]
+    },
+    {
+      "id": "69",
+      "name": "GIÀY SANDAL ZUCIA KHÓA CÀI QUAI BẢNG TO",
+      "productDescription": "Giày sandal Zucia kiểu dáng thời thượng khi có phần quai kết hợp giữa song song và đan chéo tạo nên mẫu thiết kế vừa che chắn cho bàn chân vừa tạo sự thon gọn. Giày có 3 màu đen, hồng, trắng để quý cô dễ dàng lựa chọn phối nhiều trang phục khác nhau từ đời thường đến đi làm.      ",
+      "price": 780000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày sandal nữ",
+      "image": "/images/sannu3_trang.jpg",
+      "thumbnail": [
+        "/images/sannu3_trang1.jpg",
+        "/images/sannu3_trang2.jpg",
+        "/images/sannu3_trang3.jpg",
+        "/images/sannu3_trang4.jpg"
+      ]
+    },
+    {
+      "id": "70",
+      "name": "",
+      "productDescription": "",
+      "price": 610000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày sandal nữ",
+      "image": "/images/sannu4_den.jpg",
+      "thumbnail": [
+        "/images/sannu4_den1.jpg",
+        "/images/sannu4_den2.jpg",
+        "/images/sannu4_den3.jpg",
+        "/images/sannu4_den4.jpg"
+      ]
+    },
+    {
+      "id": "71",
+      "name": "SANDALS NỮ ANKLE-STRAP QUAI THẮT NÚT",
+      "productDescription": "Sandal nữ S32A8 với kiểu dáng đan chéo tạo thành hoạ tiết lạ mắt. Phần quai hậu mềm mại, ôm sát cổ chân kết hợp cùng khoá cài dễ dàng điều chỉnh độ rộng phù hợp với cổ chân. Đế bệt nhẹ nhàng & nữ tính ",
+      "price": 610000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày sandal nữ",
+      "image": "/images/sannu4_hong.jpg",
+      "thumbnail": [
+        "/images/sannu4_hong1.jpg",
+        "/images/sannu4_hong2.jpg",
+        "/images/sannu4_hong3.jpg",
+        "/images/sannu4_hong4.jpg"
+      ]
+    },
+    {
+      "id": "72",
+      "name": "SANDALS NỮ ANKLE-STRAP QUAI THẮT NÚT",
+      "productDescription": "Sandal nữ S32A8 với kiểu dáng đan chéo tạo thành hoạ tiết lạ mắt. Phần quai hậu mềm mại, ôm sát cổ chân kết hợp cùng khoá cài dễ dàng điều chỉnh độ rộng phù hợp với cổ chân. Đế bệt nhẹ nhàng & nữ tính.      ",
+      "price": 780000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày sandal nữ",
+      "image": "/images/sannu5_den.jpg",
+      "thumbnail": [
+        "/images/sannu5_den1.jpg",
+        "/images/sannu5_den2.jpg",
+        "/images/sannu5_den3.jpg",
+        "/images/sannu5_den4.jpg"
+      ]
+    },
+    {
+      "id": "73",
+      "name": "SANDALS ĐẾ XUỒNG ĐÔNG HẢI QUAI MẢNH ĐAN CHÉO",
+      "productDescription": "Sandal đế xuồng phong cách hiện đại với phần đế nổi bật mang đến sự năng động, khỏe khoắn trong từng bước đi của quý cô. Đôi sandal có thiết kế tối giản với phần dây mảnh giúp bàn chân được thả lỏng tối đa.       ",
+      "price": 450000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày sandal nữ",
+      "image": "/images/sannu5_kem.jpg",
+      "thumbnail": [
+        "/images/sannu5_kem1.jpg",
+        "/images/sannu5_kem2.jpg",
+        "/images/sannu5_kem3.jpg",
+        "/images/sannu5_kem4.jpg"
+      ]
+    },
+    {
+      "id": "74",
+      "name": "SANDALS ĐẾ XUỒNG ĐÔNG HẢI QUAI MẢNH ĐAN CHÉO",
+      "productDescription": "Sandal đế xuồng phong cách hiện đại với phần đế nổi bật mang đến sự năng động, khỏe khoắn trong từng bước đi của quý cô. Đôi sandal có thiết kế tối giản với phần dây mảnh giúp bàn chân được thả lỏng tối đa.       ",
+      "price": 340000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày sandal nữ",
+      "image": "/images/sannu5_xanh.jpg",
+      "thumbnail": [
+        "/images/sannu5_xanh1.jpg",
+        "/images/sannu5_xanh2.jpg",
+        "/images/sannu5_xanh3.jpg",
+        "/images/sannu5_xanh4.jpg"
+      ]
+    },
+    {
+      "id": "75",
+      "name": "SANDALS ĐẾ XUỒNG ĐÔNG HẢI QUAI MẢNH ĐAN CHÉO",
+      "productDescription": "Sandal đế xuồng phong cách hiện đại với phần đế nổi bật mang đến sự năng động, khỏe khoắn trong từng bước đi của quý cô. Đôi sandal có thiết kế tối giản với phần dây mảnh giúp bàn chân được thả lỏng tối đa.       ",
+      "price": 690000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày sandal nữ",
+      "image": "/images/sannu6_trang.jpg",
+      "thumbnail": [
+        "/images/sannu6_trang1.jpg",
+        "/images/sannu6_trang2.jpg",
+        "/images/sannu6_trang3.jpg",
+        "/images/sannu6_trang4.jpg"
+      ]
+    },
+    {
+      "id": "76",
+      "name": "GIÀY SANDAL ZUCIA QUAI CHÉO ĐÍNH HOA",
+      "productDescription": "Giày sandal nữ Zucia theo phong cách cổ điển với thiết kế phần đính đá được bao quanh bởi những hạt cườm được gia công tỉ mỉ, cẩn thận. Phần đế giày làm từ chất liệu da cao cấp mang lại độ êm ái, mềm mại cho mỗi bước chân của quý cô.",
+      "price": 290000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày sandal nữ",
+      "image": "/images/sannu6_cafe.jpg",
+      "thumbnail": [
+        "/images/sannu6_cafe1.jpg",
+        "/images/sannu6_cafe2.jpg",
+        "/images/sannu6_cafe3.jpg",
+        "/images/sannu6_cafe4.jpg"
+      ]
+    },
+    {
+      "id": "77",
+      "name": "GIÀY CAO GÓT ĐÔNG HẢI DA BÓNG GÓT NHỌN",
+      "productDescription": "Giày Cao Gót Đông Hải có thiết kế cơ bản với phần mũi và gót nhọn. Đây chắc chắn là mẫu giày chiều lòng mọi quý cô bởi sự đơn giản phù hợp với mọi trang phục nhưng vẫn đáp ứng được sự duyên dáng và nữ tính. Mũi nhọn tôn lên đôi chân thanh mảnh, thon gọn và đặc biệt, chất liệu da bóng tạo hiệu ứng lung linh & sang trọng.",
+      "price": 789000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày cao gót ",
+      "image": "/images/cgot1_den.jpg",
+      "thumbnail": [
+        "/images/cgot1_den1.jpg",
+        "/images/cgot1_den2.jpg",
+        "/images/cgot1_den3.jpg",
+        "/images/cgot1_den4.jpg"
+      ]
+    },
+    {
+      "id": "78",
+      "name": "GIÀY CAO GÓT ĐÔNG HẢI DA BÓNG GÓT NHỌN",
+      "productDescription": "Giày Cao Gót Đông Hải có thiết kế cơ bản với phần mũi và gót nhọn. Đây chắc chắn là mẫu giày chiều lòng mọi quý cô bởi sự đơn giản phù hợp với mọi trang phục nhưng vẫn đáp ứng được sự duyên dáng và nữ tính. Mũi nhọn tôn lên đôi chân thanh mảnh, thon gọn và đặc biệt, chất liệu da bóng tạo hiệu ứng lung linh & sang trọng.",
+      "price": 340000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày cao gót ",
+      "image": "/images/cgot1_do.jpg",
+      "thumbnail": [
+        "/images/cgot1_do1.jpg",
+        "/images/cgot1_do2.jpg",
+        "/images/cgot1_do3.jpg",
+        "/images/cgot1_do4.jpg"
+      ]
+    },
+    {
+      "id": "79",
+      "name": "GIÀY CAO GÓT ĐÔNG HẢI DA BÓNG GÓT NHỌN",
+      "productDescription": "Giày Cao Gót Đông Hải có thiết kế cơ bản với phần mũi và gót nhọn. Đây chắc chắn là mẫu giày chiều lòng mọi quý cô bởi sự đơn giản phù hợp với mọi trang phục nhưng vẫn đáp ứng được sự duyên dáng và nữ tính. Mũi nhọn tôn lên đôi chân thanh mảnh, thon gọn và đặc biệt, chất liệu da bóng tạo hiệu ứng lung linh & sang trọng.",
+      "price": 740000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày cao gót ",
+      "image": "/images/cgot1_hong.jpg",
+      "thumbnail": [
+        "/images/cgot1_hong1.jpg",
+        "/images/cgot1_hong2.jpg",
+        "/images/cgot1_hong3.jpg",
+        "/images/cgot1_hong4.jpg"
+      ]
+    },
+    {
+      "id": "80",
+      "name": "GIÀY CAO GÓT ĐÔNG HẢI SATIN THỜI THƯỢNG PHỐI QUAI ANKLE STRAP",
+      "productDescription": "Giày cao gót Đông Hải vải lụa satin mang một vẻ đẹp khó cưỡng bởi sự sang trọng, thời thượng luôn chinh phục mọi quý cô từ ánh nhìn đầu tiên. Thiết kế còn tăng thêm phần nổi bật với phần icon đính đá tinh xảo tạo độ lấp lánh cho mỗi bước chân quý cô khi di chuyển. Đây cũng là mẫu thiết kế sánh đôi trong show Duyên của NTK Adrian Anh Tuấn do Đông Hải đồng hành và hỗ trợ. Mẫu giày đã gây ra được cơn sốt khi xuất hiện trong buổi trình diễn và nhận được sự ưng ý với mọi quý cô. Đây chắc chắn là mẫu giày bắt mắt phù hợp trong các buổi tiệc, đi hội họp hay sự kiện quan trọng.       ",
+      "price": 630000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày cao gót ",
+      "image": "/images/cgot2_den.jpg",
+      "thumbnail": [
+        "/images/cgot2_den1.jpg",
+        "/images/cgot2_den2.jpg",
+        "/images/cgot2_den3.jpg",
+        "/images/cgot2_den4.jpg"
+      ]
+    },
+    {
+      "id": "81",
+      "name": "GIÀY CAO GÓT ĐÔNG HẢI SATIN THỜI THƯỢNG PHỐI QUAI ANKLE STRAP",
+      "productDescription": "Giày cao gót Đông Hải vải lụa satin mang một vẻ đẹp khó cưỡng bởi sự sang trọng, thời thượng luôn chinh phục mọi quý cô từ ánh nhìn đầu tiên. Thiết kế còn tăng thêm phần nổi bật với phần icon đính đá tinh xảo tạo độ lấp lánh cho mỗi bước chân quý cô khi di chuyển. Đây cũng là mẫu thiết kế sánh đôi trong show Duyên của NTK Adrian Anh Tuấn do Đông Hải đồng hành và hỗ trợ. Mẫu giày đã gây ra được cơn sốt khi xuất hiện trong buổi trình diễn và nhận được sự ưng ý với mọi quý cô. Đây chắc chắn là mẫu giày bắt mắt phù hợp trong các buổi tiệc, đi hội họp hay sự kiện quan trọng.       ",
+      "price": 660000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày cao gót ",
+      "image": "/images/cgot2_do.jpg",
+      "thumbnail": [
+        "/images/cgot2_do1.jpg",
+        "/images/cgot2_do2.jpg",
+        "/images/cgot2_do3.jpg",
+        "/images/cgot2_do4.jpg"
+      ]
+    },
+    {
+      "id": "82",
+      "name": "GIÀY CAO GÓT ĐÔNG HẢI SATIN THỜI THƯỢNG PHỐI QUAI ANKLE STRAP",
+      "productDescription": "Giày cao gót Đông Hải vải lụa satin mang một vẻ đẹp khó cưỡng bởi sự sang trọng, thời thượng luôn chinh phục mọi quý cô từ ánh nhìn đầu tiên. Thiết kế còn tăng thêm phần nổi bật với phần icon đính đá tinh xảo tạo độ lấp lánh cho mỗi bước chân quý cô khi di chuyển. Đây cũng là mẫu thiết kế sánh đôi trong show Duyên của NTK Adrian Anh Tuấn do Đông Hải đồng hành và hỗ trợ. Mẫu giày đã gây ra được cơn sốt khi xuất hiện trong buổi trình diễn và nhận được sự ưng ý với mọi quý cô. Đây chắc chắn là mẫu giày bắt mắt phù hợp trong các buổi tiệc, đi hội họp hay sự kiện quan trọng.       ",
+      "price": 640000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày cao gót ",
+      "image": "/images/cgot2_tim.jpg",
+      "thumbnail": [
+        "/images/cgot2_tim1.jpg",
+        "/images/cgot2_tim2.jpg",
+        "/images/cgot2_tim3.jpg",
+        "/images/cgot2_tim4.jpg"
+      ]
+    },
+    {
+      "id": "83",
+      "name": "GIÀY CAO GÓT ĐÔNG HẢI GÓT VUÔNG ĐÍNH LOGO",
+      "productDescription": "Giày cao gót Đông Hải kiểu dáng gót vuông tạo được sự vững vàng cho đôi chân khi di chuyển, thích hợp cho cả ngày dài hay tính chất công việc cần di chuyển nhiều. Điểm nhấn nằm tại phần đính đá logo ở mũi giày tăng thêm phần nổi bật và tạo được hiệu ứng ánh sáng ngoài trời. Mẫu giày phù hợp đi làm, đi chơi hay đi mua sắm.      ",
+      "price": 450000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày cao gót ",
+      "image": "/images/cgot3_den.jpg",
+      "thumbnail": [
+        "/images/cgot3_den1.jpg",
+        "/images/cgot3_den2.jpg",
+        "/images/cgot3_den3.jpg",
+        "/images/cgot3_den4.jpg"
+      ]
+    },
+    {
+      "id": "84",
+      "name": "GIÀY CAO GÓT ĐÔNG HẢI GÓT VUÔNG ĐÍNH LOGO",
+      "productDescription": "Giày cao gót Đông Hải kiểu dáng gót vuông tạo được sự vững vàng cho đôi chân khi di chuyển, thích hợp cho cả ngày dài hay tính chất công việc cần di chuyển nhiều. Điểm nhấn nằm tại phần đính đá logo ở mũi giày tăng thêm phần nổi bật và tạo được hiệu ứng ánh sáng ngoài trời. Mẫu giày phù hợp đi làm, đi chơi hay đi mua sắm.      ",
+      "price": 340000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày cao gót ",
+      "image": "/images/cgot3_hong.jpg",
+      "thumbnail": [
+        "/images/cgot3_hong1.jpg",
+        "/images/cgot3_hong2.jpg",
+        "/images/cgot3_hong3.jpg",
+        "/images/cgot3_hong4.jpg"
+      ]
+    },
+    {
+      "id": "85",
+      "name": "GIÀY SANDAL CAO GÓT ĐÔNG HẢI QUAI MẢNH ĐÍNH ĐÁ KIÊU SA",
+      "productDescription": "Giày sandal cao gót Đông Hải có thiết kế kiêu sa với phần quai mảnh đính đá, từng viên đá được đính thành những bông hoa rực rỡ càng tăng thêm phần nổi bật và sang trọng cho đôi giày. Phần quai ankle strap ôm sát bàn chân ngoài việc thoáng mát còn tôn lên bàn chân thanh mảnh, dáng đi uyển chuyển.      ",
+      "price": 550000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày cao gót ",
+      "image": "/images/cgot4_den.jpg",
+      "thumbnail": [
+        "/images/cgot4_den1.jpg",
+        "/images/cgot4_den2.jpg",
+        "/images/cgot4_den3.jpg",
+        "/images/cgot4_den4.jpg"
+      ]
+    },
+    {
+      "id": "86",
+      "name": "GIÀY SANDAL CAO GÓT ĐÔNG HẢI QUAI MẢNH ĐÍNH ĐÁ KIÊU SA",
+      "productDescription": "Giày sandal cao gót Đông Hải có thiết kế kiêu sa với phần quai mảnh đính đá, từng viên đá được đính thành những bông hoa rực rỡ càng tăng thêm phần nổi bật và sang trọng cho đôi giày. Phần quai ankle strap ôm sát bàn chân ngoài việc thoáng mát còn tôn lên bàn chân thanh mảnh, dáng đi uyển chuyển.      ",
+      "price": 670000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày cao gót ",
+      "image": "/images/cgot4_do.jpg",
+      "thumbnail": [
+        "/images/cgot4_do1.jpg",
+        "/images/cgot4_do2.jpg",
+        "/images/cgot4_do3.jpg",
+        "/images/cgot4_do4.jpg"
+      ]
+    },
+    {
+      "id": "87",
+      "name": "GIÀY CAO GÓT ĐÔNG HẢI TRƠN MŨI NHỌN",
+      "productDescription": "Giày cao gót Đông Hải mũi nhọn thiết kế bít mũi với kiểu dáng trơn cơ bản của các mẫu giày cao gót truyền thống. Đây chắc chắn là must-item không bao giờ lỗi mốt và luôn chiếm được sự yêu thích và ưu ái của hầu hết các quý cô. Mẫu giày mang vẻ đẹp thanh lịch, ôm chân, phần đế chắc chắn giúp phái đẹp di chuyển linh hoạt, từng bước đi thêm phần uyển chuyển và tự tin, quyến rũ hơn.       ",
+      "price": 610000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày cao gót ",
+      "image": "/images/cgot5_den.jpg",
+      "thumbnail": [
+        "/images/cgot5_den1.jpg",
+        "/images/cgot5_den2.jpg",
+        "/images/cgot5_den3.jpg",
+        "/images/cgot5_den4.jpg"
+      ]
+    },
+    {
+      "id": "88",
+      "name": "GIÀY CAO GÓT ĐÔNG HẢI TRƠN MŨI NHỌN",
+      "productDescription": "Giày cao gót Đông Hải mũi nhọn thiết kế bít mũi với kiểu dáng trơn cơ bản của các mẫu giày cao gót truyền thống. Đây chắc chắn là must-item không bao giờ lỗi mốt và luôn chiếm được sự yêu thích và ưu ái của hầu hết các quý cô. Mẫu giày mang vẻ đẹp thanh lịch, ôm chân, phần đế chắc chắn giúp phái đẹp di chuyển linh hoạt, từng bước đi thêm phần uyển chuyển và tự tin, quyến rũ hơn.       ",
+      "price": 450000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày cao gót ",
+      "image": "/images/cgot5_trang.jpg",
+      "thumbnail": [
+        "/images/cgot5_trang1.jpg",
+        "/images/cgot5_trang2.jpg",
+        "/images/cgot5_trang3.jpg",
+        "/images/cgot5_trang4.jpg"
+      ]
+    },
+    {
+      "id": "89",
+      "name": "GIÀY CAO GÓT ĐÔNG HẢI ÁNH KIM SA QUAI ANKLE-STRAP",
+      "productDescription": "Giày cao gót Đông Hải phối kim sa tăng được óng ánh và nổi bật cho tổng thể mẫu giày. Kiểu dáng thêm điểm cộng với phần mũi nhọn giúp quý cô diện lên trông vô cùng thon gọn, mảnh mai. Đồng thời, quai khóa dễ dàng điều chỉnh độ rộng thuận tiện thay đổi kích thước. Mẫu giày phù hợp đi tiệc, đi hội họp quan trọng hay các sự kiện.      ",
+      "price": 780000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày cao gót ",
+      "image": "/images/cgot6_trang.jpg",
+      "thumbnail": [
+        "/images/cgot6_trang1.jpg",
+        "/images/cgot6_trang2.jpg",
+        "/images/cgot6_trang3.jpg",
+        "/images/cgot6_trang4.jpg"
+      ]
+    },
+    {
+      "id": "90",
+      "name": "GIÀY CAO GÓT ĐÔNG HẢI ÁNH KIM SA QUAI ANKLE-STRAP",
+      "productDescription": "Giày cao gót Đông Hải phối kim sa tăng được óng ánh và nổi bật cho tổng thể mẫu giày. Kiểu dáng thêm điểm cộng với phần mũi nhọn giúp quý cô diện lên trông vô cùng thon gọn, mảnh mai. Đồng thời, quai khóa dễ dàng điều chỉnh độ rộng thuận tiện thay đổi kích thước. Mẫu giày phù hợp đi tiệc, đi hội họp quan trọng hay các sự kiện.      ",
+      "price": 900000,
+      "dateAvailable": "2024-03-01",
+      "category": "Giày cao gót ",
+      "image": "/images/cgot6_xam.jpg",
+      "thumbnail": [
+        "/images/cgot6_xam1.jpg",
+        "/images/cgot6_xam2.jpg",
+        "/images/cgot6_xam3.jpg"
+      ]
+    },
+    {
+      "id": "91",
+      "name": "GIÀY THỂ THAO ZUCIANI THE COMFORT N.12",
+      "productDescription": "Giày thể thao Zuciani hài hòa giữa tính thời trang hiện đại nhưng vẫn đảm bảo sự thoải mái, nhẹ êm trong mỗi bước chân. Chất liệu vải dệt thoáng khí, siêu nhẹ càng tăng thêm phần dễ chịu khi phải di chuyển nhiều. Đây sẽ lựa chọn hoàn hảo để thể hiện phong cách năng động.      ",
+      "price": 670000,
+      "dateAvailable": "2024-03-01",
+      "category": "Thể thao nữ",
+      "image": "/images/thethaonu1_den.jpg",
+      "thumbnail": [
+        "/images/thethaonu1_den1.jpg",
+        "/images/thethaonu1_den2.jpg",
+        "/images/thethaonu1_den3.jpg",
+        "/images/thethaonu1_den4.jpg"
+      ]
+    },
+    {
+      "id": "92",
+      "name": "GIÀY THỂ THAO ZUCIANI THE COMFORT N.12",
+      "productDescription": "Giày thể thao Zuciani hài hòa giữa tính thời trang hiện đại nhưng vẫn đảm bảo sự thoải mái, nhẹ êm trong mỗi bước chân. Chất liệu vải dệt thoáng khí, siêu nhẹ càng tăng thêm phần dễ chịu khi phải di chuyển nhiều. Đây sẽ lựa chọn hoàn hảo để thể hiện phong cách năng động.      ",
+      "price": 340000,
+      "dateAvailable": "2024-03-01",
+      "category": "Thể thao nữ",
+      "image": "/images/thethaonu1_tim.jpg",
+      "thumbnail": [
+        "/images/thethaonu1_tim1.jpg",
+        "/images/thethaonu1_tim2.jpg",
+        "/images/thethaonu1_tim3.jpg",
+        "/images/thethaonu1_tim4.jpg"
+      ]
+    },
+    {
+      "id": "93",
+      "name": "GIÀY THỂ THAO ZUCIANI THE COMFORT N.12",
+      "productDescription": "Giày thể thao Zuciani hài hòa giữa tính thời trang hiện đại nhưng vẫn đảm bảo sự thoải mái, nhẹ êm trong mỗi bước chân. Chất liệu vải dệt thoáng khí, siêu nhẹ càng tăng thêm phần dễ chịu khi phải di chuyển nhiều. Đây sẽ lựa chọn hoàn hảo để thể hiện phong cách năng động.      ",
+      "price": 560000,
+      "dateAvailable": "2024-03-01",
+      "category": "Thể thao nữ",
+      "image": "/images/thethaonu1_xam.jpg",
+      "thumbnail": [
+        "/images/thethaonu1_xam1.jpg",
+        "/images/thethaonu1_xam2.jpg",
+        "/images/thethaonu1_xam3.jpg",
+        "/images/thethaonu1_xam4.jpg"
+      ]
+    },
+    {
+      "id": "94",
+      "name": "GIÀY THỂ THAO ZUCIANI THE URBANIST N.08",
+      "productDescription": "Giày Thể Thao Zuciani có họa tiết đa sắc màu độc đáo mang hơi thở của cuộc sống thành thị nhộp nhịp. Mẫu thiết kế không chỉ mang tính hiện đại mà còn mang tính duy mỹ thời thượng kết hợp với chất liệu vải dệt thoáng khí. Phần đế đệm làm từ chất liệu ETPU (polyurethane nhiệt dẻo) siêu nhẹ, tăng độ linh hoạt khi di chuyển và trợ lực tốt giúp gia tăng độ bám trên nhiều bề mặt. Đây là sự lựa chọn hoàn hảo cho các hoạt động thể thao và hàng ngày. ",
+      "price": 780000,
+      "dateAvailable": "2024-03-01",
+      "category": "Thể thao nữ",
+      "image": "/images/thethaonu2_den.jpg",
+      "thumbnail": [
+        "/images/thethaonu2_den1.jpg",
+        "/images/thethaonu2_den2.jpg",
+        "/images/thethaonu2_den3.jpg",
+        "/images/thethaonu2_den4.jpg"
+      ]
+    },
+    {
+      "id": "95",
+      "name": "GIÀY THỂ THAO ZUCIANI THE URBANIST N.08",
+      "productDescription": "Giày Thể Thao Zuciani có họa tiết đa sắc màu độc đáo mang hơi thở của cuộc sống thành thị nhộp nhịp. Mẫu thiết kế không chỉ mang tính hiện đại mà còn mang tính duy mỹ thời thượng kết hợp với chất liệu vải dệt thoáng khí. Phần đế đệm làm từ chất liệu ETPU (polyurethane nhiệt dẻo) siêu nhẹ, tăng độ linh hoạt khi di chuyển và trợ lực tốt giúp gia tăng độ bám trên nhiều bề mặt. Đây là sự lựa chọn hoàn hảo cho các hoạt động thể thao và hàng ngày. ",
+      "price": 560000,
+      "dateAvailable": "2024-03-01",
+      "category": "Thể thao nữ",
+      "image": "/images/thethaonu2_trang.jpg",
+      "thumbnail": [
+        "/images/thethaonu2_trang1.jpg",
+        "/images/thethaonu2_trang2.jpg",
+        "/images/thethaonu2_trang3.jpg",
+        "/images/thethaonu2_trang4.jpg"
+      ]
+    },
+    {
+      "id": "96",
+      "name": "GIÀY THỂ THAO ZUCIANI ĐẾ BÁNH MÌ",
+      "productDescription": "Giày Thể Thao Sneaker Zuciani với thiết kế đế bánh mì cao 4cm giúp tôn dáng kết hợp cùng họa tiết khắc lazer lạ mắt. Mẫu giày đáp ứng đủ tính thời trang hiện đại nhưng vẫn năng động và cá tính      ",
+      "price": 570000,
+      "dateAvailable": "2024-03-01",
+      "category": "Thể thao nữ",
+      "image": "/images/thethaonu3_den.jpg",
+      "thumbnail": [
+        "/images/thethaonu3_den1.jpg",
+        "/images/thethaonu3_den2.jpg",
+        "/images/thethaonu3_den3.jpg",
+        "/images/thethaonu3_den4.jpg"
+      ]
+    },
+    {
+      "id": "97",
+      "name": "GIÀY THỂ THAO ZUCIANI ĐẾ BÁNH MÌ",
+      "productDescription": "Giày Thể Thao Sneaker Zuciani với thiết kế đế bánh mì cao 4cm giúp tôn dáng kết hợp cùng họa tiết khắc lazer lạ mắt. Mẫu giày đáp ứng đủ tính thời trang hiện đại nhưng vẫn năng động và cá tính      ",
+      "price": 610000,
+      "dateAvailable": "2024-03-01",
+      "category": "Thể thao nữ",
+      "image": "/images/thethaonu3_trang.jpg",
+      "thumbnail": [
+        "/images/thethaonu3_trang1.jpg",
+        "/images/thethaonu3_trang2.jpg",
+        "/images/thethaonu3_trang3.jpg",
+        "/images/thethaonu3_trang4.jpg"
+      ]
+    },
+    {
+      "id": "98",
+      "name": "GIÀY THỂ THAO ZUCIANI HỌA TIẾT THÊU HOA",
+      "productDescription": "Giày Thể Thao Casual Zuciani có thiết kế theo phong cách đơn giản với phần lazer tinh tế. Họa tiết thêu hoa tỉ mỉ đính đá lấp lánh càng tăng thêm phần nổi bật và ấn tượng khi diện. Đồng thời, đế cao 6cm siêu tôn dáng, được làm từ chất liệu cao cấp mang đến cảm giác êm ái, dễ chịu cho phái đẹp thoải mái di chuyển cả ngày dài.      ",
+      "price": 560000,
+      "dateAvailable": "2024-03-01",
+      "category": "Thể thao nữ",
+      "image": "/images/thethaonu4_den.jpg",
+      "thumbnail": [
+        "/images/thethaonu4_den1.jpg",
+        "/images/thethaonu4_den2.jpg",
+        "/images/thethaonu4_den3.jpg",
+        "/images/thethaonu4_den4.jpg"
+      ]
+    },
+    {
+      "id": "99",
+      "name": "GIÀY THỂ THAO ZUCIANI HỌA TIẾT THÊU HOA",
+      "productDescription": "Giày Thể Thao Casual Zuciani có thiết kế theo phong cách đơn giản với phần lazer tinh tế. Họa tiết thêu hoa tỉ mỉ đính đá lấp lánh càng tăng thêm phần nổi bật và ấn tượng khi diện. Đồng thời, đế cao 6cm siêu tôn dáng, được làm từ chất liệu cao cấp mang đến cảm giác êm ái, dễ chịu cho phái đẹp thoải mái di chuyển cả ngày dài.      ",
+      "price": 340000,
+      "dateAvailable": "2024-03-01",
+      "category": "Thể thao nữ",
+      "image": "/images/thethaonu4_trang.jpg",
+      "thumbnail": [
+        "/images/thethaonu4_trang1.jpg",
+        "/images/thethaonu4_trang2.jpg",
+        "/images/thethaonu4_trang3.jpg",
+        "/images/thethaonu4_trang4.jpg"
+      ]
+    },
+    {
+      "id": "100",
+      "name": "GIÀY THỂ THAO ZUCIANI THE COMFORT N.10",
+      "productDescription": "Giày Thể Thao Zuciani kết hợp giữa phong cách và thoải mái. Với chất liệu vải dệt (Knit) êm ái và đế TPU nhẹ nhàng, chúng là sự lựa chọn hoàn hảo cho các hoạt động thể thao và hàng ngày.      ",
+      "price": 470000,
+      "dateAvailable": "2024-03-01",
+      "category": "Thể thao nữ",
+      "image": "/images/thethaonu5_den.jpg",
+      "thumbnail": [
+        "/images/thethaonu5_den1.jpg",
+        "/images/thethaonu5_den2.jpg",
+        "/images/thethaonu5_den3.jpg",
+        "/images/thethaonu5_den4.jpg"
+      ]
+    },
+    {
+      "id": "101",
+      "name": "GIÀY THỂ THAO ZUCIANI THE COMFORT N.10",
+      "productDescription": "Giày Thể Thao Zuciani kết hợp giữa phong cách và thoải mái. Với chất liệu vải dệt (Knit) êm ái và đế TPU nhẹ nhàng, chúng là sự lựa chọn hoàn hảo cho các hoạt động thể thao và hàng ngày.      ",
+      "price": 670000,
+      "dateAvailable": "2024-03-01",
+      "category": "Thể thao nữ",
+      "image": "/images/thethaonu5_hong.jpg",
+      "thumbnail": [
+        "/images/thethaonu5_hong1.jpg",
+        "/images/thethaonu5_hong2.jpg",
+        "/images/thethaonu5_hong3.jpg",
+        "/images/thethaonu5_hong4.jpg"
+      ]
+    },
+    {
+      "id": "102",
+      "name": "GIÀY THỂ THAO ZUCIANI THE COMFORT N.14",
+      "productDescription": "Giày thể thao Zuciani hướng đến sự tối giản với thiết kế không quá cầu kì mà tập trung vào chất liệu cần sự mềm êm, thoáng nhẹ đồng thời vẫn phù hợp sử dụng được trong hầu hết các dịp khác nhau. Đây là sự lựa chọn hoàn hảo để đi làm, đi chơi và đi mua sắm.      ",
+      "price": 680000,
+      "dateAvailable": "2024-03-01",
+      "category": "Thể thao nữ",
+      "image": "/images/thethaonu6_den.jpg",
+      "thumbnail": [
+        "/images/thethaonu6_den1.jpg",
+        "/images/thethaonu6_den2.jpg",
+        "/images/thethaonu6_den3.jpg",
+        "/images/thethaonu6_den4.jpg"
+      ]
+    },
+    {
+      "id": "103",
+      "name": "GIÀY THỂ THAO ZUCIANI THE COMFORT N.14",
+      "productDescription": "Giày thể thao Zuciani hướng đến sự tối giản với thiết kế không quá cầu kì mà tập trung vào chất liệu cần sự mềm êm, thoáng nhẹ đồng thời vẫn phù hợp sử dụng được trong hầu hết các dịp khác nhau. Đây là sự lựa chọn hoàn hảo để đi làm, đi chơi và đi mua sắm.      ",
+      "price": 690000,
+      "dateAvailable": "2024-03-01",
+      "category": "Thể thao nữ",
+      "image": "/images/thethaonu6_hong.jpg",
+      "thumbnail": [
+        "/images/thethaonu6_hong1.jpg",
+        "/images/thethaonu6_hong2.jpg",
+        "/images/thethaonu6_hong3.jpg",
+        "/images/thethaonu6_hong4.jpg"
+      ]
+    },
+    {
+      "id": "104",
+      "name": "GIÀY THỂ THAO ZUCIANI THE COMFORT N.14",
+      "productDescription": "Giày thể thao Zuciani hướng đến sự tối giản với thiết kế không quá cầu kì mà tập trung vào chất liệu cần sự mềm êm, thoáng nhẹ đồng thời vẫn phù hợp sử dụng được trong hầu hết các dịp khác nhau. Đây là sự lựa chọn hoàn hảo để đi làm, đi chơi và đi mua sắm.      ",
+      "price": 550000,
+      "dateAvailable": "2024-03-01",
+      "category": "Thể thao nữ",
+      "image": "/images/thethaonu6_kem.jpg",
+      "thumbnail": [
+        "/images/thethaonu6_kem1.jpg",
+        "/images/thethaonu6_kem2.jpg",
+        "/images/thethaonu6_kem3.jpg",
+        "/images/thethaonu6_kem4.jpg"
       ]
     }
   ]

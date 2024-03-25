@@ -11,12 +11,24 @@
   <footer-component-vue></footer-component-vue>
 </template>
 <script>
+import { onBeforeMount } from "vue";
+import { useStore } from "vuex";
 import FooterComponentVue from "./components/FooterComponent.vue";
 import HeaderComponnetVue from "./components/HeaderComponnet.vue";
 export default{
   components:{
     HeaderComponnetVue,
     FooterComponentVue
+  },
+  setup(){
+    const store = useStore();
+    onBeforeMount(()=>{
+      store.dispatch('fetchUser')
+    })
+
+    // return {
+    //   user : store.state.user
+    // }
   }
 }
 </script>
