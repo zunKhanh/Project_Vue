@@ -11,9 +11,12 @@
             <router-link  to="/admin/products"><span class="fa fa-user"></span>Products</router-link>
           </li>
           <li>
+            <router-link  to="/admin/categories"><span class="fa fa-user"></span>Danh mục sản phẩm</router-link>
+          </li>
+          <li>
             <a href="#"><span class="fa fa-sticky-note"></span>Orders</a>
           </li>
-          <li @click="logout" v-if="loggedIn">
+          <li >
             <a href="#"><span class="fa fa-sticky-note"></span>Logout</a>
           </li>
          

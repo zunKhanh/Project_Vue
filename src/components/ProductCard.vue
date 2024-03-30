@@ -1,10 +1,12 @@
 <template>
-  <div class="card" style="height:500px;" @click="goToProductDetail(product.id)">
-    <img :src="getImageUrl(product.image)" class="card-img-top" :alt="`Image of ${product.name}`">
-    <div class="card-body">
-      <h5 class="card-title">{{ product.name }}</h5>
-      <div class="d-flex justify-content-between">
-        <span class="text-muted">{{ formattedPrice(product.price) }} VND</span>
+  <div class="col-md-6 col-lg-4 col-xl-3">
+    <div class="card h-100" style="height:500px;" @click="goToProductDetail(product.id)">
+      <img :src="getImageUrl(product.image)" class="card-img-top" :alt="`Image of ${product.name}`">
+      <div class="card-body">
+        <h5 class="card-title">{{ product.name }}</h5>
+        <div class="d-flex justify-content-between">
+          <span class="text-muted">{{ formattedPrice(product.price) }} VND</span>
+        </div>
       </div>
     </div>
   </div>

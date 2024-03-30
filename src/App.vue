@@ -1,12 +1,6 @@
 <template>
-  <!-- <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-    <router-link to="/sign-in">Sign In</router-link>
-    <router-link to="/sign-up">Sign Up</router-link>
-  </nav> -->
   
-<header-componnet-vue></header-componnet-vue>
+  <header-componnet-vue></header-componnet-vue>
   <router-view />
   <footer-component-vue></footer-component-vue>
 </template>
@@ -15,14 +9,14 @@ import { onBeforeMount } from "vue";
 import { useStore } from "vuex";
 import FooterComponentVue from "./components/FooterComponent.vue";
 import HeaderComponnetVue from "./components/HeaderComponnet.vue";
-export default{
-  components:{
+export default {
+  components: {
     HeaderComponnetVue,
     FooterComponentVue
   },
-  setup(){
+  setup() {
     const store = useStore();
-    onBeforeMount(()=>{
+    onBeforeMount(() => {
       store.dispatch('fetchUser')
     })
 

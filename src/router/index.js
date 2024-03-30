@@ -5,8 +5,15 @@ import DashboardView from "../views/DashboardView.vue";
 import ProductsView from "../views/ProductsView.vue";
 import SignInView from "../views/SignInView.vue";
 import SignUpView from "../views/SignUpView.vue";
-import AllProduct from '../views/AllProduct.vue'; // Import component
+import AllProduct from "../views/AllProduct.vue"; // Import component
 import CartProduct from "@/views/CartProduct.vue";
+import WhistListVue from "@/views/WhistListVue.vue";
+import UserAccount from "@/views/UserAccount.vue";
+import ForgotPassword from "@/views/ForgotPassword.vue";
+import CategoriesView from "@/views/CategoriesView.vue";
+import ProductsMenu from "@/views/ProductsMenu.vue";
+import ProductList from "@/views/ProductList.vue";
+import CheckOut from "../views/CheckOut.vue";
 
 // import { auth } from "../firebase";
 // import store from "../store";
@@ -15,7 +22,6 @@ const routes = [
     path: "/",
     name: "home",
     component: HomeView,
-
   },
   {
     path: "/product/:id",
@@ -23,20 +29,48 @@ const routes = [
     component: () => import("../views/ProductDetail.vue"),
   },
   {
-    path: '/search-results',
-    name: 'SearchResults',
-    component: () => import('../views/SearchResults.vue')
+    path: "/search-results",
+    name: "SearchResults",
+    component: () => import("../views/SearchResults.vue"),
   },
   {
-    path: '/all-products', // Đường dẫn URL bạn muốn sử dụng
-    name: 'AllProduct',
+    path: "/all-products", // Đường dẫn URL bạn muốn sử dụng
+    name: "AllProduct",
     component: AllProduct, // Component được load khi truy cập đường dẫn này
-
   },
   {
     path: "/cart-products",
     name: "CartProduct",
     component: CartProduct,
+  },
+
+  {
+    path: "/checkout",
+    name: "Checkout",
+    component: CheckOut,
+  },
+
+  {
+    path: "/:menuType",
+    name: "ProductsMenu",
+    component: ProductsMenu,
+  },
+  {
+    path: "/:menuType/:category",
+    name: "ProductList",
+    component: ProductList,
+  },
+
+  {
+    path: "/whist-list",
+    name: "whistlist",
+    component: WhistListVue,
+  },
+
+  {
+    path: "/user",
+    name: "useraccount",
+    component: UserAccount,
   },
   {
     path: "/admin",
@@ -53,9 +87,11 @@ const routes = [
         name: "products",
         component: ProductsView,
       },
-     
-      
-      
+      {
+        path: "categories",
+        name: "categories",
+        component: CategoriesView,
+      },
     ],
     meta: { requiresAuth: true }, // Đánh dấu route này yêu cầu xác thực
   },
@@ -71,6 +107,11 @@ const routes = [
     component: SignUpView,
   },
   {
+    path: "/forgot-password",
+    name: "forgot-password",
+    component: ForgotPassword,
+  },
+  {
     path: "/about",
     name: "about",
     // route level code-splitting
@@ -78,6 +119,11 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/AboutView.vue"),
+  },
+  {
+    path: "/Checkout",
+    name: "checkout",
+    component: CheckOut,
   },
 ];
 

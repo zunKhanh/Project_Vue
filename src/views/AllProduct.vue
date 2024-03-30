@@ -1,6 +1,27 @@
 <template>
-  <div class="container py-5">
-    <h2 class="mb-4">Tất Cả Sản Phẩm</h2>
+  <section class="breadcrumb-section section-b-space" style="padding-top:20px;padding-bottom:20px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h3>Shop</h3>
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item">
+                <a href="http://localhost:8080/">
+                  <i class="fas fa-home"></i>
+                </a>
+              </li>
+              <li class="breadcrumb-item active" aria-current="page">Tất cả sản phẩm</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <div class="container py-5 ">
     <div class="row">
       <div class="col-md-4">
         <div class="mb-4">
@@ -25,9 +46,34 @@
       </div>
     </div>
     <div class="row">
-      <product-card v-for="product in sortedAndFilteredProducts" :key="product.id" :product="product"
+      <product-card v-for="product in paginatedProducts" :key="product.id" :product="product"
         class="col-12 col-md-3 mb-4" />
     </div>
+
+
+    <!-- Phân trang -->
+    <nav aria-label="Page navigation example ">
+      <ul class="pagination justify-content-center ">
+        <li class="page-item">
+          <a class="page-link" @click="previous" :disabled="currentPage === 1">Previous</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" :disabled="currentPage === 1" @click="previousPage" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+          </a>
+        </li>
+        <li class="page-item"><a class="page-link">{{ currentPage }}</a></li>
+
+        <li class="page-item">
+          <a class="page-link" @click="nextPage" :disabled="currentPage === totalPages" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+          </a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" @click="next" :disabled="currentPage === totalPages">Next</a>
+        </li>
+      </ul>
+    </nav>
   </div>
 </template>
 
@@ -47,6 +93,8 @@ export default {
         end: null // Giá kết thúc mặc định
       },
       notification: '', // Lưu trữ thông báo ở đây
+      currentPage: 1, // Trang hiện tại
+      perPage: 12 // Số sản phẩm trên mỗi trang
     };
   },
   mounted() {
@@ -82,40 +130,37 @@ export default {
     sortedAndFilteredProducts() {
       return this.products.filter(product => {
         const price = typeof product.price === 'string' ? parseFloat(product.price.replace(/,/g, '')) : product.price;
-
-        // Xử lý khi priceRange.start hoặc priceRange.end là null
         let start = this.priceRange.start;
         let end = this.priceRange.end;
-
-        // Nếu người dùng xóa trường, start hoặc end có thể là chuỗi rỗng
-        // Chuyển đổi chuỗi rỗng thành null để hiển thị tất cả sản phẩm
         start = start === '' ? null : start;
         end = end === '' ? null : end;
-
-        // Nếu start hoặc end là null, không áp dụng bộ lọc cho giá trị đó
         const isInRange =
           (start === null || price >= start) &&
           (end === null || price <= end);
-
         return isInRange;
       }).sort((a, b) => {
         const priceA = typeof a.price === 'string' ? parseFloat(a.price.replace(/,/g, '')) : a.price;
         const priceB = typeof b.price === 'string' ? parseFloat(b.price.replace(/,/g, '')) : b.price;
         return this.sortOrder === 'high-to-low' ? priceB - priceA : priceA - priceB;
       });
-    }
+    },
+    paginatedProducts() {
+      const startIndex = (this.currentPage - 1) * this.perPage;
+      const endIndex = startIndex + this.perPage;
+      return this.sortedAndFilteredProducts.slice(startIndex, endIndex);
+    },
+    totalPages() {
+      return Math.ceil(this.sortedAndFilteredProducts.length / this.perPage);
+    },
   },
-
-
 
 
   methods: {
     sortProducts() {
-      // Đã tự động sắp xếp khi computed property `sortedAndFilteredProducts` được gọi lại do `sortOrder` thay đổi
+      // Không cần thực hiện gì ở đây vì computed property sẽ tự động sắp xếp lại
     },
     filterByPriceRange() {
-      // Bạn có thể sử dụng phương thức này nếu muốn thực hiện hành động nào đó khi người dùng nhấn nút lọc
-      // Trong trường hợp này, `sortedAndFilteredProducts` computed property đã tự động xử lý việc lọc
+      // Không cần thực hiện gì ở đây vì computed property sẽ tự động lọc lại
     },
     async fetchProducts() {
       try {
@@ -124,11 +169,65 @@ export default {
           throw new Error('Failed to fetch products');
         }
         const data = await response.json();
-        this.products = data; // Gán dữ liệu lấy được vào mảng sản phẩm
+        this.products = data;
       } catch (error) {
         console.error('Error fetching products:', error);
       }
+    },
+    previousPage() {
+      if (this.currentPage > 1) {
+        this.currentPage--;
+      }
+    },
+    previous() {
+      this.currentPage = 1;
+    },
+    nextPage() {
+      if (this.currentPage < this.totalPages) {
+        this.currentPage++;
+      }
+    },
+    next() {
+      this.currentPage = this.totalPages;
     }
-  }
-};
+  },
+}
 </script>
+
+
+
+<style>
+.breadcrumb {
+  background-color: #eff2f7;
+}
+
+.breadcrumb-section {
+  background-color: #eff2f7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  position: relative;
+  z-index: 0;
+}
+
+.breadcrumb-section h3 {
+  font-size: calc(20px + (26 - 20) * ((100vw - 320px) / (1920 - 320)));
+}
+
+.breadcrumb-section-1 {
+  background-color: #e9e9e9;
+}
+
+.breadcrumb-section .breadcrumb-item.active {
+  color: #7e7e7e;
+}
+
+.breadcrumb-section .breadcrumb {
+  margin-bottom: 0;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+</style>

@@ -1,6 +1,8 @@
 <template>
+    <div style="margin-top: 150px;">
+    </div>
     <section class="cart_area">
-        <div class="container-fluid">
+        <div class="container-fluid" v-if="loggedIn">
             <div v-if="cartItems && cartItems.length > 0">
                 <div class="cart_inner">
                     <div class="row">
@@ -22,10 +24,10 @@
                                             <td>
                                                 <div class="media">
                                                     <img :src="item.image" alt="">
-                                                    <p>{{ item.name }}
+                                                    <a @click="goToProductDetail(item.id)">{{ item.name }}
                                                         <br>
                                                         Size: {{ item.size }}
-                                                    </p>
+                                                    </a>
                                                 </div>
                                             </td>
 
@@ -52,7 +54,7 @@
                                                 <h5>{{ formattedPrice(item.quantity * item.price) }}</h5>
                                             </td>
                                             <td>
-                                                <button @click=" removeFromCart(index)">
+                                                <button class="btn btn-defaut" @click=" removeFromCart(index)">
                                                     <i class="fa fa-close" aria-hidden="true"></i>
                                                 </button>
                                             </td>
@@ -75,15 +77,13 @@
                                     </div>
                                     <br>
                                     <div>
-                                        <button class="form-control btn btn-dark w-75 " style="height: 50px;"
-                                            type="button">Thanh toán</button>
+                                        <router-link class="nav-link form-control btn btn-dark " to="/checkout"
+                                            style="height: 50px;">Thanh toán</router-link>
                                     </div>
 
                                     <div class="">
                                         <router-link class="nav-link" to="/all-products">Continue Shopping</router-link>
                                     </div>
-
-
                                 </div>
                             </div>
                         </div>
@@ -98,7 +98,18 @@
                         <button class="btn btn-light mt-3 ">
                             <router-link class="nav-link" to="/all-products">Continue Shopping</router-link>
                         </button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <div v-else>
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <div class="text-center ">
+                        <div class="alert alert-success">
+                            <strong>Bạn chưa đăng nhập!</strong>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -110,6 +121,9 @@
 <script>
 export default {
     computed: {
+        loggedIn() {
+            return this.$store.state.user !== null // true
+        },
         cartItems() {
             return this.$store.state.cartItems;
         },
@@ -122,6 +136,9 @@ export default {
     },
 
     methods: {
+        goToProductDetail(productId) {
+            this.$router.push({ name: 'ProductDetail', params: { id: productId } });
+        },
         increment(index) {
             this.$store.commit('increment', index);
         },
@@ -163,7 +180,7 @@ export default {
     align-self: center;
 }
 
-.cart_inner .table tbody tr td .media p {
+.cart_inner .table tbody tr td .media a {
     margin-top: 10%;
     margin-left: 10px;
 }
