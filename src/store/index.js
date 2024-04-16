@@ -1,19 +1,24 @@
 import { createStore } from "vuex";
 import router from "../router";
-import { auth } from "../firebase";
+import { auth, firestore } from "../firebase";
+
+import { doc, setDoc, getDoc } from "firebase/firestore";
+
 import {
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
   signOut,
   sendPasswordResetEmail,
   GoogleAuthProvider,
-  signInWithPopup,
   FacebookAuthProvider,
-} from "firebase/auth";
+  signInWithPopup,
+} from "firebase/auth"; // import các phương thức đăng nhập / đăng kí
 
 export default createStore({
   state: {
+    // Biến lưu trữ
     user: null,
+
     // giỏ hàng
     cartItems: JSON.parse(localStorage.getItem("cart")) || [],
     cartItemCount: JSON.parse(localStorage.getItem("cartItemCount")) || 0,
@@ -21,6 +26,9 @@ export default createStore({
     // yêu thích
     whistList: JSON.parse(localStorage.getItem("whistlist")) || [],
     whistListCount: JSON.parse(localStorage.getItem("whistlistCount")) || 0,
+
+    // order
+    orders: JSON.parse(localStorage.getItem("orders")) || [],
   },
   getters: {
     // chỉnh giá tiền VNĐ
@@ -41,15 +49,38 @@ export default createStore({
         return 0; // Trả về 0 nếu giỏ hàng chưa được khởi tạo
       }
     },
+
+    //order
+    Orders(state) {
+      return state.orders;
+    },
   },
   mutations: {
+    // Lưu người dùng vào user state
     SET_USER(state, user) {
       state.user = user;
     },
+    // Xóa user
     CLEAR_USER(state) {
       state.user = null;
     },
-
+    submitOrder(state) {
+      console.log(state);
+    },
+    clearCart(state) {
+      state.cartItems = [];
+      state.cartItemCount = 0;
+      localStorage.setItem("cart", JSON.stringify(state.cartItems));
+      localStorage.setItem(
+        "cartItemCount",
+        JSON.stringify(state.cartItemCount)
+      );
+    },
+    // giỏ hàng
+    addToOrder(state, data) {
+      state.orders.push(data);
+      localStorage.setItem("orders", JSON.stringify(state.orders));
+    },
     // giỏ hàng
     addToCart(state, item) {
       if (!state.cartItems) {
@@ -59,7 +90,7 @@ export default createStore({
         (cartItem) => cartItem.id === item.id && cartItem.size === item.size
       );
       state.cartItems.push(item);
-      state.cartItemCount += item.quantity; //cập nhật số lượng giỏ hàng
+      state.cartItemCount++; // Tăng số lượng sản phẩm trong giỏ hàng lên 1
       localStorage.setItem("cart", JSON.stringify(state.cartItems));
       localStorage.setItem(
         "cartItemCount",
@@ -90,49 +121,35 @@ export default createStore({
       );
     },
 
-    // tăng sl yêu thích
-    incrementList(state, index) {
-      state.whistList[index].quantity++;
-    },
-    // giãm sl yêu thích
-    decrementList(state, index) {
-      if (state.whistList[index].quantity > 1) {
-        state.whistList[index].quantity--;
-      }
+    // xóa yêu thích
+    removeWishlist(state, productId) {
+      state.whistList = state.whistList.filter((item) => item.id !== productId);
+      state.whistListCount--;
+      localStorage.setItem("whistlist", JSON.stringify(state.whistList)); // Cập nhật Local Storage với danh sách mới
+      localStorage.setItem(
+        "whistlistCount",
+        JSON.stringify(state.whistListCount)
+      );
     },
 
     // tăng sl giỏ hàng
-    increment(state, index) {
-      state.cartItems[index].quantity++;
+    increment(state) {
       state.cartItemCount++;
     },
     // giãm sl giỏ hàng
     decrement(state, index) {
       if (state.cartItems[index].quantity > 1) {
-        state.cartItems[index].quantity--;
         state.cartItemCount--;
       }
     },
-
     // xóa giỏ hàng
     removeFromCart(state, index) {
-      const removedProduct = state.cartItems.splice(index, 1)[0]; // Loại bỏ sản phẩm khỏi danh sách và lấy sản phẩm đã xóa
-      state.cartItemCount -= removedProduct.quantity; // Giảm số lượng sản phẩm trong giỏ hàng
+      state.cartItems = state.cartItems.filter((item, i) => i !== index); // Lọc ra tất cả các sản phẩm ngoại trừ sản phẩm cần xóa
+      state.cartItemCount--; // Giảm số lượng sản phẩm trong giỏ hàng
       localStorage.setItem("cart", JSON.stringify(state.cartItems)); // Cập nhật Local Storage với danh sách mới
       localStorage.setItem(
         "cartItemCount",
         JSON.stringify(state.cartItemCount)
-      );
-    },
-
-    // xóa giỏ hàng
-    removeFromList(state, index) {
-      const removedProduct = state.whistList.splice(index, 1)[0]; // Loại bỏ sản phẩm khỏi danh sách và lấy sản phẩm đã xóa
-      state.whistListCount -= removedProduct.quantity; // Giảm số lượng sản phẩm trong giỏ hàng
-      localStorage.setItem("whistList", JSON.stringify(state.whistList)); // Cập nhật Local Storage với danh sách mới
-      localStorage.setItem(
-        "whistListCount",
-        JSON.stringify(state.whistListCount)
       );
     },
   },
@@ -150,8 +167,17 @@ export default createStore({
       commit("removeFromCart", index);
     },
 
-    removeFromList({ commit }, index) {
-      commit("removeFromList", index);
+    removeFromWishlist({ commit }, productId) {
+      commit("removeWishlist", productId);
+    },
+
+    //thanh toan' thanh' cong^ thi` xoa' san? pham^? khoi? gio? hang'
+    clearCart(context) {
+      context.commit("clearCart");
+    },
+    submitOrder({ commit }, order) {
+      commit("addToOrder", order);
+      commit("clearCart");
     },
     // Đăng nhập
     async login({ commit }, details) {
@@ -159,8 +185,7 @@ export default createStore({
       try {
         await signInWithEmailAndPassword(auth, email, password);
       } catch (error) {
-        console.error("Error code:", error.code);
-        console.error("Error message:", error.message);
+        // console.error("Error code:", error.code);
         switch (error.code) {
           case "auth/invalid-credential":
             alert(`${email} không tồn tại. Vui lòng kiểm tra lại.`);
@@ -175,42 +200,87 @@ export default createStore({
         return;
       }
       commit("SET_USER", auth.currentUser);
-
       router.push("/");
     },
-    // Đăng kí
-    async register({ commit }, details) {
+    //admin Đăng nhập
+    async loginAdmin({ commit }, details) {
       const { email, password } = details;
       try {
-        await createUserWithEmailAndPassword(auth, email, password);
+        // Đăng nhập người dùng
+        const userCredential = await signInWithEmailAndPassword(
+          auth,
+          email,
+          password
+        );
+
+        // Kiểm tra vai trò của người dùng trong Firestore
+        const userDocRef = doc(firestore, "users", userCredential.user.uid);
+        const userDocSnapshot = await getDoc(userDocRef);
+
+        if (
+          userDocSnapshot.exists() &&
+          userDocSnapshot.data().role === "admin"
+        ) {
+          // Nếu người dùng có vai trò là 'admin', chuyển hướng tới '/admin'
+          router.push("/admin");
+          commit("SET_USER", auth.currentUser);
+        } else {
+          // Nếu không phải 'admin', thông báo lỗi
+          console.error("User is not an admin");
+          router.push("/");
+          alert("Bạn không có quyền truy cập trang này!");
+        }
       } catch (error) {
+        console.error("Error logging in:", error);
+
         switch (error.code) {
-          case "auth/email-already-in-use":
-            alert(
-              `Email ${email} đã tồn tại vui lòng đăng nhập hoặc chọn một địa chỉ email khác để đăng kí!`
-            );
+          case "auth/invalid-credential":
+            alert(`${email} không tồn tại. Vui lòng kiểm tra lại.`);
             break;
-          case "auth/invalid-email":
-            alert("Invalid email");
-            break;
-          case "auth/operation-not-allowed":
-            alert("Operation not allowed");
-            break;
-          case "auth/weak-password":
-            alert("Weak password");
+          case "auth/too-many-requests":
+            alert(`Sai mật khẩu vui lòng thử lại`);
             break;
           default:
             alert("Something went wrong");
             break;
         }
-        return;
       }
-
-      commit("SET_USER", auth.currentUser);
-      router.push("/");
+    },
+    // Đăng ký người dùng và thêm thông tin vào Firestore
+    async register({ commit }, details) {
+      const { name, email, password } = details;
+      try {
+        // Đăng ký người dùng
+        const userCredential = await createUserWithEmailAndPassword(
+          auth,
+          email,
+          password
+        );
+        // Thêm thông tin người dùng vào Firestore với vai trò mặc định là 'user'
+        await setDoc(doc(firestore, "users", userCredential.user.uid), {
+          username: name,
+          email: email,
+          password: password,
+          role: "user", // Vai trò mặc định của người dùng là 'user'
+        });
+        // Cập nhật state của ứng dụng với người dùng hiện tại
+        commit("SET_USER", auth.currentUser);
+        router.push("/");
+      } catch (error) {
+        switch (error.code) {
+          case "auth/email-already-in-use":
+            alert(
+              `Email ${email} đã tồn tại, vui lòng đăng nhập hoặc chọn một địa chỉ email khác để đăng kí!`
+            );
+            break;
+          default:
+            alert("Đã xảy ra lỗi");
+            break;
+        }
+      }
     },
     // Quên mật khẩu
-    async forgotPassword(context, email) {
+    async resetPassword(context, email) {
       try {
         await sendPasswordResetEmail(auth, email);
         alert("Yêu cầu đã được gửi. Vui lòng kiểm tra hộp thư của bạn.");
@@ -222,51 +292,78 @@ export default createStore({
     // Đăng xuất
     async logout({ commit }) {
       await signOut(auth);
-
       commit("CLEAR_USER");
-
-      router.push("/sign-in");
+      router.push("/");
     },
     // Đăng nhập/ Đăng kí với google
     async googleLogin({ commit }) {
       const provider = new GoogleAuthProvider();
       try {
         const result = await signInWithPopup(auth, provider);
+
+        // Lấy thông tin người dùng từ kết quả đăng nhập Google
+        const { displayName, email, uid } = result.user;
+
+        // Thêm thông tin người dùng vào Firestore
+        await setDoc(doc(firestore, "users", uid), {
+          username: displayName,
+          email: email,
+          role: "user", // Vai trò mặc định của người dùng là 'user'
+        });
+
         commit("SET_USER", result.user);
         router.push("/");
       } catch (error) {
-        switch (error.code) {
-          default:
-            alert(
-              "Đã xảy ra lỗi trong quá trình đăng nhập Google. Vui lòng thử lại sau."
-            );
-        }
+        // Xử lý lỗi nếu có
+        console.error(
+          "Đã xảy ra lỗi trong quá trình đăng nhập Google:",
+          error.message
+        );
+        alert(
+          "Đã xảy ra lỗi trong quá trình đăng nhập Google. Vui lòng thử lại sau."
+        );
       }
     },
     // Đăng nhập/ Đăng kí với facebook
+
     async facebookLogin({ commit }) {
       const provider = new FacebookAuthProvider();
       try {
         const result = await signInWithPopup(auth, provider);
+
+        // Lấy thông tin người dùng từ kết quả đăng nhập Facebook
+        const { displayName, email, uid } = result.user;
+
+        // Thêm thông tin người dùng vào Firestore
+        await setDoc(doc(firestore, "users", uid), {
+          username: displayName,
+          email: email,
+          role: "user", // Vai trò mặc định của người dùng là 'user'
+        });
+
         commit("SET_USER", result.user);
         router.push("/");
       } catch (error) {
-        switch (error.code) {
-          default:
-            alert(
-              "Đã xảy ra lỗi trong quá trình đăng nhập Facebook. Vui lòng thử lại sau."
-            );
-        }
+        // Xử lý lỗi nếu có
+        console.error(
+          "Đã xảy ra lỗi trong quá trình đăng nhập Facebook:",
+          error.message
+        );
+        alert(
+          "Đã xảy ra lỗi trong quá trình đăng nhập Facebook. Vui lòng thử lại sau."
+        );
       }
     },
+
     // Lưu session trạng thái đăng nhập của user
     async fetchUser({ commit }) {
+      // onAuthStateChanged của Firebase Authentication được sử dụng để theo dõi thay đổi trong trạng thái xác thực của người dùng
       auth.onAuthStateChanged(async (user) => {
         if (user === null) {
           commit("CLEAR_USER");
         } else {
           commit("SET_USER", user);
-
+          // Không cho phép đăng nhập khi đã đăng nhập
           if (
             router.isReady() &&
             router.currentRoute.value.path === "/sign-in"

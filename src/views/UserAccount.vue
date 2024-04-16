@@ -75,40 +75,33 @@
                 <table class="table cart-table">
                   <thead>
                     <tr class="table-head">
-                      <th scope="col">Image</th>
-                      <th scope="col">Order Id</th>
-                      <th scope="col">Status</th>
+                      <th scope="col">Thong tin khach hang</th>
+                      <th scope="col">thông tin sản phẩm</th>
+                      <th scope="col">Phương thức thanh toán</th>
                       <th scope="col">Price</th>
                     </tr>
                   </thead>
                   <tbody>
-                    <tr v-for="(item, index) in cartItems" :key="index">
-                      <td>
-                        <div class="media">
-                          <img :src="item.image" alt="" />
-                          <a @click="goToProductDetail(item.id)">
-                            <br />
-                          </a>
-                        </div>
-                      </td>
+  <tr v-for="(order, orderIndex) in orderOfUsers" :key="orderIndex">
+    <td>
+      Email: {{ order.email }}
+    </td>
+    <td>
+  <span v-for="(item, index) in order.cartItems" :key="index">
+    <ul>{{ item.name }}
+      </ul>
+  </span>
+</td>
 
-                      <td>
-                        <p class="mt-0"></p>
-                      </td>
+    <td>
+      {{ order.paymentMethod }}
+    </td>
+    <td>
+      {{ order.totalWithShipping }}
+    </td>
+  </tr>
+</tbody>
 
-                      <!-- tình trạng đơn hàng -->
-                      <td>
-                        <p class="success-button btn btn-sm"></p>
-                      </td>
-
-                      <!--tổng giá tiền -->
-                      <td>
-                        <p class="theme-color fs-6">
-                          {{ formattedPrice(Total) }}
-                        </p>
-                      </td>
-                    </tr>
-                  </tbody>
                 </table>
               </div>
             </div>
@@ -176,6 +169,16 @@
 </template>
 <script>
 export default {
+  data() {
+  return {
+    name: '', // Khai báo thuộc tính name và các thuộc tính khác tương tự
+    selectedShipping: '',
+    paymentMethod: '',
+    phoneNumber: '',
+    email: '',
+    totalWithShipping: 0
+  }
+},
   computed: {
     cartItems() {
       return this.$store.state.cartItems;
@@ -186,6 +189,10 @@ export default {
     formattedPrice() {
       return this.$store.getters.formatPrice;
     },
+    orderOfUsers() {
+      console.log(this.$store.state.orders);
+      return this.$store.state.orders;
+    }
   },
 
   methods: {
@@ -200,6 +207,18 @@ export default {
     },
     removeFromCart(index) {
       this.$store.dispatch("removeFromCart", index);
+    },
+        processPayment() {
+      const data = {
+        name: this.name,
+        selectedShipping: this.selectedShipping,
+        paymentMethod:  this.paymentMethod,
+        phoneNumber: this.phoneNumber,
+        email: this.email,
+        cartItems: this.cartItems.map(item => ({ name: item.name })),
+        totalWithShipping: this.totalWithShipping, 
+      }
+      this.$store.dispatch("submitOrder", data);
     },
   },
 };
@@ -289,9 +308,9 @@ export default {
   }
 }
 .cart_inner .table tbody tr td .media img {
-    border: 1px solid #eeeeee;
-    border-radius: 3px;
-    width: 100px;
+  border: 1px solid #eeeeee;
+  border-radius: 3px;
+  width: 100px;
 }
 .custome-nav-tabs .nav-item .nav-link {
   width: 100%;

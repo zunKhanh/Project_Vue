@@ -1,4 +1,5 @@
 <template>
+  <header-component></header-component>
   <div>
     <section class="container py-5">
       <div class="row">
@@ -51,14 +52,18 @@
       </nav>
     </section>
   </div>
+  <footer-component></footer-component>
 </template>
 
 <script>
 import ProductCard from "@/components/ProductCard.vue";
-
+import HeaderComponent from "@/components/HeaderComponent.vue";
+import FooterComponent from "@/components/FooterComponent.vue";
 export default {
   components: {
-    ProductCard
+    ProductCard,
+    HeaderComponent,
+    FooterComponent
   },
   data() {
     return {

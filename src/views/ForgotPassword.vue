@@ -8,13 +8,15 @@
           <form class="forms-sample" @submit.prevent="forgot">
            
             <div class="form-group">
-              <input type="email" class="form-control" id="exampleInputEmail1"
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
                 placeholder="Email hoặc gmail của bạn"
                 v-model="forgot_form.email"
-                @blur="validateEmail"
-                @input="clearEmailError"
+                @input="validateEmail"
               />
-              <small v-if="emailError && !emailTyping" class="text-danger">{{ emailError }}</small>
+              <small v-if="emailError" class="text-danger">{{ emailError }}</small>
             </div>
             <button type="submit" class="btn btn-success me-2 w-100" :disabled="isLoading">
       <span v-if="isLoading" class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
@@ -33,18 +35,28 @@
 <script>
 import { ref } from "vue";
 import { useStore } from "vuex";
-import { useRouter } from "vue-router";
 
 export default {
   name: 'ForgotPassword',
   setup() {
     const store = useStore();
-    const router = useRouter();
+
     const isLoading = ref(false);
     const forgot_form = ref({ email: '' });
     const emailError = ref("");
-    const emailTyping = ref(false);
 
+    // Reset password
+    const forgot = () => {
+      validateEmail();
+      if (!emailError.value) {
+        isLoading.value = true; // Hiển thị trạng thái loading
+        store.dispatch("resetPassword", forgot_form.value.email)
+          .finally(() => {
+            isLoading.value = false; // Ẩn trạng thái loading
+          });
+
+      }
+    };
     const validateEmail = () => {
       if (!forgot_form.value.email) {
         emailError.value = "Vui lòng không để trống trường này!";
@@ -55,44 +67,20 @@ export default {
       }
     };
 
-    const forgot = () => {
-      validateEmail();
-      if (!emailError.value) {
-        isLoading.value = true; // Hiển thị trạng thái loading
-        store.dispatch("forgotPassword", forgot_form.value.email)
-          .then(() => {
-            router.push("/sign-in");
-          })
-          .catch(() => {
-            // Xử lý khi đăng ký thất bại
-          })
-          .finally(() => {
-            isLoading.value = false; // Ẩn trạng thái loading
-          });
-
-      }
-    };
+   
 
     const isValidEmail = (email) => {
       const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
       return emailRegex.test(email);
     };
 
-    const handleEmailTyping = () => {
-      emailTyping.value = true;
-    };
-    // Xóa thông báo lỗi khi người dùng bắt đầu nhập liệu
-    const clearEmailError = () => {
-      emailError.value = "";
-    };
+
+
     return {
       forgot_form,
       forgot,
       validateEmail,
-      clearEmailError,
-      handleEmailTyping,
       emailError,
-      emailTyping,
       isLoading,
     };
   },

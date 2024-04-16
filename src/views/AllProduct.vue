@@ -1,24 +1,5 @@
 <template>
-  <section class="breadcrumb-section section-b-space" style="padding-top:20px;padding-bottom:20px;">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <h3>Shop</h3>
-          <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item">
-                <a href="http://localhost:8080/">
-                  <i class="fas fa-home"></i>
-                </a>
-              </li>
-              <li class="breadcrumb-item active" aria-current="page">Tất cả sản phẩm</li>
-            </ol>
-          </nav>
-        </div>
-      </div>
-    </div>
-  </section>
-
+  <header-component></header-component>
 
 
   <div class="container py-5 ">
@@ -55,14 +36,14 @@
     <nav aria-label="Page navigation example ">
       <ul class="pagination justify-content-center ">
         <li class="page-item">
-          <a class="page-link" @click="previous" :disabled="currentPage === 1">Previous</a>
+          <a class="page-link" @click="previous" :disabled="currentPage === 1">Fist</a>
         </li>
         <li class="page-item">
           <a class="page-link" :disabled="currentPage === 1" @click="previousPage" aria-label="Previous">
             <span aria-hidden="true">&laquo;</span>
           </a>
         </li>
-        <li class="page-item"><a class="page-link">{{ currentPage }}</a></li>
+        <li class="page-item"><a class="page-link">{{ currentPage }}/{{ totalPages }}</a></li>
 
         <li class="page-item">
           <a class="page-link" @click="nextPage" :disabled="currentPage === totalPages" aria-label="Next">
@@ -70,19 +51,23 @@
           </a>
         </li>
         <li class="page-item">
-          <a class="page-link" @click="next" :disabled="currentPage === totalPages">Next</a>
+          <a class="page-link" @click="next" :disabled="currentPage === totalPages">Last</a>
         </li>
       </ul>
     </nav>
   </div>
+  <footer-component></footer-component>
 </template>
 
 <script>
 import ProductCard from "@/components/ProductCard.vue";
-
+import HeaderComponent from "@/components/HeaderComponent.vue";
+import FooterComponent from "@/components/FooterComponent.vue";
 export default {
   components: {
-    ProductCard
+    ProductCard,
+    HeaderComponent,
+    FooterComponent
   },
   data() {
     return {
@@ -94,7 +79,7 @@ export default {
       },
       notification: '', // Lưu trữ thông báo ở đây
       currentPage: 1, // Trang hiện tại
-      perPage: 12 // Số sản phẩm trên mỗi trang
+      perPage: 12, // Số sản phẩm trên mỗi trang
     };
   },
   mounted() {
@@ -144,6 +129,13 @@ export default {
         return this.sortOrder === 'high-to-low' ? priceB - priceA : priceA - priceB;
       });
     },
+    //sắp xếp danh sách sản phẩm dựa trên các điều kiện đã được thiết lập.
+    //Trong phần lọc, hàm này sẽ lọc ra các sản phẩm thỏa mãn các điều kiện về giá thành phần từ danh sách products. Các điều kiện lọc bao gồm:
+
+// Kiểm tra xem giá của sản phẩm nằm trong khoảng giá đã được định sẵn (priceRange.start và priceRange.end).
+// Đảm bảo rằng giá của sản phẩm đã được chuyển đổi sang kiểu dữ liệu số (nếu ban đầu là kiểu dữ liệu chuỗi), và loại bỏ dấu phẩy nếu có (parseFloat(product.price.replace(/,/g, ''))).
+// Trả về true nếu sản phẩm nằm trong khoảng giá, ngược lại trả về false.
+
     paginatedProducts() {
       const startIndex = (this.currentPage - 1) * this.perPage;
       const endIndex = startIndex + this.perPage;
@@ -152,6 +144,7 @@ export default {
     totalPages() {
       return Math.ceil(this.sortedAndFilteredProducts.length / this.perPage);
     },
+    //được sử dụng để thực hiện phân trang trên danh sách sản phẩm đã được lọc và sắp xếp.
   },
 
 

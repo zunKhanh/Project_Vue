@@ -1,50 +1,21 @@
 <template>
-  
-  <header-componnet-vue></header-componnet-vue>
   <router-view />
-  <footer-component-vue></footer-component-vue>
 </template>
 <script>
+ // đảm bảo rằng dữ liệu cần thiết được tải trước khi component được render, giúp tránh các vấn đề liên quan đến dữ liệu chưa sẵn sàng
 import { onBeforeMount } from "vue";
 import { useStore } from "vuex";
-import FooterComponentVue from "./components/FooterComponent.vue";
-import HeaderComponnetVue from "./components/HeaderComponnet.vue";
+
 export default {
-  components: {
-    HeaderComponnetVue,
-    FooterComponentVue
-  },
+
   setup() {
     const store = useStore();
+    //Hàm này được sử dụng để đăng ký một hàm callback sẽ được thực thi trước khi component được mount lần đầu tiên.
     onBeforeMount(() => {
       store.dispatch('fetchUser')
     })
-
-    // return {
-    //   user : store.state.user
-    // }
-  }
+  },
+  
 }
 </script>
-<style>
-/* #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
 
-nav {
-  padding: 30px;
-}
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
-} */
-</style>

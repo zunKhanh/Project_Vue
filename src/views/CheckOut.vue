@@ -14,25 +14,58 @@
                       <div class="col-lg-6">
                         <div class="checkout__input">
                           <p>Họ<span>*</span></p>
-                          <input type="text" name="first_name" required />
+                          <input
+                            type="text"
+                            name="first_name"
+                            id="first_name"
+                            v-model="name"
+                            @blur="validateName"
+                            required
+                          />
+                          <span
+                            id="firstNameError"
+                            style="color: red; display: none"
+                            >Vui lòng nhập họ</span
+                          >
                         </div>
                       </div>
                       <div class="col-lg-6">
                         <div class="checkout__input">
                           <p>Tên<span>*</span></p>
-                          <input type="text" name="last_name" required />
+                          <input
+                            type="text"
+                            name="last_name"
+                            v-model="lastName"
+                            @blur="validateLastName"
+                            required
+                          />
+                          <span
+                            id="lastNameError"
+                            style="color: red; display: none"
+                            >Vui lòng nhập tên</span
+                          >
                         </div>
                       </div>
                     </div>
                     <div class="checkout__input">
                       <p>Quốc gia<span>*</span></p>
-                      <input type="text" name="country" required />
+                      <input
+                        type="text"
+                        name="country"
+                        v-model="country"
+                        @blur="validateCountry"
+                        required
+                      />
+                      <span id="countryError" style="color: red; display: none"
+                        >Vui lòng nhập quốc gia</span
+                      >
                     </div>
                     <div class="checkout__input">
                       <p>Địa chỉ 1<span>*</span></p>
                       <input
                         type="text"
                         name="address1"
+                        v-model="address1"
                         placeholder="Street Address"
                         class="checkout__input__add"
                         required
@@ -40,12 +73,32 @@
                     </div>
                     <div class="checkout__input">
                       <p>Địa chỉ 2<span>*</span></p>
-                      <input type="text" name="address2" required />
+                      <input
+                        type="text"
+                        name="address2"
+                        v-model="address2"
+                        @blur="validateAddress2"
+                        required
+                      />
+                      <span id="address2Error" style="color: red; display: none"
+                        >Vui lòng nhập địa chỉ 2</span
+                      >
                     </div>
+
                     <div class="checkout__input">
-                      <p>Mã bưu điện<span>*</span></p>
-                      <input type="text" name="post_code" required />
-                    </div>
+  <p>Mã bưu điện<span>*</span></p>
+  <input
+    type="text"
+    name="post_code"
+    v-model="postCode"
+    @blur="validatePostCode"
+    required
+  />
+  <span id="postCodeError" style="color: red; display: none"
+    >Vui lòng nhập mã bưu điện hợp lệ (6 chữ số)</span
+  >
+</div>
+
                     <div class="row">
                       <div class="col-lg-6">
                         <div class="checkout__input">
@@ -79,11 +132,6 @@
                   </table>
                 </div>
               </div>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
               <div
                 class="col-md-4 btn btn-light"
                 style="height: 200px; margin-left: 200px; margin-top: 50px"
@@ -172,32 +220,19 @@
                               <span class="checkmark"></span>
                             </label>
                           </div>
-                          <div class="checkout__input__radio">
-                            <label for="payment_paypal">
-                              Paypal
-                              <input
-                                type="radio"
-                                id="payment_paypal"
-                                name="payment_method"
-                                value="Paypal"
-                                v-model="paymentMethod"
-                              />
-                              <span class="checkmark"></span>
-                            </label>
-                          </div>
                           <p v-if="!paymentMethod" style="color: red">
                             Vui lòng chọn phương thức thanh toán.
                           </p>
                         </div>
                       </div>
                     </div>
-
                     <br />
                     <div>
                       <button
                         class="form-control btn btn-dark w-75"
                         style="height: 50px"
-                        type="submit"
+                        type="button"
+                        @click="processPayment"
                       >
                         Thanh toán
                       </button>
@@ -225,7 +260,6 @@
     </div>
   </section>
 </template>
-
 <script>
 export default {
   data() {
@@ -235,17 +269,16 @@ export default {
       shippingOptions: [
         {
           label: "Việt Nam Post",
-          value: "Việt Nam post",
+          value: "Việt Nam post(+40000nvd)",
           additionalCost: 40000,
         },
         {
           label: "Giao hàng hỏa tốc",
-          value: "Giao hàng hỏa tốc",
+          value: "Giao hàng hỏa tốc(+70000nvd)",
           additionalCost: 70000,
         },
       ],
       paymentMethod: "",
-
       watch: {
         paymentMethod(newVal) {
           if (newVal === "Thanh toán khi nhận hàng") {
@@ -259,6 +292,11 @@ export default {
       phoneError: "",
       email: "",
       emailError: "",
+      address1: "",
+      lastName: "",
+      country: "",
+      address2: "",
+      postCode: "",
     };
   },
   computed: {
@@ -280,8 +318,11 @@ export default {
     totalWithShipping() {
       return this.Total + this.shippingCost;
     },
+    orderOfUsers() {
+      console.log(this.$store.state.orders);
+      return this.$store.state.orders;
+    },
   },
-
   methods: {
     increment(index) {
       this.$store.commit("increment", index);
@@ -300,6 +341,67 @@ export default {
         this.phoneError = "";
       }
     },
+    validateName() {
+      if (!this.name) {
+        document.getElementById("firstNameError").style.display = "inline";
+      } else {
+        document.getElementById("firstNameError").style.display = "none";
+      }
+    },
+    validateLastName() {
+      if (!this.lastName) {
+        document.getElementById("lastNameError").style.display = "inline";
+      } else {
+        document.getElementById("lastNameError").style.display = "none";
+      }
+    },
+    validateCountry() {
+      if (!this.country) {
+        document.getElementById("countryError").style.display = "inline";
+      } else {
+        document.getElementById("countryError").style.display = "none";
+      }
+    },
+    validateAddress2() {
+      if (!this.address2) {
+        document.getElementById("address2Error").style.display = "inline";
+      } else {
+        document.getElementById("address2Error").style.display = "none";
+      }
+    },
+    validatePostCode() {
+    if (!this.postCode || !/^\d{6}$/.test(this.postCode)) {
+      document.getElementById("postCodeError").style.display = "inline";
+    } else {
+      document.getElementById("postCodeError").style.display = "none";
+    }
+  },
+    processPayment() {
+      if (!this.validateForm()) {
+        alert("Vui lòng điền đầy đủ thông tin và kiểm tra lại!");
+        return;
+      }
+      if (!this.selectedShipping) {
+        alert("Vui lòng chọn phương thức vận chuyển.");
+        return;
+      }
+      if (!this.paymentMethod) {
+        alert("Vui lòng chọn phương thức thanh toán.");
+        return;
+      }
+      const data = {
+        name: this.name,
+        selectedShipping: this.selectedShipping,
+        paymentMethod: this.paymentMethod,
+        phoneNumber: this.phoneNumber,
+        email: this.email,
+        cartItems: this.cartItems,
+        totalWithShipping: this.totalWithShipping,
+        address1: this.address1,
+      };
+      this.$store.dispatch("submitOrder", data);
+      alert("Thanh toán thành công!");
+    },
     validateEmail() {
       const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
       if (!emailRegex.test(this.email)) {
@@ -308,10 +410,21 @@ export default {
         this.emailError = "";
       }
     },
+    validateForm() {
+      if (this.phoneNumber && !/^\d{10,11}$/.test(this.phoneNumber)) {
+        this.phoneError = "Vui lòng nhập số điện thoại hợp lệ.";
+        return false;
+      }
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!emailRegex.test(this.email)) {
+        this.emailError = "Vui lòng nhập email hợp lệ.";
+        return false;
+      }
+      return true;
+    },
   },
 };
 </script>
-
 <style scoped>
 .cart {
   background-color: #fff;

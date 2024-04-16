@@ -4,7 +4,14 @@
       <img :src="getImageUrl(product.image)" class="card-img-top" :alt="`Image of ${product.name}`">
       <div class="card-body">
         <h5 class="card-title">{{ product.name }}</h5>
-        <div class="d-flex justify-content-between">
+      <div v-if="product.Categorizat === 'Giảm giá'" class="d-flex flex-column justify-content-between">
+          <!-- Kiểm tra xem trường giảm giá có tồn tại trong sản phẩm này, nếu nó tồn tại, sẽ hiển thị ra trường giá gốc và giá sale -->
+        
+         <span class="text-muted" >Giá gốc <span style="text-decoration: line-through;" >{{ product.giagoc }} VND</span></span>
+          <span class="text-danger" >Giá sale: {{ formattedPrice(product.price) }} VND</span>
+        </div>
+                  <!-- Nếu ko tồn tại, hiển thị ra trường giá như bình thường -->
+         <div v-else class="d-flex justify-content-between">
           <span class="text-muted">{{ formattedPrice(product.price) }} VND</span>
         </div>
       </div>
@@ -22,7 +29,6 @@ export default {
   },
 
   methods: {
-    // Xóa hàm getImageUrl vì không cần thiết khi sử dụng đường dẫn URL trực tiếp
     goToProductDetail(productId) {
       this.$router.push({ name: 'ProductDetail', params: { id: productId } });
     },
@@ -33,3 +39,12 @@ export default {
   }
 }
 </script>
+
+<style>
+.icon {
+  position: absolute;
+  top: 30px;
+  right: 10px;
+  width: 50px;
+}
+</style>

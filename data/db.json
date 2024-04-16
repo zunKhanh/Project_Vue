@@ -7,6 +7,24 @@
       "price": 610000,
       "dateAvailable": "2024-03-01",
       "category": "Giày tây",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/gtn1_den.jpg",
       "thumbnail": [
         "/images/gtn1_den1.jpg",
@@ -19,9 +37,27 @@
       "id": "2",
       "name": "GIÀY TÂY NAM ĐÔNG HẢI LOAFER PHỐI PHỤ KIỆN",
       "productDescription": "Giày Tây Nam Đông Hải Penny Loafer Phối Phụ Kiện là sự kết hợp giữa dáng giày cổ điển loafer cùng nét hiện đại với họa tiết kim loại đính thân giày độc đáo, phần quai ngang dập may chắc chắn trong từng đường kim mũi chỉ đầy tinh tế, đế cao 3cm tăng thêm phần lịch lãm cho các quý ông.",
-      "price": 610000,
+      "price": 6100000,
       "dateAvailable": "2024-03-01",
       "category": "Giày tây",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/gtn1_vang.jpg",
       "thumbnail": [
         "/images/gtn1_vang1.jpg",
@@ -35,13 +71,30 @@
       "name": "GIÀY TÂY DERBY ĐÔNG HẢI VIỀN CHỈ TINH XẢO",
       "productDescription": "Giày tây nam Đông Hải với kiểu dáng Derby truyền thống điểm nhấn ở phần mũi giày được viền chỉ tạo cảm giác thon gọn cho đôi chân, giúp phom giày trông cứng cáp hơn. Thiết kế Dery với phần dây dễ dàng điều chỉnh phù hợp với kích thước bàn chân giúp các anh thoải mái khi di chuyển.      ",
       "price": 530000,
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "dateAvailable": "2024-03-01",
       "category": "Giày tây",
       "image": "/images/gtn2_nau.jpg",
       "thumbnail": [
         "/images/gtn2_nau1.jpg",
         "/images/gtn2_nau2.jpg",
-        "/images/gtn2_nau3.jpg",
         "/images/gtn2_nau4.jpg"
       ]
     },
@@ -52,6 +105,25 @@
       "price": 530000,
       "dateAvailable": "2024-03-01",
       "category": "Giày tây",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
+      "Categorizat": "Giảm giá",
       "image": "/images/gtn2_den.jpg",
       "thumbnail": [
         "/images/gtn2_den1.jpg",
@@ -67,6 +139,24 @@
       "price": 430000,
       "dateAvailable": "2024-03-01",
       "category": "Giày tây",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/gtn3_den.jpg",
       "thumbnail": [
         "/images/gtn3_den1.jpg",
@@ -82,6 +172,24 @@
       "price": 430000,
       "dateAvailable": "2024-03-01",
       "category": "Giày tây",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/gtn3_nau.jpg",
       "thumbnail": [
         "/images/gtn3_nau1.jpg",
@@ -97,6 +205,24 @@
       "price": 360000,
       "dateAvailable": "2024-03-01",
       "category": "Giày tây",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/gtn4_nau.jpg",
       "thumbnail": [
         "/images/gtn4_nau1.jpg",
@@ -112,6 +238,24 @@
       "price": 360000,
       "dateAvailable": "2024-03-01",
       "category": "Giày tây",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/gtn4_den.jpg",
       "thumbnail": [
         "/images/gtn4_den1.jpg",
@@ -127,6 +271,24 @@
       "price": 440000,
       "dateAvailable": "2024-03-01",
       "category": "Giày tây",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/gtn5_den.jpg",
       "thumbnail": [
         "/images/gtn5_den1.jpg",
@@ -136,19 +298,34 @@
       ]
     },
     {
-      "id": "10",
-      "name": "GIÀY TÂY MCKAY ĐẾ PHỐI DA",
-      "productDescription": "Giày Tây McKay Đế Phối Da là sự kết hợp hoàn hảo giữa phong cách truyền thống với kiểu dáng Penny Loafer cùng chất liệu da bê cao cấp nhập khẩu từ Tây Ban Nha được đánh màu patina độc đáo mang lại sự khác biệt và độc nhất mà mỗi quý ông sẽ sở hữu. Đế giày sử dụng phương pháp khâu McKay tinh tế mang lại sự thoải mái và độ sắc sảo trong từng đường nét, kết hợp cùng mặt đế dainite chống trượt. Phom giày cứng cáp với điểm nhấn mũi giày được may đôi đường chỉ nổi thể hiện sự tỉ mỉ. Đôi giày chính là biểu tượng lịch lãm cho phong cách thời trang từ công sở đến các sự kiện quan trọng.",
-      "price": 610000,
-      "dateAvailable": "2024-03-01",
-      "category": "Giày tây",
       "image": "/images/gtn5_bo.jpg",
+      "name": "GIÀY TÂY MCKAY ĐẾ PHỐI DA",
+      "dateAvailable": "2024-03-01",
+      "price": 610000,
+      "category": "Giày thể thao nam",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "thumbnail": [
-        "/images/gtn5_bo1.jpg",
-        "/images/gtn5_bo2.jpg",
-        "/images/gtn5_bo3.jpg",
-        "/images/gtn5_bo4.jpg"
-      ]
+        "/images/bupbe1_trang2.jpg"
+      ],
+      "productDescription": "Giày Tây McKay Đế Phối Da là sự kết hợp hoàn hảo giữa phong cách truyền thống với kiểu dáng Penny Loafer cùng chất liệu da bê cao cấp nhập khẩu từ Tây Ban Nha được đánh màu patina độc đáo mang lại sự khác biệt và độc nhất mà mỗi quý ông sẽ sở hữu. Đế giày sử dụng phương pháp khâu McKay tinh tế mang lại sự thoải mái và độ sắc sảo trong từng đường nét, kết hợp cùng mặt đế dainite chống trượt. Phom giày cứng cáp với điểm nhấn mũi giày được may đôi đường chỉ nổi thể hiện sự tỉ mỉ. Đôi giày chính là biểu tượng lịch lãm cho phong cách thời trang từ công sở đến các sự kiện quan trọng.",
+      "id": "10"
     },
     {
       "id": "11",
@@ -157,6 +334,24 @@
       "price": 330000,
       "dateAvailable": "2024-03-01",
       "category": "Giày tây",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/gtn6_den.jpg",
       "thumbnail": [
         "/images/gtn6_den1.jpg",
@@ -172,6 +367,24 @@
       "price": 785000,
       "dateAvailable": "2024-03-01",
       "category": "Giày tây",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/gtn6_nau.jpg",
       "thumbnail": [
         "/images/gtn6_nau1.jpg",
@@ -187,6 +400,24 @@
       "price": 643000,
       "dateAvailable": "2024-03-01",
       "category": "Giày lười",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/gln1_nau.jpg",
       "thumbnail": [
         "/images/gln1_nau1.jpg",
@@ -202,6 +433,24 @@
       "price": 330000,
       "dateAvailable": "2024-03-01",
       "category": "Giày lười",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/gln1_vang.jpg",
       "thumbnail": [
         "/images/gln1_vang.jpg",
@@ -217,6 +466,24 @@
       "price": 610000,
       "dateAvailable": "2024-03-01",
       "category": "Giày lười",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/gln2_nau.jpg",
       "thumbnail": [
         "/images/gln2_nau1.jpg",
@@ -232,6 +499,24 @@
       "price": 220000,
       "dateAvailable": "2024-03-01",
       "category": "Giày lười",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/gln2_den.jpg",
       "thumbnail": [
         "/images/gln2_den1.jpg",
@@ -247,6 +532,25 @@
       "price": 450000,
       "dateAvailable": "2024-03-01",
       "category": "Giày lười",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
+      "Categorizat": "Giảm giá",
       "image": "/images/gln3_nau.jpg",
       "thumbnail": [
         "/images/gln3_nau1.jpg",
@@ -262,6 +566,24 @@
       "price": 700000,
       "dateAvailable": "2024-03-01",
       "category": "Giày lười",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/gln3_den.jpg",
       "thumbnail": [
         "/images/gln3_den1.jpg",
@@ -277,6 +599,24 @@
       "price": 690000,
       "dateAvailable": "2024-03-01",
       "category": "Giày lười",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/gln4_nau.jpg",
       "thumbnail": [
         "/images/gln4_nau1.jpg",
@@ -292,6 +632,24 @@
       "price": 230000,
       "dateAvailable": "2024-03-01",
       "category": "Giày lười",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/gln4_den.jpg",
       "thumbnail": [
         "/images/gln4_den1.jpg",
@@ -307,6 +665,24 @@
       "price": 150000,
       "dateAvailable": "2024-03-01",
       "category": "Giày lười",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/gln5_den.jpg",
       "thumbnail": [
         "/images/gln5_den1.jpg",
@@ -322,6 +698,25 @@
       "price": 680000,
       "dateAvailable": "2024-03-01",
       "category": "Giày lười",
+      "Categorizat": "Giảm giá",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/gln5_nau.jpg",
       "thumbnail": [
         "/images/gln5_nau1.jpg",
@@ -337,6 +732,24 @@
       "price": 610000,
       "dateAvailable": "2024-03-01",
       "category": "Giày lười",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/gln6_nau.jpg",
       "thumbnail": [
         "/images/gln6_nau1.jpg",
@@ -352,6 +765,24 @@
       "price": 850000,
       "dateAvailable": "2024-03-01",
       "category": "Giày lười",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/gln6_den.jpg",
       "thumbnail": [
         "/images/gln6_den1.jpg",
@@ -367,6 +798,24 @@
       "price": 560000,
       "dateAvailable": "2024-03-01",
       "category": "Giày sandal nam",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/san1_xam.jpg",
       "thumbnail": [
         "/images/san1_xam.jpg",
@@ -382,6 +831,24 @@
       "price": 730000,
       "dateAvailable": "2024-03-01",
       "category": "Giày sandal nam",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/san1_den.jpg",
       "thumbnail": [
         "/images/san1_den1.jpg",
@@ -397,6 +864,25 @@
       "price": 610000,
       "dateAvailable": "2024-03-01",
       "category": "Giày sandal nam",
+      "Categorizat": "Giảm giá",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/san2_nau.jpg",
       "thumbnail": [
         "/images/san2_nau1.jpg",
@@ -412,6 +898,24 @@
       "price": 290000,
       "dateAvailable": "2024-03-01",
       "category": "Giày sandal nam",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/san2_den.jpg",
       "thumbnail": [
         "/images/san2_den1.jpg",
@@ -427,6 +931,24 @@
       "price": 567000,
       "dateAvailable": "2024-03-01",
       "category": "Giày sandal nam",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/san3_nau.jpg",
       "thumbnail": [
         "/images/san3_nau1.jpg",
@@ -442,6 +964,24 @@
       "price": 893000,
       "dateAvailable": "2024-03-01",
       "category": "Giày sandal nam",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/san3_den.jpg",
       "thumbnail": [
         "/images/san3_den1.jpg",
@@ -457,6 +997,24 @@
       "price": 650000,
       "dateAvailable": "2024-03-01",
       "category": "Giày sandal nam",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/san4_xanh.jpg",
       "thumbnail": [
         "/images/san4_xanh1.jpg",
@@ -472,12 +1030,30 @@
       "price": 470000,
       "dateAvailable": "2024-03-01",
       "category": "Giày sandal nam",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/san4_xam.jpg",
       "thumbnail": [
         "/images/san4_xam1.jpg",
         "/images/san4_xam2.jpg",
         "/images/san4_xam3.jpg",
-        "/images/san4_xam4.jpg"
+        "/images/san4_xam5.jpg"
       ]
     },
     {
@@ -487,6 +1063,24 @@
       "price": 670000,
       "dateAvailable": "2024-03-01",
       "category": "Giày sandal nam",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/san5_nau.jpg",
       "thumbnail": [
         "/images/san5_nau1.jpg",
@@ -502,6 +1096,24 @@
       "price": 590000,
       "dateAvailable": "2024-03-01",
       "category": "Giày sandal nam",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/san5_den.jpg",
       "thumbnail": [
         "/images/san5_den1.jpg",
@@ -517,6 +1129,25 @@
       "price": 630000,
       "dateAvailable": "2024-03-01",
       "category": "Giày sandal nam",
+      "Categorizat": "Giảm giá",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/san6_nau.jpg",
       "thumbnail": [
         "/images/san6_nau1.jpg",
@@ -532,6 +1163,24 @@
       "price": 567000,
       "dateAvailable": "2024-03-01",
       "category": "Giày sandal nam",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/san6_den.jpg",
       "thumbnail": [
         "/images/san6_den1.jpg",
@@ -547,6 +1196,24 @@
       "price": 560000,
       "dateAvailable": "2024-03-01",
       "category": "Giày thể thao nam",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/ttn1_den.jpg",
       "thumbnail": [
         "/images/ttn1_den1.jpg",
@@ -562,6 +1229,24 @@
       "price": 610000,
       "dateAvailable": "2024-03-01",
       "category": "Giày thể thao nam",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/ttn1_xanh.jpg",
       "thumbnail": [
         "/images/ttn1_xanh1.jpg",
@@ -577,9 +1262,27 @@
       "price": 430000,
       "dateAvailable": "2024-03-01",
       "category": "Giày thể thao nam",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/ttn2_trang.jpg",
       "thumbnail": [
-        "/images/ttn1_trang1.jpg",
+        "/images/ttn2_trang1.jpg",
         "/images/ttn2_trang2.jpg",
         "/images/ttn2_trang3.jpg",
         "/images/ttn2_trang4.jpg"
@@ -592,6 +1295,24 @@
       "price": 360000,
       "dateAvailable": "2024-03-01",
       "category": "Giày thể thao nam",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/ttn2_den.jpg",
       "thumbnail": [
         "/images/ttn2_den1.jpg",
@@ -607,6 +1328,24 @@
       "price": 300000,
       "dateAvailable": "2024-03-01",
       "category": "Giày thể thao nam",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/ttn3_xam.jpg",
       "thumbnail": [
         "/images/ttn3_xam1.jpg",
@@ -622,6 +1361,24 @@
       "price": 510000,
       "dateAvailable": "2024-03-01",
       "category": "Giày thể thao nam",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/ttn3_den.jpg",
       "thumbnail": [
         "/images/ttn3_den1.jpg",
@@ -652,6 +1409,25 @@
       "price": 210000,
       "dateAvailable": "2024-03-01",
       "category": "Giày thể thao nam",
+      "Categorizat": "Giảm giá",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/ttn4_den.jpg",
       "thumbnail": [
         "/images/ttn4_den1.jpg",
@@ -667,6 +1443,24 @@
       "price": 340000,
       "dateAvailable": "2024-03-01",
       "category": "Giày thể thao nam",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/ttn5_den.jpg",
       "thumbnail": [
         "/images/ttn5_den1.jpg",
@@ -682,6 +1476,24 @@
       "price": 610000,
       "dateAvailable": "2024-03-01",
       "category": "Giày thể thao nam",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/ttn5_xanh.jpg",
       "thumbnail": [
         "/images/ttn5_xanh1.jpg",
@@ -697,6 +1509,24 @@
       "price": 670000,
       "dateAvailable": "2024-03-01",
       "category": "Giày thể thao nam",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/ttn6_den.jpg",
       "thumbnail": [
         "/images/ttn6_den1.jpg",
@@ -712,6 +1542,24 @@
       "price": 680000,
       "dateAvailable": "2024-03-01",
       "category": "Giày thể thao nam",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/ttn6_xam.jpg",
       "thumbnail": [
         "/images/ttn6_xam1.jpg",
@@ -726,6 +1574,24 @@
       "productDescription": "Giày búp bê Đông Hải mũi nhọn họa tiết dập lỗ lạ mắt còn giúp thoáng khí khi mang. Thiết kế hướng đến sự kết hợp hoàn hảo giữa thanh lịch và sự thoải mái. Phần khóa xích logo mạ vàng là điểm nhấn cho mẫu giày thêm phần độc đáo. Đây chắc chắn là mẫu giày giúp phái đẹp tự tin sải bước cả ngày dài.",
       "price": 780000,
       "dateAvailable": "2024-03-01",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "category": "Giày búp bê",
       "image": "/images/bupbe1_den.jpg",
       "thumbnail": [
@@ -741,6 +1607,24 @@
       "productDescription": "Giày búp bê Đông Hải mũi nhọn họa tiết dập lỗ lạ mắt còn giúp thoáng khí khi mang. Thiết kế hướng đến sự kết hợp hoàn hảo giữa thanh lịch và sự thoải mái. Phần khóa xích logo mạ vàng là điểm nhấn cho mẫu giày thêm phần độc đáo. Đây chắc chắn là mẫu giày giúp phái đẹp tự tin sải bước cả ngày dài.",
       "price": 450000,
       "dateAvailable": "2024-03-01",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "category": "Giày búp bê",
       "image": "/images/bupbe1_trang.jpg",
       "thumbnail": [
@@ -757,6 +1641,25 @@
       "price": 345000,
       "dateAvailable": "2024-03-01",
       "category": "Giày búp bê",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
+      "Categorizat": "Giảm giá",
       "image": "/images/bupbe2_cafe.jpg",
       "thumbnail": [
         "/images/bupbe2_cafe1.jpg",
@@ -772,6 +1675,24 @@
       "price": 279000,
       "dateAvailable": "2024-03-01",
       "category": "Giày búp bê",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/bupbe2_den.jpg",
       "thumbnail": [
         "/images/bupbe2_den1.jpg",
@@ -787,6 +1708,24 @@
       "price": 895000,
       "dateAvailable": "2024-03-01",
       "category": "Giày búp bê",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/bupbe2_nau.jpg",
       "thumbnail": [
         "/images/bupbe2_nau1.jpg",
@@ -802,6 +1741,24 @@
       "price": 785000,
       "dateAvailable": "2024-03-01",
       "category": "Giày búp bê",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/bupbe3_den.jpg",
       "thumbnail": [
         "/images/bupbe3_den1.jpg",
@@ -817,6 +1774,24 @@
       "price": 850000,
       "dateAvailable": "2024-03-01",
       "category": "Giày búp bê",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/bupbe3_hong.jpg",
       "thumbnail": [
         "/images/bupbe3_hong1.jpg",
@@ -832,6 +1807,24 @@
       "price": 670000,
       "dateAvailable": "2024-03-01",
       "category": "Giày búp bê",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/bupbe4_den.jpg",
       "thumbnail": [
         "/images/bupbe4_den1.jpg",
@@ -847,6 +1840,25 @@
       "price": 280000,
       "dateAvailable": "2024-03-01",
       "category": "Giày búp bê",
+      "Categorizat": "Giảm giá",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/bupbe4_kem.jpg",
       "thumbnail": [
         "/images/bupbe4_kem1.jpg",
@@ -862,6 +1874,24 @@
       "price": 450000,
       "dateAvailable": "2024-03-01",
       "category": "Giày búp bê",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/bupbe5_kem.jpg",
       "thumbnail": [
         "/images/bupbe5_kem1.jpg",
@@ -877,6 +1907,24 @@
       "price": 640000,
       "dateAvailable": "2024-03-01",
       "category": "Giày búp bê",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/bupbe5_den.jpg",
       "thumbnail": [
         "/images/bupbe5_den1.jpg",
@@ -892,6 +1940,24 @@
       "price": 610000,
       "dateAvailable": "2024-03-01",
       "category": "Giày búp bê",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/bupbe5_bo.jpg",
       "thumbnail": [
         "/images/bupbe5_bo1.jpg",
@@ -907,6 +1973,24 @@
       "price": 430000,
       "dateAvailable": "2024-03-01",
       "category": "Giày búp bê",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/bupbe6_cafe.jpg",
       "thumbnail": [
         "/images/bupbe6_cafe1.jpg",
@@ -922,6 +2006,25 @@
       "price": 610000,
       "dateAvailable": "2024-03-01",
       "category": "Giày búp bê",
+      "Categorizat": "Giảm giá",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/bupbe6_den.jpg",
       "thumbnail": [
         "/images/bupbe6_den1.jpg",
@@ -937,6 +2040,24 @@
       "price": 810000,
       "dateAvailable": "2024-03-01",
       "category": "Giày sandal nữ",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/sannu1_den.jpg",
       "thumbnail": [
         "/images/sannu1_den1.jpg",
@@ -952,6 +2073,24 @@
       "price": 610000,
       "dateAvailable": "2024-03-01",
       "category": "Giày sandal nữ",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/sannu1_kem.jpg",
       "thumbnail": [
         "/images/sannu1_kem1.jpg",
@@ -967,6 +2106,24 @@
       "price": 550000,
       "dateAvailable": "2024-03-01",
       "category": "Giày sandal nữ",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/sannu2_den.jpg",
       "thumbnail": [
         "/images/sannu2_den1.jpg",
@@ -982,6 +2139,25 @@
       "price": 580000,
       "dateAvailable": "2024-03-01",
       "category": "Giày sandal nữ",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
+      "Categorizat": "Giảm giá",
       "image": "/images/sannu2_trang.jpg",
       "thumbnail": [
         "/images/sannu2_trang1.jpg",
@@ -995,8 +2171,26 @@
       "name": "GIÀY SANDAL ZUCIA KHÓA CÀI QUAI BẢNG TO",
       "productDescription": "Giày sandal Zucia kiểu dáng thời thượng khi có phần quai kết hợp giữa song song và đan chéo tạo nên mẫu thiết kế vừa che chắn cho bàn chân vừa tạo sự thon gọn. Giày có 3 màu đen, hồng, trắng để quý cô dễ dàng lựa chọn phối nhiều trang phục khác nhau từ đời thường đến đi làm.      ",
       "price": 340000,
-      "dateAvailable": "2024-03-01",
+      "dateAvailable": "2024-03-20",
       "category": "Giày sandal nữ",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/sannu3_den.jpg",
       "thumbnail": [
         "/images/sannu3_den1.jpg",
@@ -1012,6 +2206,24 @@
       "price": 450000,
       "dateAvailable": "2024-03-01",
       "category": "Giày sandal nữ",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/sannu3_hong.jpg",
       "thumbnail": [
         "/images/sannu3_hong1.jpg",
@@ -1027,6 +2239,24 @@
       "price": 780000,
       "dateAvailable": "2024-03-01",
       "category": "Giày sandal nữ",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/sannu3_trang.jpg",
       "thumbnail": [
         "/images/sannu3_trang1.jpg",
@@ -1042,6 +2272,24 @@
       "price": 610000,
       "dateAvailable": "2024-03-01",
       "category": "Giày sandal nữ",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/sannu4_den.jpg",
       "thumbnail": [
         "/images/sannu4_den1.jpg",
@@ -1057,6 +2305,25 @@
       "price": 610000,
       "dateAvailable": "2024-03-01",
       "category": "Giày sandal nữ",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
+      "Categorizat": "Giảm giá",
       "image": "/images/sannu4_hong.jpg",
       "thumbnail": [
         "/images/sannu4_hong1.jpg",
@@ -1072,6 +2339,24 @@
       "price": 780000,
       "dateAvailable": "2024-03-01",
       "category": "Giày sandal nữ",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/sannu5_den.jpg",
       "thumbnail": [
         "/images/sannu5_den1.jpg",
@@ -1085,8 +2370,26 @@
       "name": "SANDALS ĐẾ XUỒNG ĐÔNG HẢI QUAI MẢNH ĐAN CHÉO",
       "productDescription": "Sandal đế xuồng phong cách hiện đại với phần đế nổi bật mang đến sự năng động, khỏe khoắn trong từng bước đi của quý cô. Đôi sandal có thiết kế tối giản với phần dây mảnh giúp bàn chân được thả lỏng tối đa.       ",
       "price": 450000,
-      "dateAvailable": "2024-03-01",
+      "dateAvailable": "2024-03-29",
       "category": "Giày sandal nữ",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/sannu5_kem.jpg",
       "thumbnail": [
         "/images/sannu5_kem1.jpg",
@@ -1100,8 +2403,26 @@
       "name": "SANDALS ĐẾ XUỒNG ĐÔNG HẢI QUAI MẢNH ĐAN CHÉO",
       "productDescription": "Sandal đế xuồng phong cách hiện đại với phần đế nổi bật mang đến sự năng động, khỏe khoắn trong từng bước đi của quý cô. Đôi sandal có thiết kế tối giản với phần dây mảnh giúp bàn chân được thả lỏng tối đa.       ",
       "price": 340000,
-      "dateAvailable": "2024-03-01",
+      "dateAvailable": "2024-03-30",
       "category": "Giày sandal nữ",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/sannu5_xanh.jpg",
       "thumbnail": [
         "/images/sannu5_xanh1.jpg",
@@ -1117,6 +2438,24 @@
       "price": 690000,
       "dateAvailable": "2024-03-01",
       "category": "Giày sandal nữ",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/sannu6_trang.jpg",
       "thumbnail": [
         "/images/sannu6_trang1.jpg",
@@ -1132,6 +2471,24 @@
       "price": 290000,
       "dateAvailable": "2024-03-01",
       "category": "Giày sandal nữ",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/sannu6_cafe.jpg",
       "thumbnail": [
         "/images/sannu6_cafe1.jpg",
@@ -1146,7 +2503,7 @@
       "productDescription": "Giày Cao Gót Đông Hải có thiết kế cơ bản với phần mũi và gót nhọn. Đây chắc chắn là mẫu giày chiều lòng mọi quý cô bởi sự đơn giản phù hợp với mọi trang phục nhưng vẫn đáp ứng được sự duyên dáng và nữ tính. Mũi nhọn tôn lên đôi chân thanh mảnh, thon gọn và đặc biệt, chất liệu da bóng tạo hiệu ứng lung linh & sang trọng.",
       "price": 789000,
       "dateAvailable": "2024-03-01",
-      "category": "Giày cao gót",
+      "category": "Giày cao gót ",
       "image": "/images/cgot1_den.jpg",
       "thumbnail": [
         "/images/cgot1_den1.jpg",
@@ -1161,7 +2518,25 @@
       "productDescription": "Giày Cao Gót Đông Hải có thiết kế cơ bản với phần mũi và gót nhọn. Đây chắc chắn là mẫu giày chiều lòng mọi quý cô bởi sự đơn giản phù hợp với mọi trang phục nhưng vẫn đáp ứng được sự duyên dáng và nữ tính. Mũi nhọn tôn lên đôi chân thanh mảnh, thon gọn và đặc biệt, chất liệu da bóng tạo hiệu ứng lung linh & sang trọng.",
       "price": 340000,
       "dateAvailable": "2024-03-01",
-      "category": "Giày cao gót",
+      "category": "Giày cao gót ",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/cgot1_do.jpg",
       "thumbnail": [
         "/images/cgot1_do1.jpg",
@@ -1176,7 +2551,25 @@
       "productDescription": "Giày Cao Gót Đông Hải có thiết kế cơ bản với phần mũi và gót nhọn. Đây chắc chắn là mẫu giày chiều lòng mọi quý cô bởi sự đơn giản phù hợp với mọi trang phục nhưng vẫn đáp ứng được sự duyên dáng và nữ tính. Mũi nhọn tôn lên đôi chân thanh mảnh, thon gọn và đặc biệt, chất liệu da bóng tạo hiệu ứng lung linh & sang trọng.",
       "price": 740000,
       "dateAvailable": "2024-03-01",
-      "category": "Giày cao gót",
+      "category": "Giày cao gót ",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/cgot1_hong.jpg",
       "thumbnail": [
         "/images/cgot1_hong1.jpg",
@@ -1191,7 +2584,25 @@
       "productDescription": "Giày cao gót Đông Hải vải lụa satin mang một vẻ đẹp khó cưỡng bởi sự sang trọng, thời thượng luôn chinh phục mọi quý cô từ ánh nhìn đầu tiên. Thiết kế còn tăng thêm phần nổi bật với phần icon đính đá tinh xảo tạo độ lấp lánh cho mỗi bước chân quý cô khi di chuyển. Đây cũng là mẫu thiết kế sánh đôi trong show Duyên của NTK Adrian Anh Tuấn do Đông Hải đồng hành và hỗ trợ. Mẫu giày đã gây ra được cơn sốt khi xuất hiện trong buổi trình diễn và nhận được sự ưng ý với mọi quý cô. Đây chắc chắn là mẫu giày bắt mắt phù hợp trong các buổi tiệc, đi hội họp hay sự kiện quan trọng.       ",
       "price": 630000,
       "dateAvailable": "2024-03-01",
-      "category": "Giày cao gót",
+      "category": "Giày cao gót ",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/cgot2_den.jpg",
       "thumbnail": [
         "/images/cgot2_den1.jpg",
@@ -1206,7 +2617,25 @@
       "productDescription": "Giày cao gót Đông Hải vải lụa satin mang một vẻ đẹp khó cưỡng bởi sự sang trọng, thời thượng luôn chinh phục mọi quý cô từ ánh nhìn đầu tiên. Thiết kế còn tăng thêm phần nổi bật với phần icon đính đá tinh xảo tạo độ lấp lánh cho mỗi bước chân quý cô khi di chuyển. Đây cũng là mẫu thiết kế sánh đôi trong show Duyên của NTK Adrian Anh Tuấn do Đông Hải đồng hành và hỗ trợ. Mẫu giày đã gây ra được cơn sốt khi xuất hiện trong buổi trình diễn và nhận được sự ưng ý với mọi quý cô. Đây chắc chắn là mẫu giày bắt mắt phù hợp trong các buổi tiệc, đi hội họp hay sự kiện quan trọng.       ",
       "price": 660000,
       "dateAvailable": "2024-03-01",
-      "category": "Giày cao gót",
+      "category": "Giày cao gót ",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/cgot2_do.jpg",
       "thumbnail": [
         "/images/cgot2_do1.jpg",
@@ -1221,7 +2650,25 @@
       "productDescription": "Giày cao gót Đông Hải vải lụa satin mang một vẻ đẹp khó cưỡng bởi sự sang trọng, thời thượng luôn chinh phục mọi quý cô từ ánh nhìn đầu tiên. Thiết kế còn tăng thêm phần nổi bật với phần icon đính đá tinh xảo tạo độ lấp lánh cho mỗi bước chân quý cô khi di chuyển. Đây cũng là mẫu thiết kế sánh đôi trong show Duyên của NTK Adrian Anh Tuấn do Đông Hải đồng hành và hỗ trợ. Mẫu giày đã gây ra được cơn sốt khi xuất hiện trong buổi trình diễn và nhận được sự ưng ý với mọi quý cô. Đây chắc chắn là mẫu giày bắt mắt phù hợp trong các buổi tiệc, đi hội họp hay sự kiện quan trọng.       ",
       "price": 640000,
       "dateAvailable": "2024-03-01",
-      "category": "Giày cao gót",
+      "category": "Giày cao gót ",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/cgot2_tim.jpg",
       "thumbnail": [
         "/images/cgot2_tim1.jpg",
@@ -1236,13 +2683,30 @@
       "productDescription": "Giày cao gót Đông Hải kiểu dáng gót vuông tạo được sự vững vàng cho đôi chân khi di chuyển, thích hợp cho cả ngày dài hay tính chất công việc cần di chuyển nhiều. Điểm nhấn nằm tại phần đính đá logo ở mũi giày tăng thêm phần nổi bật và tạo được hiệu ứng ánh sáng ngoài trời. Mẫu giày phù hợp đi làm, đi chơi hay đi mua sắm.      ",
       "price": 450000,
       "dateAvailable": "2024-03-01",
-      "category": "Giày cao gót",
+      "category": "Giày cao gót ",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/cgot3_den.jpg",
       "thumbnail": [
         "/images/cgot3_den1.jpg",
         "/images/cgot3_den2.jpg",
-        "/images/cgot3_den3.jpg",
-        "/images/cgot3_den4.jpg"
+        "/images/cgot3_den3.jpg"
       ]
     },
     {
@@ -1251,7 +2715,25 @@
       "productDescription": "Giày cao gót Đông Hải kiểu dáng gót vuông tạo được sự vững vàng cho đôi chân khi di chuyển, thích hợp cho cả ngày dài hay tính chất công việc cần di chuyển nhiều. Điểm nhấn nằm tại phần đính đá logo ở mũi giày tăng thêm phần nổi bật và tạo được hiệu ứng ánh sáng ngoài trời. Mẫu giày phù hợp đi làm, đi chơi hay đi mua sắm.      ",
       "price": 340000,
       "dateAvailable": "2024-03-01",
-      "category": "Giày cao gót",
+      "category": "Giày cao gót ",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/cgot3_hong.jpg",
       "thumbnail": [
         "/images/cgot3_hong1.jpg",
@@ -1266,7 +2748,25 @@
       "productDescription": "Giày sandal cao gót Đông Hải có thiết kế kiêu sa với phần quai mảnh đính đá, từng viên đá được đính thành những bông hoa rực rỡ càng tăng thêm phần nổi bật và sang trọng cho đôi giày. Phần quai ankle strap ôm sát bàn chân ngoài việc thoáng mát còn tôn lên bàn chân thanh mảnh, dáng đi uyển chuyển.      ",
       "price": 550000,
       "dateAvailable": "2024-03-01",
-      "category": "Giày cao gót",
+      "category": "Giày cao gót ",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/cgot4_den.jpg",
       "thumbnail": [
         "/images/cgot4_den1.jpg",
@@ -1281,7 +2781,25 @@
       "productDescription": "Giày sandal cao gót Đông Hải có thiết kế kiêu sa với phần quai mảnh đính đá, từng viên đá được đính thành những bông hoa rực rỡ càng tăng thêm phần nổi bật và sang trọng cho đôi giày. Phần quai ankle strap ôm sát bàn chân ngoài việc thoáng mát còn tôn lên bàn chân thanh mảnh, dáng đi uyển chuyển.      ",
       "price": 670000,
       "dateAvailable": "2024-03-01",
-      "category": "Giày cao gót",
+      "category": "Giày cao gót ",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/cgot4_do.jpg",
       "thumbnail": [
         "/images/cgot4_do1.jpg",
@@ -1296,7 +2814,25 @@
       "productDescription": "Giày cao gót Đông Hải mũi nhọn thiết kế bít mũi với kiểu dáng trơn cơ bản của các mẫu giày cao gót truyền thống. Đây chắc chắn là must-item không bao giờ lỗi mốt và luôn chiếm được sự yêu thích và ưu ái của hầu hết các quý cô. Mẫu giày mang vẻ đẹp thanh lịch, ôm chân, phần đế chắc chắn giúp phái đẹp di chuyển linh hoạt, từng bước đi thêm phần uyển chuyển và tự tin, quyến rũ hơn.       ",
       "price": 610000,
       "dateAvailable": "2024-03-01",
-      "category": "Giày cao gót",
+      "category": "Giày cao gót ",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/cgot5_den.jpg",
       "thumbnail": [
         "/images/cgot5_den1.jpg",
@@ -1311,7 +2847,25 @@
       "productDescription": "Giày cao gót Đông Hải mũi nhọn thiết kế bít mũi với kiểu dáng trơn cơ bản của các mẫu giày cao gót truyền thống. Đây chắc chắn là must-item không bao giờ lỗi mốt và luôn chiếm được sự yêu thích và ưu ái của hầu hết các quý cô. Mẫu giày mang vẻ đẹp thanh lịch, ôm chân, phần đế chắc chắn giúp phái đẹp di chuyển linh hoạt, từng bước đi thêm phần uyển chuyển và tự tin, quyến rũ hơn.       ",
       "price": 450000,
       "dateAvailable": "2024-03-01",
-      "category": "Giày cao gót",
+      "category": "Giày cao gót ",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/cgot5_trang.jpg",
       "thumbnail": [
         "/images/cgot5_trang1.jpg",
@@ -1326,7 +2880,26 @@
       "productDescription": "Giày cao gót Đông Hải phối kim sa tăng được óng ánh và nổi bật cho tổng thể mẫu giày. Kiểu dáng thêm điểm cộng với phần mũi nhọn giúp quý cô diện lên trông vô cùng thon gọn, mảnh mai. Đồng thời, quai khóa dễ dàng điều chỉnh độ rộng thuận tiện thay đổi kích thước. Mẫu giày phù hợp đi tiệc, đi hội họp quan trọng hay các sự kiện.      ",
       "price": 780000,
       "dateAvailable": "2024-03-01",
-      "category": "Giày cao gót",
+      "category": "Giày cao gót ",
+      "Categorizat": "Giảm giá",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/cgot6_trang.jpg",
       "thumbnail": [
         "/images/cgot6_trang1.jpg",
@@ -1341,7 +2914,26 @@
       "productDescription": "Giày cao gót Đông Hải phối kim sa tăng được óng ánh và nổi bật cho tổng thể mẫu giày. Kiểu dáng thêm điểm cộng với phần mũi nhọn giúp quý cô diện lên trông vô cùng thon gọn, mảnh mai. Đồng thời, quai khóa dễ dàng điều chỉnh độ rộng thuận tiện thay đổi kích thước. Mẫu giày phù hợp đi tiệc, đi hội họp quan trọng hay các sự kiện.      ",
       "price": 900000,
       "dateAvailable": "2024-03-01",
-      "category": "Giày cao gót",
+      "category": "Giày cao gót ",
+      "Categorizat": "Giảm giá",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/cgot6_xam.jpg",
       "thumbnail": [
         "/images/cgot6_xam1.jpg",
@@ -1354,8 +2946,26 @@
       "name": "GIÀY THỂ THAO ZUCIANI THE COMFORT N.12",
       "productDescription": "Giày thể thao Zuciani hài hòa giữa tính thời trang hiện đại nhưng vẫn đảm bảo sự thoải mái, nhẹ êm trong mỗi bước chân. Chất liệu vải dệt thoáng khí, siêu nhẹ càng tăng thêm phần dễ chịu khi phải di chuyển nhiều. Đây sẽ lựa chọn hoàn hảo để thể hiện phong cách năng động.      ",
       "price": 670000,
-      "dateAvailable": "2024-03-01",
+      "dateAvailable": "2024-03-29",
       "category": "Thể thao nữ",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/thethaonu1_den.jpg",
       "thumbnail": [
         "/images/thethaonu1_den1.jpg",
@@ -1371,6 +2981,24 @@
       "price": 340000,
       "dateAvailable": "2024-03-01",
       "category": "Thể thao nữ",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/thethaonu1_tim.jpg",
       "thumbnail": [
         "/images/thethaonu1_tim1.jpg",
@@ -1384,8 +3012,26 @@
       "name": "GIÀY THỂ THAO ZUCIANI THE COMFORT N.12",
       "productDescription": "Giày thể thao Zuciani hài hòa giữa tính thời trang hiện đại nhưng vẫn đảm bảo sự thoải mái, nhẹ êm trong mỗi bước chân. Chất liệu vải dệt thoáng khí, siêu nhẹ càng tăng thêm phần dễ chịu khi phải di chuyển nhiều. Đây sẽ lựa chọn hoàn hảo để thể hiện phong cách năng động.      ",
       "price": 560000,
-      "dateAvailable": "2024-03-01",
+      "dateAvailable": "2024-03-11",
       "category": "Thể thao nữ",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/thethaonu1_xam.jpg",
       "thumbnail": [
         "/images/thethaonu1_xam1.jpg",
@@ -1401,6 +3047,24 @@
       "price": 780000,
       "dateAvailable": "2024-03-01",
       "category": "Thể thao nữ",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/thethaonu2_den.jpg",
       "thumbnail": [
         "/images/thethaonu2_den1.jpg",
@@ -1415,6 +3079,24 @@
       "productDescription": "Giày Thể Thao Zuciani có họa tiết đa sắc màu độc đáo mang hơi thở của cuộc sống thành thị nhộp nhịp. Mẫu thiết kế không chỉ mang tính hiện đại mà còn mang tính duy mỹ thời thượng kết hợp với chất liệu vải dệt thoáng khí. Phần đế đệm làm từ chất liệu ETPU (polyurethane nhiệt dẻo) siêu nhẹ, tăng độ linh hoạt khi di chuyển và trợ lực tốt giúp gia tăng độ bám trên nhiều bề mặt. Đây là sự lựa chọn hoàn hảo cho các hoạt động thể thao và hàng ngày. ",
       "price": 560000,
       "dateAvailable": "2024-03-01",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "category": "Thể thao nữ",
       "image": "/images/thethaonu2_trang.jpg",
       "thumbnail": [
@@ -1446,6 +3128,24 @@
       "price": 610000,
       "dateAvailable": "2024-03-01",
       "category": "Thể thao nữ",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/thethaonu3_trang.jpg",
       "thumbnail": [
         "/images/thethaonu3_trang1.jpg",
@@ -1461,6 +3161,24 @@
       "price": 560000,
       "dateAvailable": "2024-03-01",
       "category": "Thể thao nữ",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/thethaonu4_den.jpg",
       "thumbnail": [
         "/images/thethaonu4_den1.jpg",
@@ -1476,6 +3194,24 @@
       "price": 340000,
       "dateAvailable": "2024-03-01",
       "category": "Thể thao nữ",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/thethaonu4_trang.jpg",
       "thumbnail": [
         "/images/thethaonu4_trang1.jpg",
@@ -1489,8 +3225,27 @@
       "name": "GIÀY THỂ THAO ZUCIANI THE COMFORT N.10",
       "productDescription": "Giày Thể Thao Zuciani kết hợp giữa phong cách và thoải mái. Với chất liệu vải dệt (Knit) êm ái và đế TPU nhẹ nhàng, chúng là sự lựa chọn hoàn hảo cho các hoạt động thể thao và hàng ngày.      ",
       "price": 470000,
-      "dateAvailable": "2024-03-01",
+      "dateAvailable": "2024-03-21",
       "category": "Thể thao nữ",
+      "Categorizat": "Giảm giá",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/thethaonu5_den.jpg",
       "thumbnail": [
         "/images/thethaonu5_den1.jpg",
@@ -1506,6 +3261,25 @@
       "price": 670000,
       "dateAvailable": "2024-03-01",
       "category": "Thể thao nữ",
+      "Categorizat": "Giảm giá",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/thethaonu5_hong.jpg",
       "thumbnail": [
         "/images/thethaonu5_hong1.jpg",
@@ -1521,6 +3295,24 @@
       "price": 680000,
       "dateAvailable": "2024-03-01",
       "category": "Thể thao nữ",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/thethaonu6_den.jpg",
       "thumbnail": [
         "/images/thethaonu6_den1.jpg",
@@ -1534,8 +3326,26 @@
       "name": "GIÀY THỂ THAO ZUCIANI THE COMFORT N.14",
       "productDescription": "Giày thể thao Zuciani hướng đến sự tối giản với thiết kế không quá cầu kì mà tập trung vào chất liệu cần sự mềm êm, thoáng nhẹ đồng thời vẫn phù hợp sử dụng được trong hầu hết các dịp khác nhau. Đây là sự lựa chọn hoàn hảo để đi làm, đi chơi và đi mua sắm.      ",
       "price": 690000,
-      "dateAvailable": "2024-03-01",
+      "dateAvailable": "2024-03-1",
       "category": "Thể thao nữ",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
       "image": "/images/thethaonu6_hong.jpg",
       "thumbnail": [
         "/images/thethaonu6_hong1.jpg",
@@ -1545,29 +3355,59 @@
       ]
     },
     {
-      "id": "104",
-      "name": "GIÀY THỂ THAO ZUCIANI THE COMFORT N.14",
-      "productDescription": "Giày thể thao Zuciani hướng đến sự tối giản với thiết kế không quá cầu kì mà tập trung vào chất liệu cần sự mềm êm, thoáng nhẹ đồng thời vẫn phù hợp sử dụng được trong hầu hết các dịp khác nhau. Đây là sự lựa chọn hoàn hảo để đi làm, đi chơi và đi mua sắm.      ",
-      "price": 550000,
-      "dateAvailable": "2024-03-01",
-      "category": "Thể thao nữ",
       "image": "/images/thethaonu6_kem.jpg",
+      "name": "GIÀY THỂ THAO ZUCIANI THE COMFORT N.14",
+      "dateAvailable": "2024-03-25",
+      "price": 650000,
+      "category": "Thể thao nữ",
       "thumbnail": [
         "/images/thethaonu6_kem1.jpg",
         "/images/thethaonu6_kem2.jpg",
         "/images/thethaonu6_kem3.jpg",
         "/images/thethaonu6_kem4.jpg"
-      ]
+      ],
+      "productDescription": "Giày thể thao Zuciani hướng đến sự tối giản với thiết kế không quá cầu kì mà tập trung vào chất liệu cần sự mềm êm, thoáng nhẹ đồng thời vẫn phù hợp sử dụng được trong hầu hết các dịp khác nhau. Đây là sự lựa chọn hoàn hảo để đi làm, đi chơi và đi mua sắm.      ",
+      "sizes": [
+        {
+          "size": "37",
+          "quantity": 12
+        },
+        {
+          "size": "38",
+          "quantity": 8
+        },
+        {
+          "size": "39",
+          "quantity": 15
+        },
+        {
+          "size": "40",
+          "quantity": 8
+        }
+      ],
+      "id": "104"
     }
   ],
   "menus": [
     {
+      "menuType": "Trang chủ",
+      "id": "06f9",
+      "isSelected": false
+    },
+    {
+      "menuType": "Cửa hàng",
+      "id": "8d41",
+      "isSelected": false
+    },
+    {
       "menuType": "Nữ",
-      "id": "2406"
+      "id": "2406",
+      "isSelected": false
     },
     {
       "menuType": "Nam",
-      "id": "ec73"
+      "id": "ec73",
+      "isSelected": false
     }
   ],
   "categories": [
@@ -1612,11 +3452,155 @@
       "id": "3f77"
     }
   ],
-
+  "addsize": [
+    {
+      "size": "37",
+      "id": "1"
+    },
+    {
+      "size": "38",
+      "id": "2"
+    },
+    {
+      "size": "39",
+      "id": "3"
+    },
+    {
+      "size": "40",
+      "id": "4"
+    },
+    {
+      "id": "5a53",
+      "size": "26"
+    }
+  ],
   "comment": [
     {
-      "productId": "1",
-      "comments": "Rất đẹp"
+      "id": "aaa8",
+      "comment": "",
+      "username": "thuyhang8563@gmail.com",
+      "rating": ""
+    },
+    {
+      "id": "af99",
+      "comment": "",
+      "username": "thuyhang8563@gmail.com",
+      "rating": ""
+    },
+    {
+      "id": "75d3",
+      "comment": "",
+      "username": "thuyhang8563@gmail.com",
+      "rating": ""
+    },
+    {
+      "id": "279e",
+      "comment": "",
+      "username": "thuyhang8563@gmail.com",
+      "rating": ""
+    },
+    {
+      "id": "b20f",
+      "comment": "",
+      "username": "thuyhang8563@gmail.com",
+      "rating": ""
+    },
+    {
+      "id": "06fa",
+      "comment": "",
+      "username": "thuyhang8563@gmail.com",
+      "rating": ""
+    },
+    {
+      "id": "b7ef",
+      "comment": "",
+      "username": "thuyhang8563@gmail.com",
+      "rating": ""
+    },
+    {
+      "id": "d5f9",
+      "comment": "",
+      "username": "thuyhang8563@gmail.com",
+      "rating": ""
+    },
+    {
+      "id": "a646",
+      "comment": "",
+      "username": "thuyhang8563@gmail.com",
+      "rating": ""
+    },
+    {
+      "id": "233f",
+      "comment": "",
+      "username": "thuyhang8563@gmail.com",
+      "rating": ""
+    },
+    {
+      "id": "0961",
+      "comment": "",
+      "username": "thuyhang8563@gmail.com",
+      "rating": ""
+    },
+    {
+      "id": "2ad2",
+      "comment": "",
+      "username": "thuyhang8563@gmail.com",
+      "rating": ""
+    },
+    {
+      "id": "428f",
+      "comment": "",
+      "username": "thuyhang8563@gmail.com",
+      "rating": ""
+    },
+    {
+      "id": "3d84",
+      "comment": "",
+      "username": "thuyhang8563@gmail.com",
+      "rating": ""
+    },
+    {
+      "id": "cc89",
+      "comment": "",
+      "username": "thuyhang8563@gmail.com",
+      "rating": ""
+    },
+    {
+      "id": "9031",
+      "comment": "",
+      "username": "thuyhang8563@gmail.com",
+      "rating": ""
+    },
+    {
+      "id": "f5a2",
+      "comment": "rất đẹp ",
+      "productId": "18",
+      "username": "thuyhang8563@gmail.com",
+      "rating": 4
+    },
+    {
+      "id": "0554",
+      "comment": "",
+      "username": "thuyhang8563@gmail.com",
+      "rating": ""
+    },
+    {
+      "id": "8f50",
+      "comment": "",
+      "username": "thuyhang8563@gmail.com",
+      "rating": ""
+    },
+    {
+      "id": "8cad",
+      "comment": "",
+      "username": "thuyhang8563@gmail.com",
+      "rating": ""
+    },
+    {
+      "id": "facb",
+      "comment": "",
+      "username": "thuyhang8563@gmail.com",
+      "rating": ""
     }
   ]
 }

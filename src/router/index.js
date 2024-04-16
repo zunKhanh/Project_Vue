@@ -5,17 +5,20 @@ import DashboardView from "../views/DashboardView.vue";
 import ProductsView from "../views/ProductsView.vue";
 import SignInView from "../views/SignInView.vue";
 import SignUpView from "../views/SignUpView.vue";
+import ForgotPassword from "@/views/ForgotPassword.vue";
+import CategoriesView from "@/views/CategoriesView.vue";
+import ProductList from "@/views/ProductList.vue";
+import ProductsMenu from "@/views/ProductsMenu.vue";
 import AllProduct from "../views/AllProduct.vue"; // Import component
 import CartProduct from "@/views/CartProduct.vue";
 import WhistListVue from "@/views/WhistListVue.vue";
-import UserAccount from "@/views/UserAccount.vue";
-import ForgotPassword from "@/views/ForgotPassword.vue";
-import CategoriesView from "@/views/CategoriesView.vue";
-import ProductsMenu from "@/views/ProductsMenu.vue";
-import ProductList from "@/views/ProductList.vue";
+import LoginAdmin from "@/components/LoginAdmin.vue";
+import ProfileAdmin from "@/views/ProfileAdmin.vue";
+import ProfileUser from "@/views/ProfileUser.vue";
+import MyOrder from "@/views/MyOrder.vue";
+import { auth } from "../firebase";
+import OrderView from "@/views/OrderView.vue";
 import CheckOut from "../views/CheckOut.vue";
-
-// import { auth } from "../firebase";
 // import store from "../store";
 const routes = [
   {
@@ -39,18 +42,6 @@ const routes = [
     component: AllProduct, // Component được load khi truy cập đường dẫn này
   },
   {
-    path: "/cart-products",
-    name: "CartProduct",
-    component: CartProduct,
-  },
-
-  {
-    path: "/checkout",
-    name: "Checkout",
-    component: CheckOut,
-  },
-
-  {
     path: "/:menuType",
     name: "ProductsMenu",
     component: ProductsMenu,
@@ -60,17 +51,26 @@ const routes = [
     name: "ProductList",
     component: ProductList,
   },
-
   {
-    path: "/whist-list",
-    name: "whistlist",
-    component: WhistListVue,
+    path: "/cart-products",
+    name: "CartProduct",
+    component: CartProduct,
   },
 
   {
-    path: "/user",
-    name: "useraccount",
-    component: UserAccount,
+    path: "/whist-list",
+
+    name: "whistlist",
+    component: WhistListVue,
+    // beforeEnter: (to, from, next) => {
+    //   // ... chay moi khi user vao chinh cai router do
+    // }
+  },
+  
+  {
+    path: "/checkout",
+    name: "Checkout",
+    component: CheckOut,
   },
   {
     path: "/admin",
@@ -88,9 +88,19 @@ const routes = [
         component: ProductsView,
       },
       {
+        path: "profile-admin",
+        name: "profile-admin",
+        component: ProfileAdmin,
+      },
+      {
         path: "categories",
         name: "categories",
         component: CategoriesView,
+      },
+      {
+        path: "orders",
+        name: "orders",
+        component: OrderView,
       },
     ],
     meta: { requiresAuth: true }, // Đánh dấu route này yêu cầu xác thực
@@ -99,7 +109,11 @@ const routes = [
     path: "/sign-in",
     name: "signin",
     component: SignInView,
-    meta: { requiresAuth: false }, // Không yêu cầu xác thực
+  },
+  {
+    path: "/admin-login",
+    name: "admin-login",
+    component: LoginAdmin,
   },
   {
     path: "/sign-up",
@@ -107,23 +121,19 @@ const routes = [
     component: SignUpView,
   },
   {
+    path: "/my-order",
+    name: "my-order",
+    component: MyOrder,
+  },
+  {
+    path: "/profile",
+    name: "profile",
+    component: ProfileUser,
+  },
+  {
     path: "/forgot-password",
     name: "forgot-password",
     component: ForgotPassword,
-  },
-  {
-    path: "/about",
-    name: "about",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () =>
-      import(/* webpackChunkName: "about" */ "../views/AboutView.vue"),
-  },
-  {
-    path: "/Checkout",
-    name: "checkout",
-    component: CheckOut,
   },
 ];
 
@@ -131,53 +141,18 @@ const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes,
 });
+// check auth -> 
+// Phân quyền đăng nhập trên router admin và user
+router.beforeEach((to, from, next) => {
+  const currentUser = auth.currentUser;
+  const requiresAuth = to.matched.some((record) => record.meta.requiresAuth);
 
-// router.beforeEach((to, from, next) => {
-//   const currentUser = auth.currentUser;
-//   const requiresAuth = to.matched.some(record => record.meta.requiresAuth);
-//   if (to.path ==='/sign-in' && currentUser && requiresAuth) {
-//     next('/');
-//   } else if (requiresAuth && !currentUser) {
-//     next('/sign-in');
-//   } else if (to.path === '/admin') {
-//     if (currentUser && currentUser.email === 'admin@example.com') {
-//       next();
-//     } else {
-//       next('/sign-in');
-//     }
-//   } else {
-//     next();
-//   }
-// });
-// router.beforeEach(async (to, from, next) => {
-//   await store.dispatch('fetchUser');
-//   const currentUser = store.state.user;
-//   const requiresAuth = to.matched.some(record => record.meta.requiresAuth);
-
-//   if (requiresAuth && !currentUser) {
-//     next('/sign-in'); // Chuyển hướng người dùng đến trang đăng nhập nếu yêu cầu xác thực nhưng chưa đăng nhập
-//   } else {
-//     next(); // Cho phép truy cập vào các trang khác
-//   }
-// });
-// router.beforeEach((to, from, next) => {
-//   const currentUser = auth.currentUser;
-//   const requiresAuth = to.matched.some(record => record.meta.requiresAuth);
-//   if (requiresAuth && !currentUser) {
-//     next('/sign-in'); // Yêu cầu xác thực và người dùng chưa đăng nhập, chuyển hướng đến trang đăng nhập
-//   } else if (to.path === '/admin') {
-//     if (currentUser && currentUser.email === 'admin@example.com') {
-//       next(); // Đã đăng nhập và là admin, cho phép truy cập trang admin
-//     } else if (!currentUser) {
-//       next('/sign-in'); // Chưa đăng nhập, chuyển hướng đến trang đăng nhập
-//     } else {
-//       next('/'); // Người dùng không phải là admin, chuyển hướng đến trang chính
-//     }
-//   } else if (to.path === '/sign-in' && currentUser )  {
-//     next('/'); // Đã đăng nhập, không cần chuyển hướng đến trang đăng nhập
-//   } else {
-//     next(); // Các trường hợp còn lại, cho phép điều hướng bình thường
-//   }
-// });
+  if (requiresAuth && !currentUser) {
+    // Nếu yêu cầu xác thực và người dùng chưa đăng nhập, chuyển hướng đến trang đăng nhập
+    next("/admin-login");
+  } else {
+    next(); // Cho phép tiếp tục điều hướng bình thường
+  }
+});
 
 export default router;
